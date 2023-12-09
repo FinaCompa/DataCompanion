@@ -1,6 +1,14 @@
 [
     {
-        "Name": "BTC",
-        "Value": 40000
+        "Name": "Bitcoin",
+        "Symbol": "BTC",
+        "Paire": "BTCUSDT",
+        "OpenTime": "2023-12-09 18:00:00",
+        "Open": 43891.46,
+        "High": 43961.1,
+        "Low": 43877.34,
+        "Close": 43943.39,
+        "Volume": 284.34778,
+        "IA": "Vendre"
     }
 ]
