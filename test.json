@@ -3,12 +3,12 @@
         "Name": "Bitcoin",
         "Symbol": "BTC",
         "Paire": "BTCUSDT",
-        "OpenTime": "2023-12-09 18:57:00",
-        "Open": 43946.83,
+        "OpenTime": "2023-12-09 18:58:00",
+        "Open": 43976.14,
         "High": 43976.14,
-        "Low": 43946.83,
-        "Close": 43976.13,
-        "Volume": 22.5913,
+        "Low": 43974.58,
+        "Close": 43974.58,
+        "Volume": 9.06915,
         "IA": "Acheter"
     }
 ]
