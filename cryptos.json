@@ -1,1 +1,12 @@
-
+[
+    {
+        "Name": "Bitcoin",
+        "Symbole": "BTC",
+        "Paire": "BTCUSDT"
+    },
+    {
+        "Name": "Ethereum",
+        "Symbole": "ETH",
+        "Paire": "ETHUSDT"
+    }
+]
