@@ -3,24 +3,24 @@
         "Name": "Ethereum",
         "Symbol": "ETH",
         "Paire": "ETHUSDT",
-        "OpenTime": "2023-12-09 21:37:00",
-        "Open": 2355.69,
-        "High": 2356.27,
-        "Low": 2355.68,
-        "Close": 2356.27,
-        "Volume": 38.5492,
+        "OpenTime": "2023-12-09 21:38:00",
+        "Open": 2356.26,
+        "High": 2357.61,
+        "Low": 2356.26,
+        "Close": 2356.34,
+        "Volume": 197.6449,
         "IA": "Acheter"
     },
     {
         "Name": "Bitcoin",
         "Symbol": "BTC",
         "Paire": "BTCUSDT",
-        "OpenTime": "2023-12-09 21:37:00",
-        "Open": 44043.18,
-        "High": 44065.92,
-        "Low": 44043.17,
-        "Close": 44065.91,
-        "Volume": 8.62084,
-        "IA": "Acheter"
+        "OpenTime": "2023-12-09 21:38:00",
+        "Open": 44065.91,
+        "High": 44074.56,
+        "Low": 44043.09,
+        "Close": 44043.42,
+        "Volume": 24.56743,
+        "IA": "Vendre"
     }
 ]
