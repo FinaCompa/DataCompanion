@@ -2,11 +2,13 @@
     {
         "Name": "Bitcoin",
         "Symbole": "BTC",
-        "Paire": "BTCUSDT"
+        "Paire": "BTCUSDT",
+        "Logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png"
     },
     {
         "Name": "Ethereum",
         "Symbole": "ETH",
-        "Paire": "ETHUSDT"
+        "Paire": "ETHUSDT",
+        "Logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png"
     }
 ]
