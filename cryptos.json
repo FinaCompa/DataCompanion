@@ -10,5 +10,17 @@
         "Symbole": "ETH",
         "Paire": "ETHUSDT",
         "Logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png"
+    },
+    {
+        "Name": "ChainLink",
+        "Symbole": "LINK",
+        "Paire": "LINKUSDT",
+        "Logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png"
+    },
+    {
+        "Name": "Avalanche",
+        "Symbole": "AVAX",
+        "Paire": "AVAXUSDT",
+        "Logo": "hhttps://static.coinpaprika.com/coin/avax-avalanche/logo.png"
     }
 ]
