@@ -1,50 +1,50 @@
 [
     {
-        "Name": "Ethereum",
-        "Symbol": "ETH",
-        "Paire": "ETHUSDT",
-        "OpenTime": "2023-12-10 09:16:00",
-        "Open": 2344.72,
-        "High": 2344.97,
-        "Low": 2344.71,
-        "Close": 2344.96,
-        "Volume": 49.0532,
-        "IA": "Acheter"
-    },
-    {
-        "Name": "ChainLink",
-        "Symbol": "LINK",
-        "Paire": "LINKUSDT",
-        "OpenTime": "2023-12-10 09:16:00",
-        "Open": 16.21,
-        "High": 16.216,
-        "Low": 16.205,
-        "Close": 16.208,
-        "Volume": 1172.42,
-        "IA": "Acheter"
-    },
-    {
         "Name": "Bitcoin",
         "Symbol": "BTC",
         "Paire": "BTCUSDT",
-        "OpenTime": "2023-12-10 09:16:00",
-        "Open": 43795.01,
+        "OpenTime": "2023-12-10 09:17:00",
+        "Open": 43801.42,
         "High": 43801.42,
-        "Low": 43795.0,
+        "Low": 43801.41,
         "Close": 43801.41,
-        "Volume": 5.25685,
+        "Volume": 5.35482,
         "IA": "Acheter"
     },
     {
         "Name": "Avalanche",
         "Symbol": "AVAX",
         "Paire": "AVAXUSDT",
-        "OpenTime": "2023-12-10 09:16:00",
-        "Open": 32.28,
+        "OpenTime": "2023-12-10 09:17:00",
+        "Open": 32.3,
         "High": 32.3,
-        "Low": 32.27,
-        "Close": 32.29,
-        "Volume": 821.49,
+        "Low": 32.28,
+        "Close": 32.28,
+        "Volume": 1204.38,
         "IA": "Vendre"
+    },
+    {
+        "Name": "ChainLink",
+        "Symbol": "LINK",
+        "Paire": "LINKUSDT",
+        "OpenTime": "2023-12-10 09:17:00",
+        "Open": 16.21,
+        "High": 16.214,
+        "Low": 16.201,
+        "Close": 16.201,
+        "Volume": 1211.24,
+        "IA": "Acheter"
+    },
+    {
+        "Name": "Ethereum",
+        "Symbol": "ETH",
+        "Paire": "ETHUSDT",
+        "OpenTime": "2023-12-10 09:17:00",
+        "Open": 2344.97,
+        "High": 2344.97,
+        "Low": 2344.96,
+        "Close": 2344.96,
+        "Volume": 36.8688,
+        "IA": "Acheter"
     }
 ]
