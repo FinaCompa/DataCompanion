@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "Name": "Ethereum",
+        "Symbol": "ETH",
+        "Paire": "ETHUSDT",
+        "OpenTime": "2024-01-15 23:28:00",
+        "Open": 2516.31,
+        "High": 2517.55,
+        "Low": 2516.14,
+        "Close": 2516.15,
+        "Volume": 135.8728,
+        "IA": "Super Vente"
+    },
+    {
+        "Name": "Avalanche",
+        "Symbol": "AVAX",
+        "Paire": "AVAXUSDT",
+        "OpenTime": "2024-01-15 23:28:00",
+        "Open": 35.54,
+        "High": 35.57,
+        "Low": 35.54,
+        "Close": 35.56,
+        "Volume": 119.47,
+        "IA": "Super Vente"
+    },
+    {
+        "Name": "Bitcoin",
+        "Symbol": "BTC",
+        "Paire": "BTCUSDT",
+        "OpenTime": "2024-01-15 23:28:00",
+        "Open": 42528.0,
+        "High": 42547.64,
+        "Low": 42522.0,
+        "Close": 42522.0,
+        "Volume": 14.47557,
+        "IA": "Super Vente"
+    },
+    {
+        "Name": "ChainLink",
+        "Symbol": "LINK",
+        "Paire": "LINKUSDT",
+        "OpenTime": "2024-01-15 23:28:00",
+        "Open": 15.178,
+        "High": 15.204,
+        "Low": 15.178,
+        "Close": 15.204,
+        "Volume": 4228.76,
+        "IA": "Super Vente"
+    }
+]
