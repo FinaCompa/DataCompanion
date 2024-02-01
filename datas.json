@@ -5,10 +5,10 @@
     "DOT/USDT": "Neutral",
     "DAI/USDT": "Neutral",
     "ETH/USDT": "Neutral",
-    "LINK/USDT": "Achat",
+    "LINK/USDT": "Vente",
     "MATIC/USDT": "Neutral",
     "DOGE/USDT": "Neutral",
-    "BNB/USDT": "Neutral",
+    "BNB/USDT": "Vente",
     "SOL/USDT": "Neutral",
     "ADA/USDT": "Neutral",
     "XMR/USDT": "Vente",
@@ -17,6 +17,6 @@
     "BCH/USDT": "Vente",
     "LTC/USDT": "Neutral",
     "XRP/USDT": "Neutral",
-    "UNI/USDT": "Achat",
+    "UNI/USDT": "Neutral",
     "AVAX/USDT": "Neutral"
 }
