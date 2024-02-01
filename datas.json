@@ -10,13 +10,13 @@
     "DOGE/USDT": "Neutral",
     "BNB/USDT": "Achat",
     "SOL/USDT": "Neutral",
-    "ADA/USDT": "Achat",
+    "ADA/USDT": "Neutral",
     "XMR/USDT": "Neutral",
-    "ATOM/USDT": "Achat",
+    "ATOM/USDT": "Neutral",
     "SHIB/USDT": "Neutral",
     "BCH/USDT": "Achat",
     "LTC/USDT": "Neutral",
-    "XRP/USDT": "Neutral",
+    "XRP/USDT": "Achat",
     "UNI/USDT": "Neutral",
     "AVAX/USDT": "Achat"
 }
