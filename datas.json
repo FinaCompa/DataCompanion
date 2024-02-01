@@ -1,5 +1,5 @@
 {
-    "BTC/USDT": "Achat",
+    "BTC/USDT": "Vente",
     "ICP/USDT": "Achat",
     "TRX/USDT": "Achat",
     "DOT/USDT": "Achat",
@@ -15,8 +15,8 @@
     "ATOM/USDT": "Achat",
     "SHIB/USDT": "Achat",
     "BCH/USDT": "Neutral",
-    "LTC/USDT": "Achat",
+    "LTC/USDT": "Neutral",
     "XRP/USDT": "Achat",
-    "UNI/USDT": "Neutral",
+    "UNI/USDT": "Vente",
     "AVAX/USDT": "Achat"
 }
