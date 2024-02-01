@@ -18,7 +18,7 @@
     "NEAR/USDT": "Achat",
     "TIA/USDT": "Achat",
     "TRX/USDT": "Neutral",
-    "DOT/USDT": "Achat",
+    "DOT/USDT": "Neutral",
     "IMX/USDT": "Achat",
     "XMR/USDT": "Neutral",
     "RUNE/USDT": "Achat",
@@ -36,6 +36,6 @@
     "STX/USDT": "Achat",
     "FIL/USDT": "Achat",
     "UNI/USDT": "Achat",
-    "SOL/USDT": "Achat",
+    "SOL/USDT": "Neutral",
     "BCH/USDT": "Achat"
 }
