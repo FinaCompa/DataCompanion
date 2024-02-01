@@ -1,11 +1,11 @@
 {
     "BTC/USDT": "Achat",
     "ICP/USDT": "Neutral",
-    "TRX/USDT": "Neutral",
+    "TRX/USDT": "Achat",
     "DOT/USDT": "Achat",
     "DAI/USDT": "Neutral",
     "ETH/USDT": "Achat",
-    "LINK/USDT": "Neutral",
+    "LINK/USDT": "Vente",
     "MATIC/USDT": "Achat",
     "DOGE/USDT": "Neutral",
     "BNB/USDT": "Neutral",
@@ -13,10 +13,10 @@
     "ADA/USDT": "Achat",
     "XMR/USDT": "Vente",
     "ATOM/USDT": "Achat",
-    "SHIB/USDT": "Achat",
-    "BCH/USDT": "Neutral",
+    "SHIB/USDT": "Neutral",
+    "BCH/USDT": "Achat",
     "LTC/USDT": "Achat",
     "XRP/USDT": "Achat",
-    "UNI/USDT": "Achat",
+    "UNI/USDT": "Neutral",
     "AVAX/USDT": "Achat"
 }
