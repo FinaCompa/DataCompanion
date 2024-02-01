@@ -1,5 +1,5 @@
 {
-    "ICP/USDT": "Neutral",
+    "ICP/USDT": "Achat",
     "DAI/USDT": "Neutral",
     "HBAR/USDT": "Achat",
     "INJ/USDT": "Achat",
@@ -34,8 +34,8 @@
     "ARB/USDT": "Achat",
     "ATOM/USDT": "Achat",
     "STX/USDT": "Achat",
-    "FIL/USDT": "Achat",
+    "FIL/USDT": "Neutral",
     "UNI/USDT": "Achat",
-    "SOL/USDT": "Neutral",
+    "SOL/USDT": "Achat",
     "BCH/USDT": "Achat"
 }
