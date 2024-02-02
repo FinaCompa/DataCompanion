@@ -118,7 +118,7 @@ try:
     TOKEN = str(os.environ["TOKEN"])
 except KeyError:
     exit(1)
-g = Github("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")
+g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("datas.json")
