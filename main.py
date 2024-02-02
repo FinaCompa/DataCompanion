@@ -91,7 +91,7 @@ cryptos_list = [
 ]
 
 threads = []
-exchange = ccxt.binance()
+exchange = ccxt.kucoin()
 Final_Dict = {}
 timeframe = '1h'
 n_data = 60
