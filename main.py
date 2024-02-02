@@ -6,7 +6,7 @@ import pandas as pd
 import json
 import time
 import datetime
-import threads
+import threading
 from prophet import Prophet
 from github import Github
 
