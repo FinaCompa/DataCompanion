@@ -1,4 +1,19 @@
 {
+    "ADA/USDT": "Vente",
+    "TRX/USDT": "Neutral",
+    "UNI/USDT": "Vente",
+    "MATIC/USDT": "Vente",
+    "DOT/USDT": "Vente",
+    "AVAX/USDT": "Vente",
+    "XMR/USDT": "Vente",
+    "SOL/USDT": "Vente",
+    "DOGE/USDT": "Vente",
+    "XRP/USDT": "Neutral",
+    "GRT/USDT": "Vente",
+    "SHIB/USDT": "Vente",
+    "ATOM/USDT": "Neutral",
+    "BNB/USDT": "Neutral",
+    "LINK/USDT": "Vente",
     "ETH/USDT": "Vente",
     "BTC/USDT": "Vente"
 }
