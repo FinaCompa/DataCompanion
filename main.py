@@ -6,6 +6,7 @@ import pandas as pd
 import threading
 import json
 import time
+import datetime
 from prophet import Prophet
 from github import Github
 
@@ -75,6 +76,7 @@ cryptos_list = [str(x) for x in lines]
 threads = []
 exchange = ccxt.okx()
 Final_Dict = {}
+Final_Dict["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
 timeframe = '1d'
 n_data = 60
 
