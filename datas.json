@@ -1,5 +1,19 @@
 {
+    "prediction_date": "02:02:2024",
     "BTC/USDT": "Vente",
+    "ETH/USDT": "Neutral",
+    "BNB/USDT": "Neutral",
+    "SOL/USDT": "Vente",
+    "XRP/USDT": "Neutral",
+    "ADA/USDT": "Vente",
+    "AVAX/USDT": "Vente",
+    "DOGE/USDT": "Vente",
     "TRX/USDT": "Neutral",
-    "MATIC/USDT": "Vente"
+    "DOT/USDT": "Vente",
+    "LINK/USDT": "Vente",
+    "MATIC/USDT": "Vente",
+    "SHIB/USDT": "Vente",
+    "UNI/USDT": "Vente",
+    "ATOM/USDT": "Neutral",
+    "GRT/USDT": "Vente"
 }
