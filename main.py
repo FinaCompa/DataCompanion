@@ -10,10 +10,10 @@ from prophet import Prophet
 from github import Github
 
 try:
-    SOME_SECRET = os.environ["SOME_SECRET"]
+    TOKEN = os.getenv["TOKEN"]
 except KeyError:
-    SOME_SECRET = "Token not available"
-g = Github(SOME_SECRET)
+    TOKEN = "Token not available"
+g = Github(TOKEN)
 
 
 ##### Function
