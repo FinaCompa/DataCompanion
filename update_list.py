@@ -1,7 +1,7 @@
 import ccxt
 
 # Initialisation de l'échange Binance
-exchange = ccxt.binance()
+exchange = ccxt.okx()
 
 # Chargement des marchés (paires de trading)
 markets = exchange.load_markets()
