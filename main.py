@@ -9,13 +9,6 @@ import time
 from prophet import Prophet
 from github import Github
 
-try:
-    TOKEN = str(os.environ["TOKEN"])
-except KeyError:
-    exit(1)
-print(TOKEN)
-g = Github(TOKEN)
-
 
 ##### Function
 
@@ -31,12 +24,6 @@ def get_crypto_data(exchange, timeframe, symbol, n):
     df['Time'] = pd.to_datetime(df["Time"]/1000, unit='s')
 
     return df
-
-##### Save json
-def save_github(data_to_save):
-    REPO = g.get_repo("FinaCompa/DataCompanion")
-    CONTENT = REPO.get_contents("datas.json")
-    REPO.update_file(CONTENT.name, "update", json.dumps(data_to_save, indent=4), CONTENT.sha, branch="main")
 
 
 ##### df process
@@ -124,6 +111,27 @@ for thread in threads:
 for thread in threads:
     thread.join()
 
-save_github(Final_Dict)
-#with open('data.json', 'w', encoding='utf-8') as outfile:
-    #json.dump(Final_Dict, outfile, indent=4)
+
+
+
+try:
+    TOKEN = str(os.environ["TOKEN"])
+except KeyError:
+    exit(1)
+g = Github(TOKEN)
+    
+REPO = g.get_repo("FinaCompa/DataCompanion")
+CONTENT = REPO.get_contents("datas.json")
+REPO.update_file(CONTENT.name, "update", json.dumps(Final_Dict, indent=4), CONTENT.sha, branch="main")
+
+
+
+
+
+
+
+
+
+
+
+
