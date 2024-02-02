@@ -85,6 +85,11 @@ lines = [line.strip() for line in lines]
 # Création de la liste à partir des éléments de la liste des lignes
 crypto_monnaies_communes = [str(x) for x in lines]
 
+cryptos_list = [
+    "BTC/USDT",
+    "ETH/USDT"
+]
+
 threads = []
 exchange = ccxt.binance()
 Final_Dict = {}
@@ -112,7 +117,7 @@ def add_result(exchange, coin, timeframe, n_data):
 
 
 
-for coin in crypto_monnaies_communes:
+for coin in cryptos_list:
     thread = threading.Thread(target=add_result, args=(exchange, coin, timeframe, n_data))
     threads.append(thread)
 
