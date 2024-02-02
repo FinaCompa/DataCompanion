@@ -2,7 +2,8 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0,40 * * * *' # On each 30min
+    - cron: '0 1 * * *' # On each day
+  workflow_dispatch: # allows manual triggering of the workflow
 
 jobs:
   build:
@@ -26,10 +27,3 @@ jobs:
         env:
           TOKEN: ${{ secrets.TOKEN }}
         run: python main.py
-          
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
