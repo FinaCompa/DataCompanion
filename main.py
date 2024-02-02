@@ -12,7 +12,7 @@ from github import Github
 try:
     TOKEN = os.getenv["TOKEN"]
 except KeyError:
-    TOKEN = "Token not available"
+    exit(1)
 g = Github(TOKEN)
 
 
