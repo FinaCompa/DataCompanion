@@ -73,7 +73,7 @@ cryptos_list = [str(x) for x in lines]
 #]
 
 threads = []
-exchange = ccxt.kucoin()
+exchange = ccxt.okx()
 Final_Dict = {}
 timeframe = '1d'
 n_data = 60
