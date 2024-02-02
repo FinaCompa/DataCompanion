@@ -18,12 +18,6 @@ g = Github(TOKEN)
 
 ##### Function
 
-##### Synchro 1m
-def synchro_1m():
-    now = pd.to_datetime(time.time(),unit='s')
-    time.sleep(60 - now.second)
-
-
 ##### Scrap datas
 def get_crypto_data(exchange, timeframe, symbol, n):
 
@@ -93,7 +87,7 @@ cryptos_list = [
 threads = []
 exchange = ccxt.kucoin()
 Final_Dict = {}
-timeframe = '1h'
+timeframe = '1d'
 n_data = 60
 
 mut = threading.Lock()  # Création d'un nouveau verrou
@@ -122,7 +116,6 @@ for coin in cryptos_list:
     threads.append(thread)
 
 ##### Main
-# synchro_1m()
 
 for thread in threads:
     thread.start()
