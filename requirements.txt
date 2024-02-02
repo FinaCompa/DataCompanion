@@ -1,4 +1,3 @@
 ccxt==4.2.22
 pandas==2.1.4
-json==2.0.9
 prophet==1.1.5
