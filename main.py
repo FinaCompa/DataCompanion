@@ -65,12 +65,12 @@ with open("list_cryptos.txt", "r") as file:
 # Suppression des sauts de ligne
 lines = [line.strip() for line in lines]
 # Création de la liste à partir des éléments de la liste des lignes
-crypto_monnaies_communes = [str(x) for x in lines]
+cryptos_list = [str(x) for x in lines]
 
-cryptos_list = [
-    "BTC/USDT",
-    "ETH/USDT"
-]
+#cryptos_list = [
+#    "BTC/USDT",
+#    "ETH/USDT"
+#]
 
 threads = []
 exchange = ccxt.kucoin()
