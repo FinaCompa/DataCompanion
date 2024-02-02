@@ -10,9 +10,10 @@ from prophet import Prophet
 from github import Github
 
 try:
-    TOKEN = os.environ["TOKEN"]
+    TOKEN = str(os.environ["TOKEN"])
 except KeyError:
     exit(1)
+print(TOKEN)
 g = Github(TOKEN)
 
 
