@@ -1,4 +1,4 @@
-name: run main.py
+name: run update_list.py
 
 on:
   workflow_dispatch: # allows manual triggering of the workflow
