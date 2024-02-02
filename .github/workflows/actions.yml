@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 1 * * *' # On each hour
+    - cron: '*/30 * * * *' # On each 30min
 
 jobs:
   build:
