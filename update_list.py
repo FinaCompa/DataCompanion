@@ -29,8 +29,12 @@ the_list = [    "BTC/USDT",
 
 crypto_monnaies_communes = [crypto for crypto in the_list if crypto in crypto_usdt_symbols]
 
-# Ouvrir le fichier pour écriture
-with open("list_cryptos.txt", "w") as file:
-    # Écrire chaque élément de la liste sur une ligne séparée par un saut de ligne
-    for item in crypto_monnaies_communes:
-        file.write(f"{item}\n")
+try:
+    TOKEN = str(os.environ["TOKEN"])
+except KeyError:
+    exit(1)
+g = Github(TOKEN)
+    
+REPO = g.get_repo("FinaCompa/DataCompanion")
+CONTENT = REPO.get_contents("datas.json")
+REPO.update_file(CONTENT.name, "update", "\n".join(crypto_monnaies_communes), CONTENT.sha, branch="main")
