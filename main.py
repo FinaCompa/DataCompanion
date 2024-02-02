@@ -6,10 +6,6 @@ import threading
 import json
 import time
 from prophet import Prophet
-from github import Github
-
-token = "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"
-g = Github(token)
 
 ##### Function
 
@@ -65,13 +61,6 @@ def decision(df, timeframe):
         return 'Neutral'
 
 
-##### Save json
-def save_github(data_to_save):
-    REPO = g.get_repo("FinaCompa/DataCompanion")
-    CONTENT = REPO.get_contents("datas.json")
-    REPO.update_file(CONTENT.name, "update", json.dumps(data_to_save, indent=4), CONTENT.sha, branch="main")
-
-
 ##### G variables
 # Chargement des données depuis le fichier mon_fichier.txt
 with open("list_cryptos.txt", "r") as file:
@@ -84,7 +73,7 @@ crypto_monnaies_communes = [str(x) for x in lines]
 threads = []
 exchange = ccxt.binance()
 Final_Dict = {}
-timeframe = '1m'
+timeframe = '1h'
 n_data = 60
 
 mut = threading.Lock()  # Création d'un nouveau verrou
@@ -113,7 +102,7 @@ for coin in crypto_monnaies_communes:
     threads.append(thread)
 
 ##### Main
-synchro_1m()
+# synchro_1m()
 
 for thread in threads:
     thread.start()
