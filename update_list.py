@@ -1,4 +1,6 @@
 import ccxt
+import os
+from github import Github
 
 # Initialisation de l'échange Binance
 exchange = ccxt.okx()
