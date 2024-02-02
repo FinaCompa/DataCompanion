@@ -36,5 +36,5 @@ except KeyError:
 g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
-CONTENT = REPO.get_contents("datas.json")
+CONTENT = REPO.get_contents("list_cryptos.txt")
 REPO.update_file(CONTENT.name, "update", "\n".join(crypto_monnaies_communes), CONTENT.sha, branch="main")
