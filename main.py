@@ -3,7 +3,6 @@
 import os
 import ccxt
 import pandas as pd
-import threading
 import json
 import time
 import datetime
@@ -81,12 +80,19 @@ timeframe = '1d'
 n_data = 60
 
 mut = threading.Lock()  # Création d'un nouveau verrou
+mut_get = threading.Lock()
 
 
 
 ##### G code
 def add_result(exchange, coin, timeframe, n_data):
     global Final_Dict
+
+    mut_get.acquire()
+    try:
+        datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
+    finally:
+        mut_get.release()
 
     datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
     datas = df_process(datas)
