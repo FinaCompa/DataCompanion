@@ -47,6 +47,7 @@ for coin in list_json:
                                         "symbol":coin["symbol"],
                                         "paire":coin["symbol"]+"/USDT",
                                         "logo":response["logo"],
+                                        "url_infos":new_url+"/ohlcv/latest"
                                         "IA":"Null"
                                     }
 
