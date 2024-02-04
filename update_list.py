@@ -1,6 +1,7 @@
 import ccxt
 import os
 from github import Github
+import requests
 
 # Initialisation de l'échange Binance
 exchange = ccxt.okx()
@@ -31,6 +32,25 @@ the_list = [    "BTC/USDT",
 
 crypto_monnaies_communes = [crypto for crypto in the_list if crypto in crypto_usdt_symbols]
 
+base_url = "https://api.coinpaprika.com/v1/coins"
+list_json = requests.get(url=base_url).json()
+new_dict = {}
+new_list = []
+
+for coin in list_json:
+    if coin["symbol"] not in new_dict and coin["symbol"]+"/USDT" in cryptos_list:
+        new_url = url+"/"+coin["id"]
+        response = requests.get(new_url).json()
+        new_dict[coin["symbol"]] =  {
+                                        "name":coin["name"],
+                                        "description":response["description"],
+                                        "symbol":coin["symbol"],
+                                        "paire":coin["symbol"]+"/USDT",
+                                        "logo":response["logo"],
+                                        "IA":"Null"
+                                    }
+        new_list.append(new_dict)
+
 try:
     TOKEN = str(os.environ["TOKEN"])
 except KeyError:
@@ -38,5 +58,5 @@ except KeyError:
 g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
-CONTENT = REPO.get_contents("list_cryptos.txt")
-REPO.update_file(CONTENT.name, "update", "\n".join(crypto_monnaies_communes), CONTENT.sha, branch="main")
+CONTENT = REPO.get_contents("list_cryptos.json")
+REPO.update_file(CONTENT.name, "update", json.dumps(new_list, indent=4), CONTENT.sha, branch="main")
