@@ -1,6 +1,7 @@
 import ccxt
 import os
 from github import Github
+import json
 import requests
 
 # Initialisation de l'échange Binance
