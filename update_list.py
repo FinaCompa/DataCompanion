@@ -60,5 +60,5 @@ g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("list_cryptos.json")
-REPO.update_file(CONTENT.name, "update", json.dumps(), CONTENT.sha, branch="main")
+REPO.update_file(CONTENT.name, "update", "", CONTENT.sha, branch="main")
 REPO.update_file(CONTENT.name, "update", json.dumps(new_list, indent=4), CONTENT.sha, branch="main")
