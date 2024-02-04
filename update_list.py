@@ -39,7 +39,7 @@ new_list = []
 
 for coin in list_json:
     if coin["symbol"] not in new_dict and coin["symbol"]+"/USDT" in crypto_monnaies_communes :
-        new_url = url+"/"+coin["id"]
+        new_url = base_url+"/"+coin["id"]
         response = requests.get(new_url).json()
         new_dict[coin["symbol"]] =  {
                                         "name":coin["name"],
