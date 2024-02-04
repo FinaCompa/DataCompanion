@@ -5,7 +5,7 @@
         "symbol": "BTC",
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "IA": "Null"
     },
     "ETH": {
@@ -14,7 +14,7 @@
         "symbol": "ETH",
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "IA": "Null"
     },
     "BNB": {
@@ -23,7 +23,7 @@
         "symbol": "BNB",
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "IA": "Null"
     },
     "SOL": {
@@ -32,7 +32,7 @@
         "symbol": "SOL",
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "IA": "Null"
     },
     "XRP": {
@@ -41,7 +41,7 @@
         "symbol": "XRP",
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "IA": "Null"
     },
     "ADA": {
@@ -50,7 +50,7 @@
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "IA": "Null"
     },
     "AVAX": {
@@ -59,7 +59,7 @@
         "symbol": "AVAX",
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "IA": "Null"
     },
     "DOGE": {
@@ -68,7 +68,7 @@
         "symbol": "DOGE",
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "IA": "Null"
     },
     "LINK": {
@@ -77,7 +77,7 @@
         "symbol": "LINK",
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "IA": "Null"
     },
     "TRX": {
@@ -86,7 +86,7 @@
         "symbol": "TRX",
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "IA": "Null"
     },
     "DOT": {
@@ -95,7 +95,7 @@
         "symbol": "DOT",
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "IA": "Null"
     },
     "MATIC": {
@@ -104,7 +104,7 @@
         "symbol": "MATIC",
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "IA": "Null"
     },
     "SHIB": {
@@ -113,7 +113,7 @@
         "symbol": "SHIB",
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "IA": "Null"
     },
     "UNI": {
@@ -122,7 +122,7 @@
         "symbol": "UNI",
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "IA": "Null"
     },
     "ATOM": {
@@ -131,7 +131,7 @@
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "IA": "Null"
     },
     "GRT": {
@@ -140,7 +140,7 @@
         "symbol": "GRT",
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/latest",
+        "url_infos": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "IA": "Null"
     }
 }
