@@ -123,7 +123,7 @@ except KeyError:
 g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
-CONTENT = REPO.get_contents("list_cryptos.json")
+CONTENT = REPO.get_contents("cryptos.json")
 REPO.update_file(CONTENT.name, "update", json.dumps(process(Final_Dict), indent=4), CONTENT.sha, branch="main")
 
 
