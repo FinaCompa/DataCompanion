@@ -11,7 +11,7 @@ from prophet import Prophet
 from github import Github
 
 
-##### Function
+######################### Function #########################
 
 ##### Scrap datas
 def get_crypto_data(exchange, timeframe, symbol, n):
@@ -58,8 +58,17 @@ def decision(df, timeframe):
     else:
         return 'Neutral'
 
+def process(data):
+    pred_date = {}
+    pred_date["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
+    final_list = []
+    for coin in data:
+        final_list.append(data[coin])
+    final_list.append(pred_date)
+    return final_list
 
-##### G variables
+
+######################### G variables #########################
 threads = []
 exchange = ccxt.okx()
 # Ouvrir le fichier JSON en mode lecture ('r')
@@ -74,7 +83,7 @@ mut_get = threading.Lock()
 
 
 
-##### G code
+######################### Threaded Fun #########################
 def add_result(exchange, coin, timeframe, n_data):
     global Final_Dict
 
@@ -95,22 +104,17 @@ def add_result(exchange, coin, timeframe, n_data):
         mut.release()
 
 
+######################### Main #########################
 
 for coin in Final_Dict:
     thread = threading.Thread(target=add_result, args=(exchange, coin+"/USDT", timeframe, n_data))
     threads.append(thread)
-
-##### Main
 
 for thread in threads:
     thread.start()
     
 for thread in threads:
     thread.join()
-    
-Final_Dict["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
-
-
 
 try:
     TOKEN = str(os.environ["TOKEN"])
