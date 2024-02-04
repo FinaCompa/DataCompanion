@@ -36,7 +36,6 @@ crypto_monnaies_communes = [crypto for crypto in the_list if crypto in crypto_us
 base_url = "https://api.coinpaprika.com/v1/coins"
 list_json = requests.get(url=base_url).json()
 new_dict = {}
-new_list = []
 
 for coin in list_json:
     if coin["symbol"] not in new_dict and coin["symbol"]+"/USDT" in crypto_monnaies_communes :
@@ -50,7 +49,6 @@ for coin in list_json:
                                         "logo":response["logo"],
                                         "IA":"Null"
                                     }
-        new_list.append(new_dict)
 
 try:
     TOKEN = str(os.environ["TOKEN"])
@@ -60,4 +58,4 @@ g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("list_cryptos.json")
-REPO.update_file(CONTENT.name, "update", json.dumps(new_list, indent=4), CONTENT.sha, branch="main")
+REPO.update_file(CONTENT.name, "update", json.dumps(new_dict, indent=4), CONTENT.sha, branch="main")
