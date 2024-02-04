@@ -60,23 +60,12 @@ def decision(df, timeframe):
 
 
 ##### G variables
-# Chargement des données depuis le fichier mon_fichier.txt
-with open("list_cryptos.txt", "r") as file:
-    lines = file.readlines()
-# Suppression des sauts de ligne
-lines = [line.strip() for line in lines]
-# Création de la liste à partir des éléments de la liste des lignes
-cryptos_list = [str(x) for x in lines]
-
-#cryptos_list = [
-#    "BTC/USDT",
-#    "ETH/USDT"
-#]
-
 threads = []
 exchange = ccxt.okx()
-Final_Dict = {}
-Final_Dict["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
+# Ouvrir le fichier JSON en mode lecture ('r')
+with open('list_cryptos.json', 'r') as f:
+    # Charger les données JSON depuis le fichier
+    Final_Dict = json.load(f)
 timeframe = '1d'
 n_data = 60
 
@@ -101,15 +90,14 @@ def add_result(exchange, coin, timeframe, n_data):
 
     mut.acquire()
     try:
-        Final_Dict[coin] = result
+        Final_Dict[coin.split("/")[0]]["IA"] = result
     finally:
         mut.release()
 
 
 
-
-for coin in cryptos_list:
-    thread = threading.Thread(target=add_result, args=(exchange, coin, timeframe, n_data))
+for coin in Final_Dict:
+    thread = threading.Thread(target=add_result, args=(exchange, coin+"/USDT", timeframe, n_data))
     threads.append(thread)
 
 ##### Main
@@ -119,7 +107,8 @@ for thread in threads:
     
 for thread in threads:
     thread.join()
-
+    
+Final_Dict["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
 
 
 
@@ -130,8 +119,8 @@ except KeyError:
 g = Github(TOKEN)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
-CONTENT = REPO.get_contents("datas.json")
-REPO.update_file(CONTENT.name, "update", json.dumps(Final_Dict, indent=4), CONTENT.sha, branch="main")
+CONTENT = REPO.get_contents("list_cryptos.json")
+REPO.update_file(CONTENT.name, "update", json.dumps(process(Final_Dict), indent=4), CONTENT.sha, branch="main")
 
 
 
