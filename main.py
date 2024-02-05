@@ -117,10 +117,10 @@ for thread in threads:
     thread.join()
 
 try:
-    TOKEN = str(os.environ["TOKEN"])
+    REPO_ACCESS = str(os.environ["REPO_ACCESS"])
 except KeyError:
     exit(1)
-g = Github(TOKEN)
+g = Github(REPO_ACCESS)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("cryptos.json")
