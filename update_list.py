@@ -52,10 +52,10 @@ for coin in list_json:
                                     }
 
 try:
-    TOKEN = str(os.environ["TOKEN"])
+    REPO_ACCESS = str(os.environ["REPO_ACCESS"])
 except KeyError:
     exit(1)
-g = Github(TOKEN)
+g = Github(REPO_ACCESS)
     
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("list_cryptos.json")
