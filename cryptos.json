@@ -6,7 +6,7 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Ethereum",
@@ -33,7 +33,7 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "XRP",
@@ -42,7 +42,7 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Cardano",
@@ -51,7 +51,7 @@
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Avalanche",
@@ -60,7 +60,7 @@
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Dogecoin",
@@ -69,7 +69,7 @@
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
-        "IA": "Neutral"
+        "IA": "Vente"
     },
     {
         "name": "Chainlink",
@@ -96,7 +96,7 @@
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Polygon",
@@ -105,7 +105,7 @@
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Shiba Inu",
@@ -123,7 +123,7 @@
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Cosmos",
@@ -141,9 +141,9 @@
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "url_infos": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
-        "prediction_date": "04:02:2024"
+        "prediction_date": "05:02:2024"
     }
 ]
