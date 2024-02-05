@@ -5,7 +5,8 @@
         "symbol": "BTC",
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -14,7 +15,8 @@
         "symbol": "ETH",
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "IA": "Vente"
     },
     {
@@ -23,7 +25,8 @@
         "symbol": "BNB",
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -32,7 +35,8 @@
         "symbol": "SOL",
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -41,7 +45,8 @@
         "symbol": "XRP",
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -50,7 +55,8 @@
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -59,17 +65,9 @@
         "symbol": "AVAX",
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "IA": "Neutral"
-    },
-    {
-        "name": "Dogecoin",
-        "description": "Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.\r\nIntroduced as a \"joke currency\" on 6 December 2013, Dogecoin quickly developed its own online community.",
-        "symbol": "DOGE",
-        "paire": "DOGE/USDT",
-        "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
-        "IA": "Vente"
     },
     {
         "name": "Chainlink",
@@ -77,7 +75,18 @@
         "symbol": "LINK",
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
+        "IA": "Vente"
+    },
+    {
+        "name": "Dogecoin",
+        "description": "Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.\r\nIntroduced as a \"joke currency\" on 6 December 2013, Dogecoin quickly developed its own online community.",
+        "symbol": "DOGE",
+        "paire": "DOGE/USDT",
+        "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
+        "price_old": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "IA": "Vente"
     },
     {
@@ -86,7 +95,8 @@
         "symbol": "TRX",
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "IA": "Vente"
     },
     {
@@ -95,7 +105,8 @@
         "symbol": "DOT",
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -104,7 +115,8 @@
         "symbol": "MATIC",
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -113,7 +125,8 @@
         "symbol": "SHIB",
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "IA": "Vente"
     },
     {
@@ -122,7 +135,8 @@
         "symbol": "UNI",
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -131,7 +145,8 @@
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "IA": "Neutral"
     },
     {
@@ -140,7 +155,8 @@
         "symbol": "GRT",
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
-        "url_infos": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
+        "price_old": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "IA": "Neutral"
     },
     {
