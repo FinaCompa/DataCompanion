@@ -13,23 +13,9 @@ markets = exchange.load_markets()
 # Filtrage des paires de trading de la forme CRYPTO/USDT (excluant CRYPTO/USDT:USDT)
 crypto_usdt_symbols = [symbol for symbol in markets.keys() if '/USDT' in symbol and ':USDT' not in symbol]
 
-the_list = [    "BTC/USDT",
-                "ETH/USDT",
-                "BNB/USDT",
-                "SOL/USDT",
-                "XRP/USDT",
-                "ADA/USDT",
-                "AVAX/USDT",
-                "DOGE/USDT",
-                "TRX/USDT",
-                "DOT/USDT",
-                "LINK/USDT",
-                "MATIC/USDT",
-                "SHIB/USDT",
-                "UNI/USDT",
-                "ATOM/USDT",
-                "XMR/USDT",
-                "GRT/USDT"]
+with open('list_description.json', 'r') as f:
+    # Charger les données JSON depuis le fichier
+    descriptions = json.load(f)
 
 crypto_monnaies_communes = [crypto for crypto in the_list if crypto in crypto_usdt_symbols]
 
@@ -43,7 +29,7 @@ for coin in list_json:
         response = requests.get(new_url).json()
         new_dict[coin["symbol"]] =  {
                                         "name":coin["name"],
-                                        "description":response["description"],
+                                        "description":descriptions[coin["symbol"]+"/USDT"],
                                         "symbol":coin["symbol"],
                                         "paire":coin["symbol"]+"/USDT",
                                         "logo":response["logo"],
