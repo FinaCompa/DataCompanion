@@ -1,7 +1,7 @@
 {
     "BTC": {
         "name": "Bitcoin",
-        "description": "Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency, as the system works without a central bank or single administrator.",
+        "description": "Bitcoin is a decentralized digital currency that allows peer-to-peer transactions without the need for intermediaries like banks. It operates on a secure, transparent, and public ledger called the blockchain, which ensures the integrity and immutability of all transactions.",
         "symbol": "BTC",
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
@@ -11,7 +11,7 @@
     },
     "ETH": {
         "name": "Ethereum",
-        "description": "Ethereum is a decentralized platform for applications. Applications build on it can use smart contracts - computer algorithms which execute themselves when data is supplied to the platform. There is no need for any human operators.",
+        "description": "Ethereum is an open-source, blockchain-based platform featuring smart contract functionality, enabling developers to build and deploy decentralized applications (dApps) with enhanced security, transparency, and automation capabilities.",
         "symbol": "ETH",
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
@@ -21,7 +21,7 @@
     },
     "BNB": {
         "name": "Binance Coin",
-        "description": "Binance Coin is the digital token of the Binance exchange. \r\nIt is an exchanging token only for cryptographic forms of money. The name \"Binance\" is a blend of binary and finance.",
+        "description": "Binance Coin (BNB) is the native cryptocurrency of the Binance exchange platform, offering users discounted trading fees, participation in token sales, and various utilities within the expansive Binance ecosystem.",
         "symbol": "BNB",
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
@@ -31,7 +31,7 @@
     },
     "SOL": {
         "name": "Solana",
-        "description": "Solana is a public blockchain. It is open-source and decentralised, and achieves consensus using a proof-of-stake algorithm together with a novel algorithm called proof-of-history. Its internal cryptocurrency has the symbol SOL. Bloomberg considers the platform \"a potential long-term rival to Ethereum.\" Like Ethereum, Solana can interact with smart contracts.\r\n\r\nOn 14 September 2021, Solana's blockchain went offline after a wave of transactions caused discord between network participants and a subsequent split into multiple blocks. The network was successfully restored early on 15 September. Solana can likely handle 50,000 transactions per second, making it faster than Ethereum, but still lower than the 400,000 transactions seen during the peak.",
+        "description": "Solana is a fast, decentralized blockchain platform that can process over 65,000 transactions per second, making it one of the fastest in the industry.",
         "symbol": "SOL",
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
@@ -41,7 +41,7 @@
     },
     "XRP": {
         "name": "XRP",
-        "description": "Ripple (XRP) is one of the fastest and most scalable digital asset, enabling real-time global payments anywhere in the world.",
+        "description": "Ripple is a real-time gross settlement system (RTGS), currency exchange, and remittance network built on a distributed ledger technology called XRP Ledger, facilitating fast, cost-effective, and global cross-border financial transactions among banks and payment providers.",
         "symbol": "XRP",
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
@@ -51,7 +51,7 @@
     },
     "ADA": {
         "name": "Cardano",
-        "description": "ADA is a token on a distributed computing platform that runs smart contracts, decentralized applications, side chains, multi-party computation, and metadata.",
+        "description": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
@@ -61,7 +61,7 @@
     },
     "AVAX": {
         "name": "Avalanche",
-        "description": "Avalanche is an open-source platform for launching decentralized finance applications and enterprise blockchain deployments in one interoperable, highly scalable ecosystem. Developers who build on Avalanche can easily create powerful, reliable, and secure applications and custom blockchain networks with complex rulesets or build on existing private or public subnets. Avalanche gives you complete control on both the network and application layers\u2013helping you build anything you can imagine.",
+        "description": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
         "symbol": "AVAX",
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
@@ -71,7 +71,7 @@
     },
     "LINK": {
         "name": "Chainlink",
-        "description": "The LINK Network provides smart contracts with data, bank payments and access to APIs.",
+        "description": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
         "symbol": "LINK",
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
@@ -79,19 +79,9 @@
         "price_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "IA": "Null"
     },
-    "DOGE": {
-        "name": "Dogecoin",
-        "description": "Dogecoin is an open source peer-to-peer digital currency, favored by Shiba Inus worldwide.\r\nIntroduced as a \"joke currency\" on 6 December 2013, Dogecoin quickly developed its own online community.",
-        "symbol": "DOGE",
-        "paire": "DOGE/USDT",
-        "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
-        "price_old": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/latest",
-        "price_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
-        "IA": "Null"
-    },
     "TRX": {
         "name": "TRON",
-        "description": "TRON: Decentralize the Web\r\nTRON is dedicated to building the infrastructure for a truly decentralized Internet. The TRON Protocol, one of the largest blockchain-based operating systems in the world which offers scalability, high-availability, and high-throughput computing (HTC) support that serves as the foundation for all decentralized applications in the TRON ecosystem. It also provides better compatibility for Ethereum smart contracts through an innovative, pluggable smart contract platform.\r\nSince July 24th, 2018, TRON acquired BitTorrent Inc. which is an Internet technology company based in San Francisco. It designs distributed technologies that scale efficiently, keep intelligence at the edge, and keep creators and consumers in control of their content and data. Every month more than 170 million people use BitTorrent Inc. developed products. Its protocols move as much as 40% of the world's Internet traffic on a daily basis.",
+        "description": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
         "symbol": "TRX",
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
@@ -99,9 +89,19 @@
         "price_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "IA": "Null"
     },
+    "DOGE": {
+        "name": "Dogecoin",
+        "description": "Dogecoin is a lighthearted, meme-inspired cryptocurrency based on the popular Doge Shiba Inu dog image, utilizing a simplified Proof-of-Work algorithm, focusing on community building, tipping content creators, and promoting fun, inclusiveness, and positivity within the crypto space.",
+        "symbol": "DOGE",
+        "paire": "DOGE/USDT",
+        "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
+        "price_old": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/latest",
+        "price_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
+        "IA": "Null"
+    },
     "DOT": {
         "name": "Polkadot",
-        "description": "Polkadot is a network protocol that allows arbitrary data\u2014not just tokens\u2014to be transferred across blockchains.\r\n\r\nThis means Polkadot is a true multi-chain application environment where things like cross-chain registries and cross-chain computation are possible.\r\n\r\nPolkadot can transfer this data across public, open, permissionless blockchains as well as private, permissioned blockchains.",
+        "description": "Polkadot is a multi-chain, heterogeneous sharded network allowing seamless communication and interoperability between different specialized blockchains, known as parachains, thus creating a unified, scalable, and flexible Web3 infrastructure for decentralized applications and services.",
         "symbol": "DOT",
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
@@ -111,7 +111,7 @@
     },
     "MATIC": {
         "name": "Polygon",
-        "description": "Matic Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains.",
+        "description": "Polygon (previously Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
         "symbol": "MATIC",
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
@@ -121,7 +121,7 @@
     },
     "SHIB": {
         "name": "Shiba Inu",
-        "description": "SHIB is an experiment in decentralized spontaneous community building. SHIB token is our first token and allows users to hold Billions or even Trillions of them.  Nicknamed the DOGECOIN KILLER, this ERC-20 ONLY token can remain well under a penny and still outpace Dogecoin in a small amount of time (relatively speaking). Popular worldwide, and already up thousands of percent, Shiba token ($Shib) is the first cryptocurrency token to be listed and incentivized on ShibaSwap, our decentralized exchange.",
+        "description": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
         "symbol": "SHIB",
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
@@ -131,7 +131,7 @@
     },
     "UNI": {
         "name": "Uniswap",
-        "description": "",
+        "description": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
         "symbol": "UNI",
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
@@ -141,7 +141,7 @@
     },
     "ATOM": {
         "name": "Cosmos",
-        "description": "Cosmos is a decentralized network of independent parallel blockchains, each powered by BFT consensus algorithms like Tendermint consensus.\r\nCosmos is an ecosystem of blockchains that can scale and interoperate with each other.",
+        "description": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
@@ -151,7 +151,7 @@
     },
     "GRT": {
         "name": "The Graph",
-        "description": "",
+        "description": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
         "symbol": "GRT",
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
