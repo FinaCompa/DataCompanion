@@ -31,7 +31,7 @@
     },
     {
         "name": "Solana",
-        "description": "Solana is a public blockchain. It is open-source and decentralised, and achieves consensus using a proof-of-stake algorithm together with a novel algorithm called proof-of-history. Its internal cryptocurrency has the symbol SOL. Bloomberg considers the platform \"a potential long-term rival to Ethereum.\" Like Ethereum, Solana can interact with smart contracts.\r\n\r\nOn 14 September 2021, Solana's blockchain went offline after a wave of transactions caused discord between network participants and a subsequent split into multiple blocks. The network was successfully restored early on 15 September. Solana can likely handle 50,000 transactions per second, making it faster than Ethereum, but still lower than the 400,000 transactions seen during the peak.",
+        "description": "Solana is a fast, decentralized blockchain platform that can process over 65,000 transactions per second, making it one of the fastest in the industry.",
         "symbol": "SOL",
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
