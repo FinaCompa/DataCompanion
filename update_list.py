@@ -17,7 +17,7 @@ with open('list_description.json', 'r') as f:
     # Charger les données JSON depuis le fichier
     descriptions = json.load(f)
 
-crypto_monnaies_communes = [crypto for crypto in the_list if crypto in crypto_usdt_symbols]
+crypto_monnaies_communes = [crypto for crypto in descriptions if crypto in crypto_usdt_symbols]
 
 base_url = "https://api.coinpaprika.com/v1/coins"
 list_json = requests.get(url=base_url).json()
