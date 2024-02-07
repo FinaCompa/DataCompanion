@@ -1,6 +1,8 @@
 name: run update_list.py
 
 on:
+  schedule:
+    - cron: '0 23 28 * *' # On each day at 00:00 AM
   workflow_dispatch: # allows manual triggering of the workflow
 
 jobs:
