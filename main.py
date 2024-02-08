@@ -59,12 +59,12 @@ def decision(df, timeframe):
         return 'Neutral'
 
 def process(data):
-    pred_date = {}
-    pred_date["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
+    #pred_date = {}
+    #pred_date["prediction_date"] = datetime.datetime.now().strftime("%d:%m:%Y")
     final_list = []
     for coin in data:
         final_list.append(data[coin])
-    final_list.append(pred_date)
+    #final_list.append(pred_date)
     return final_list
 
 
@@ -100,6 +100,7 @@ def add_result(exchange, coin, timeframe, n_data):
     mut.acquire()
     try:
         Final_Dict[coin.split("/")[0]]["IA"] = result
+        Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
     finally:
         mut.release()
 
