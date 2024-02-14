@@ -53,6 +53,9 @@
     "CHZ/USDT":{"EN":"Chilliz is a blockchain-based platform that provides solutions for the sports and entertainment industry, enabling organizations to create their own branded fan tokens which can be used to engage with fans and offer unique experiences or rewards.",
                 "FR":"Chilliz est une plateforme basee sur la blockchain qui fournit des solutions pour l'industrie du sport et du divertissement, permettant aux organisations de creer leurs propres jetons de fans de marque qui peuvent etre utilises pour s'engager avec les fans et offrir des experiences ou des recompenses uniques."
                 },
+    "AGIX/USDT":{"EN":"AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
+                "FR":"AGIX, basée sur l'intelligence artificielle et émise par SingularityNET, vise à faciliter les interactions entre humains et systèmes d'IA décentralisés."
+                },
     "LTC/USDT":{"EN":"Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, allowing users to make peer-to-peer transactions without intermediaries.",
                 "FR":"Le Litecoin est une crypto-monnaie decentralisee basee sur la technologie blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair a pair sans intermediaire."
                 }
