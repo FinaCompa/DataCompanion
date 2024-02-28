@@ -10,7 +10,7 @@
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
-        "premium": "False",
+        "premium": "True",
         "IA": "Null"
     },
     "ETH": {
@@ -24,7 +24,7 @@
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
-        "premium": "False",
+        "premium": "True",
         "IA": "Null"
     },
     "BNB": {
@@ -38,7 +38,7 @@
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "SOL": {
@@ -52,7 +52,7 @@
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
-        "premium": "False",
+        "premium": "True",
         "IA": "Null"
     },
     "XRP": {
@@ -66,48 +66,20 @@
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
-        "premium": "False",
+        "premium": "True",
         "IA": "Null"
     },
     "ADA": {
         "name": "Cardano",
         "description": {
             "EN": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
-            "FR": "Cardano est une plateforme blockchain a preuve d'enjeu con\u00c3\u00a7ue pour developper des applications et des systemes decentralises evolutifs, securises et economes en energie, en donnant la priorite a une recherche universitaire rigoureuse, a un developpement fonde sur des donnees probantes et a la conformite reglementaire."
+            "FR": "Cardano est une plateforme blockchain a preuve d'enjeu con\u00e7ue pour developper des applications et des systemes decentralises evolutifs, securises et economes en energie, en donnant la priorite a une recherche universitaire rigoureuse, a un developpement fonde sur des donnees probantes et a la conformite reglementaire."
         },
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
-        "premium": "False",
-        "IA": "Null"
-    },
-    "AVAX": {
-        "name": "Avalanche",
-        "description": {
-            "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
-            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement evolutive, personnalisable et rapidement finalisee, permettant aux developpeurs de creer des applications financieres decentralisees (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des co\u00c3\u00bbts faibles gr\u00c3\u00a2ce a son mecanisme de consensus unique."
-        },
-        "symbol": "AVAX",
-        "paire": "AVAX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
-        "premium": "False",
-        "IA": "Null"
-    },
-    "LINK": {
-        "name": "Chainlink",
-        "description": {
-            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
-            "FR": "Chainlink est un reseau d'oracles decentralise qui fournit une connectivite fiable, securisee et inviolable entre les contrats intelligents sur les blockchains et les sources de donnees externes, les API et les services de calcul hors cha\u00c3\u00aene, elargissant ainsi leurs fonctionnalites et ameliorant l'adoption dans le monde reel."
-        },
-        "symbol": "LINK",
-        "paire": "LINK/USDT",
-        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": "True",
         "IA": "Null"
     },
@@ -122,6 +94,20 @@
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
+        "premium": "False",
+        "IA": "Null"
+    },
+    "AVAX": {
+        "name": "Avalanche",
+        "description": {
+            "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
+            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement evolutive, personnalisable et rapidement finalisee, permettant aux developpeurs de creer des applications financieres decentralisees (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des co\u00fbts faibles gr\u00e2ce a son mecanisme de consensus unique."
+        },
+        "symbol": "AVAX",
+        "paire": "AVAX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": "True",
         "IA": "Null"
     },
@@ -129,28 +115,42 @@
         "name": "TRON",
         "description": {
             "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-            "FR": "Tron est une plateforme blockchain decentralisee et open-source qui favorise la creation et le deploiement de dApps, de jeux et d'actifs numeriques, visant a revolutionner l'industrie du divertissement en eliminant les intermediaires, en reduisant les co\u00c3\u00bbts et en democratisant l'acces au contenu numerique a l'echelle mondiale."
+            "FR": "Tron est une plateforme blockchain decentralisee et open-source qui favorise la creation et le deploiement de dApps, de jeux et d'actifs numeriques, visant a revolutionner l'industrie du divertissement en eliminant les intermediaires, en reduisant les co\u00fbts et en democratisant l'acces au contenu numerique a l'echelle mondiale."
         },
         "symbol": "TRX",
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
+        "IA": "Null"
+    },
+    "LINK": {
+        "name": "Chainlink",
+        "description": {
+            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
+            "FR": "Chainlink est un reseau d'oracles decentralise qui fournit une connectivite fiable, securisee et inviolable entre les contrats intelligents sur les blockchains et les sources de donnees externes, les API et les services de calcul hors cha\u00eene, elargissant ainsi leurs fonctionnalites et ameliorant l'adoption dans le monde reel."
+        },
+        "symbol": "LINK",
+        "paire": "LINK/USDT",
+        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
+        "premium": "False",
         "IA": "Null"
     },
     "DOT": {
         "name": "Polkadot",
         "description": {
             "EN": "Polkadot is a multi-chain, heterogeneous sharded network allowing seamless communication and interoperability between different specialized blockchains, known as parachains, thus creating a unified, scalable, and flexible Web3 infrastructure for decentralized applications and services.",
-            "FR": "Polkadot est un reseau heterogene a cha\u00c3\u00aenes multiples permettant une communication et une interoperabilite transparentes entre differentes blockchains specialisees, connues sous le nom de parachains, creant ainsi une infrastructure Web3 unifiee, evolutive et flexible pour les applications et services decentralises."
+            "FR": "Polkadot est un reseau heterogene a cha\u00eenes multiples permettant une communication et une interoperabilite transparentes entre differentes blockchains specialisees, connues sous le nom de parachains, creant ainsi une infrastructure Web3 unifiee, evolutive et flexible pour les applications et services decentralises."
         },
         "symbol": "DOT",
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "MATIC": {
@@ -164,7 +164,7 @@
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "SHIB": {
@@ -178,21 +178,7 @@
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
-        "premium": "True",
-        "IA": "Null"
-    },
-    "LTC": {
-        "name": "Litecoin",
-        "description": {
-            "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, allowing users to make peer-to-peer transactions without intermediaries.",
-            "FR": "Le Litecoin est une crypto-monnaie decentralisee basee sur la technologie blockchain, con\u00c3\u00a7ue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair a pair sans intermediaire."
-        },
-        "symbol": "LTC",
-        "paire": "LTC/USDT",
-        "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "UNI": {
@@ -206,35 +192,49 @@
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
+        "IA": "Null"
+    },
+    "LTC": {
+        "name": "Litecoin",
+        "description": {
+            "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, allowing users to make peer-to-peer transactions without intermediaries.",
+            "FR": "Le Litecoin est une crypto-monnaie decentralisee basee sur la technologie blockchain, con\u00e7ue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair a pair sans intermediaire."
+        },
+        "symbol": "LTC",
+        "paire": "LTC/USDT",
+        "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
+        "premium": "False",
         "IA": "Null"
     },
     "ATOM": {
         "name": "Cosmos",
         "description": {
             "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un reseau decentralise de blockchains independantes, paralleles et interconnectees, appelees zones, alimentees par le protocole de communication interblockchain (IBC), qui vise a resoudre les problemes d'evolutivite, a promouvoir l'interoperabilite, a rationaliser le developpement d'applications et a favoriser un ecosysteme harmonieux de cha\u00c3\u00aenes souveraines connectees."
+            "FR": "Cosmos est un reseau decentralise de blockchains independantes, paralleles et interconnectees, appelees zones, alimentees par le protocole de communication interblockchain (IBC), qui vise a resoudre les problemes d'evolutivite, a promouvoir l'interoperabilite, a rationaliser le developpement d'applications et a favoriser un ecosysteme harmonieux de cha\u00eenes souveraines connectees."
         },
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "GRT": {
         "name": "The Graph",
         "description": {
             "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
-            "FR": "The Graph est un protocole d'indexation et d'interrogation decentralise pour les blockchains telles qu'Ethereum, IPFS et Filecoin, qui permet aux developpeurs d'extraire efficacement des donnees specifiques a partir d'evenements sur la cha\u00c3\u00aene et de changements d'etat a l'aide de requetes GraphQL normalisees, ouvrant ainsi de nouvelles possibilites pour les applications et les services decentralises."
+            "FR": "The Graph est un protocole d'indexation et d'interrogation decentralise pour les blockchains telles qu'Ethereum, IPFS et Filecoin, qui permet aux developpeurs d'extraire efficacement des donnees specifiques a partir d'evenements sur la cha\u00eene et de changements d'etat a l'aide de requetes GraphQL normalisees, ouvrant ainsi de nouvelles possibilites pour les applications et les services decentralises."
         },
         "symbol": "GRT",
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
         "IA": "Null"
     },
     "CHZ": {
@@ -248,7 +248,21 @@
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
-        "premium": "True",
+        "premium": "False",
+        "IA": "Null"
+    },
+    "AGIX": {
+        "name": "Singularity NET",
+        "description": {
+            "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
+            "FR": "AGIX, bas\u00e9e sur l'intelligence artificielle et \u00e9mise par SingularityNET, vise \u00e0 faciliter les interactions entre humains et syst\u00e8mes d'IA d\u00e9centralis\u00e9s."
+        },
+        "symbol": "AGIX",
+        "paire": "AGIX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
+        "premium": "False",
         "IA": "Null"
     }
 }
