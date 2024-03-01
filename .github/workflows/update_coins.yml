@@ -2,7 +2,7 @@ name: run update_list.py
 
 on:
   schedule:
-    - cron: '0 0 28 * *' # On 28th day of month at 00:00 AM
+    - cron: '0 23 28 * *' # On 28th day of month at 23:00 PM
   workflow_dispatch: # allows manual triggering of the workflow
 
 jobs:
