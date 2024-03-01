@@ -78,5 +78,37 @@
     "LTC/USDT": {
         "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, enabling users to make peer-to-peer transactions without intermediaries.",
         "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires."
+    },
+    "IMX/USDT": {
+        "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
+        "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et les jeux."
+    },
+    "TAO/USDT": {
+        "EN": "TAO is a cryptocurrency aiming to facilitate decentralized finance (DeFi) solutions through its blockchain platform, focusing on interoperability, scalability, and user experience.",
+        "FR": "TAO est une crypto-monnaie visant à faciliter les solutions de finance décentralisée (DeFi) grâce à sa plateforme blockchain, en mettant l'accent sur l'interopérabilité, la scalabilité et l'expérience utilisateur."
+    },
+    "APT/USDT": {
+        "EN": "APT is a utility token issued by Alpha Finance Lab, designed to enhance the functionality and governance within the Alpha ecosystem, including various DeFi products and services.",
+        "FR": "APT est un jeton utilitaire émis par Alpha Finance Lab, conçu pour améliorer la fonctionnalité et la gouvernance au sein de l'écosystème Alpha, y compris divers produits et services DeFi."
+    },
+    "FIL/USDT": {
+        "EN": "FIL is the native cryptocurrency of the Filecoin network, utilized for various purposes including storage payments and network participation incentives within the decentralized storage platform.",
+        "FR": "FIL est la crypto-monnaie native du réseau Filecoin, utilisée à diverses fins, notamment les paiements de stockage et les incitations à la participation au réseau au sein de la plateforme de stockage décentralisée."
+    },
+    "NEAR/USDT": {
+        "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
+        "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade."
+    },
+    "INJ/USDT": {
+        "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
+        "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective."
+    },
+    "OP/USDT": {
+        "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
+        "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés."
+    },
+    "VET/USDT": {
+        "EN": "VET is the native cryptocurrency of the VeChainThor blockchain, utilized for various purposes including supply chain management, enterprise solutions, and decentralized applications (dApps).",
+        "FR": "VET est la crypto-monnaie native de la blockchain VeChainThor, utilisée à diverses fins, notamment la gestion de la chaîne d'approvisionnement, les solutions d'entreprise et les applications décentralisées (dApps)."
     }
 }
