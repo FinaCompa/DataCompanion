@@ -18,7 +18,7 @@ with open('list_description.json', 'r') as f:
     descriptions = json.load(f)
 
 crypto_monnaies_communes = [crypto for crypto in descriptions if crypto in crypto_usdt_symbols]
-premium_cryptos = ["BTC","ETH","SOL","XRP","ADA","AVAX"]
+free_cryptos = ["BTC","ETH","SOL","XRP","ADA","AVAX"]
 
 base_url = "https://api.coinpaprika.com/v1/coins"
 list_json = requests.get(url=base_url).json()
@@ -28,7 +28,7 @@ for coin in list_json:
     if coin["symbol"] not in new_dict and coin["symbol"]+"/USDT" in crypto_monnaies_communes :
         new_url = base_url+"/"+coin["id"]
         response = requests.get(new_url).json()
-        premium = "True" if coin["symbol"] in premium_cryptos else "False"
+        premium = "False" if coin["symbol"] in free_cryptos else "True"
 
         new_dict[coin["symbol"]] =  {
                                         "name":coin["name"],
