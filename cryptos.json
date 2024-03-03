@@ -3,7 +3,7 @@
         "name": "Bitcoin",
         "description": {
             "EN": "Bitcoin is a decentralized digital currency that enables peer-to-peer transactions without the need for intermediaries like banks. It operates on a secure, transparent, and public ledger called the blockchain, ensuring the integrity and immutability of all transactions.",
-            "FR": "Le Bitcoin est une monnaie num\u00e9rique d\u00e9centralis\u00e9e permettant des transactions de pair \u00e0 pair sans recourir \u00e0 des interm\u00e9diaires tels que les banques. Il fonctionne sur un grand livre s\u00e9curis\u00e9, transparent et public appel\u00e9 blockchain, garantissant l'int\u00e9grit\u00e9 et l'immutabilit\u00e9 de toutes les transactions."
+            "FR": "Le Bitcoin est une monnaie numérique décentralisée permettant des transactions de pair à pair sans recourir à des intermédiaires tels que les banques. Il fonctionne sur un grand livre sécurisé, transparent et public appelé blockchain, garantissant l'intégrité et l'immutabilité de toutes les transactions."
         },
         "symbol": "BTC",
         "paire": "BTC/USDT",
@@ -49,7 +49,7 @@
         "name": "Ethereum",
         "description": {
             "EN": "Ethereum is an open-source, blockchain-based platform featuring smart contract functionality, enabling developers to build and deploy decentralized applications (dApps) with enhanced security, transparency, and automation capabilities.",
-            "FR": "Ethereum est une plateforme open-source bas\u00e9e sur la blockchain, dot\u00e9e d'une fonctionnalit\u00e9 de contrat intelligent, permettant aux d\u00e9veloppeurs de cr\u00e9er et de d\u00e9ployer des applications d\u00e9centralis\u00e9es (dApps) avec une s\u00e9curit\u00e9, une transparence et des capacit\u00e9s d'automatisation accrues."
+            "FR": "Ethereum est une plateforme open-source basée sur la blockchain, dotée d'une fonctionnalité de contrat intelligent, permettant aux développeurs de créer et de déployer des applications décentralisées (dApps) avec une sécurité, une transparence et des capacités d'automatisation accrues."
         },
         "symbol": "ETH",
         "paire": "ETH/USDT",
@@ -95,7 +95,7 @@
         "name": "Binance Coin",
         "description": {
             "EN": "Binance Coin (BNB) is the native cryptocurrency of the Binance exchange platform, offering users discounted trading fees, participation in token sales, and various utilities within the expansive Binance ecosystem.",
-            "FR": "Binance Coin (BNB) est la crypto-monnaie native de la plateforme d'\u00e9change Binance, offrant aux utilisateurs des frais de n\u00e9gociation r\u00e9duits, la participation \u00e0 des ventes de jetons et divers services au sein de l'\u00e9cosyst\u00e8me \u00e9tendu de Binance."
+            "FR": "Binance Coin (BNB) est la crypto-monnaie native de la plateforme d'échange Binance, offrant aux utilisateurs des frais de négociation réduits, la participation à des ventes de jetons et divers services au sein de l'écosystème étendu de Binance."
         },
         "symbol": "BNB",
         "paire": "BNB/USDT",
@@ -141,7 +141,7 @@
         "name": "Solana",
         "description": {
             "EN": "Solana is a fast, decentralized blockchain platform capable of processing over 65,000 transactions per second, making it one of the fastest in the industry.",
-            "FR": "Solana est une plateforme blockchain rapide et d\u00e9centralis\u00e9e capable de traiter plus de 65 000 transactions par seconde, ce qui en fait l'une des plus rapides de l'industrie."
+            "FR": "Solana est une plateforme blockchain rapide et décentralisée capable de traiter plus de 65 000 transactions par seconde, ce qui en fait l'une des plus rapides de l'industrie."
         },
         "symbol": "SOL",
         "paire": "SOL/USDT",
@@ -187,7 +187,7 @@
         "name": "XRP",
         "description": {
             "EN": "Ripple is a real-time gross settlement system (RTGS), currency exchange, and remittance network built on a distributed ledger technology called XRP Ledger, facilitating fast, cost-effective, and global cross-border financial transactions among banks and payment providers.",
-            "FR": "Ripple est un syst\u00e8me de r\u00e8glement brut en temps r\u00e9el (RTGS), d'\u00e9change de devises et de transfert de fonds construit sur une technologie de grand livre distribu\u00e9 appel\u00e9e XRP Ledger, facilitant les transactions financi\u00e8res transfrontali\u00e8res rapides, rentables et mondiales entre les banques et les fournisseurs de paiement."
+            "FR": "Ripple est un système de règlement brut en temps réel (RTGS), d'échange de devises et de transfert de fonds construit sur une technologie de grand livre distribué appelée XRP Ledger, facilitant les transactions financières transfrontalières rapides, rentables et mondiales entre les banques et les fournisseurs de paiement."
         },
         "symbol": "XRP",
         "paire": "XRP/USDT",
@@ -233,7 +233,7 @@
         "name": "Cardano",
         "description": {
             "EN": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
-            "FR": "Cardano est une plateforme blockchain \u00e0 preuve d'enjeu con\u00e7ue pour d\u00e9velopper des applications et des syst\u00e8mes d\u00e9centralis\u00e9s \u00e9volutifs, s\u00e9curis\u00e9s et \u00e9conomes en \u00e9nergie, en donnant la priorit\u00e9 \u00e0 une recherche universitaire rigoureuse, \u00e0 un d\u00e9veloppement bas\u00e9 sur des donn\u00e9es probantes et \u00e0 la conformit\u00e9 r\u00e9glementaire."
+            "FR": "Cardano est une plateforme blockchain à preuve d'enjeu conçue pour développer des applications et des systèmes décentralisés évolutifs, sécurisés et économes en énergie, en donnant la priorité à une recherche universitaire rigoureuse, à un développement basé sur des données probantes et à la conformité réglementaire."
         },
         "symbol": "ADA",
         "paire": "ADA/USDT",
@@ -279,7 +279,7 @@
         "name": "Dogecoin",
         "description": {
             "EN": "Dogecoin is a lighthearted, meme-inspired cryptocurrency based on the popular Doge Shiba Inu dog image, utilizing a simplified Proof-of-Work algorithm, focusing on community building, tipping content creators, and promoting fun, inclusiveness, and positivity within the crypto space.",
-            "FR": "Dogecoin est une crypto-monnaie l\u00e9g\u00e8re, inspir\u00e9e des memes et bas\u00e9e sur l'image populaire du chien Shiba Inu Doge, utilisant un algorithme simplifi\u00e9 de preuve de travail, se concentrant sur le d\u00e9veloppement de la communaut\u00e9, la r\u00e9mun\u00e9ration des cr\u00e9ateurs de contenu et la promotion du plaisir, de l'inclusion et de la positivit\u00e9 dans l'espace crypto."
+            "FR": "Dogecoin est une crypto-monnaie légère, inspirée des memes et basée sur l'image populaire du chien Shiba Inu Doge, utilisant un algorithme simplifié de preuve de travail, se concentrant sur le développement de la communauté, la rémunération des créateurs de contenu et la promotion du plaisir, de l'inclusion et de la positivité dans l'espace crypto."
         },
         "symbol": "DOGE",
         "paire": "DOGE/USDT",
@@ -325,7 +325,7 @@
         "name": "Avalanche",
         "description": {
             "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
-            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement \u00e9volutive, personnalisable et rapidement finalis\u00e9e, permettant aux d\u00e9veloppeurs de cr\u00e9er des applications financi\u00e8res d\u00e9centralis\u00e9es (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des co\u00fbts faibles gr\u00e2ce \u00e0 son m\u00e9canisme de consensus unique."
+            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement évolutive, personnalisable et rapidement finalisée, permettant aux développeurs de créer des applications financières décentralisées (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des coûts faibles grâce à son mécanisme de consensus unique."
         },
         "symbol": "AVAX",
         "paire": "AVAX/USDT",
@@ -371,7 +371,7 @@
         "name": "TRON",
         "description": {
             "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-            "FR": "Tron est une plateforme blockchain d\u00e9centralis\u00e9e et open-source favorisant la cr\u00e9ation et le d\u00e9ploiement de dApps, de jeux et d'actifs num\u00e9riques, visant \u00e0 r\u00e9volutionner l'industrie du divertissement en \u00e9liminant les interm\u00e9diaires, en r\u00e9duisant les co\u00fbts et en d\u00e9mocratisant l'acc\u00e8s au contenu num\u00e9rique \u00e0 l'\u00e9chelle mondiale."
+            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
         },
         "symbol": "TRX",
         "paire": "TRX/USDT",
@@ -417,7 +417,7 @@
         "name": "Shiba Inu",
         "description": {
             "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
-            "FR": "Shiba Inu est un projet de crypto-monnaie inspir\u00e9 des memes et bas\u00e9 sur la race de chien Shiba Inu, lanc\u00e9 \u00e0 l'origine comme une blague mais gagnant en popularit\u00e9 en raison de son caract\u00e8re ludique, du fort soutien de la communaut\u00e9 et de son utilit\u00e9 potentielle en tant qu'exp\u00e9rience d\u00e9centralis\u00e9e et communautaire de viralit\u00e9 et de cr\u00e9ation de valeur aliment\u00e9e par les m\u00e9dias sociaux."
+            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux."
         },
         "symbol": "SHIB",
         "paire": "SHIB/USDT",
@@ -463,7 +463,7 @@
         "name": "Polkadot",
         "description": {
             "EN": "Polkadot is a multi-chain, heterogeneous sharded network allowing seamless communication and interoperability between different specialized blockchains, known as parachains, thus creating a unified, scalable, and flexible Web3 infrastructure for decentralized applications and services.",
-            "FR": "Polkadot est un r\u00e9seau h\u00e9t\u00e9rog\u00e8ne \u00e0 cha\u00eenes multiples permettant une communication et une interop\u00e9rabilit\u00e9 transparentes entre diff\u00e9rentes blockchains sp\u00e9cialis\u00e9es, appel\u00e9es parachains, cr\u00e9ant ainsi une infrastructure Web3 unifi\u00e9e, \u00e9volutive et flexible pour les applications et services d\u00e9centralis\u00e9s."
+            "FR": "Polkadot est un réseau hétérogène à chaînes multiples permettant une communication et une interopérabilité transparentes entre différentes blockchains spécialisées, appelées parachains, créant ainsi une infrastructure Web3 unifiée, évolutive et flexible pour les applications et services décentralisés."
         },
         "symbol": "DOT",
         "paire": "DOT/USDT",
@@ -509,7 +509,7 @@
         "name": "Chainlink",
         "description": {
             "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
-            "FR": "Chainlink est un r\u00e9seau d'oracles d\u00e9centralis\u00e9 fournissant une connectivit\u00e9 fiable, s\u00e9curis\u00e9e et inviolable entre les contrats intelligents sur les blockchains et les sources de donn\u00e9es externes, les API et les services de calcul hors cha\u00eene, \u00e9largissant ainsi leurs fonctionnalit\u00e9s et am\u00e9liorant l'adoption dans le monde r\u00e9el."
+            "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel."
         },
         "symbol": "LINK",
         "paire": "LINK/USDT",
@@ -555,7 +555,7 @@
         "name": "Polygon",
         "description": {
             "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
-            "FR": "Polygon (anciennement Matic Network) est une solution de mise \u00e0 l'\u00e9chelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour am\u00e9liorer l'extensibilit\u00e9, r\u00e9duire les frais de gaz, am\u00e9liorer l'exp\u00e9rience utilisateur et permettre des transactions plus rapides, moins ch\u00e8res et plus respectueuses de l'environnement pour les applications et services d\u00e9centralis\u00e9s."
+            "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés."
         },
         "symbol": "MATIC",
         "paire": "MATIC/USDT",
@@ -601,7 +601,7 @@
         "name": "Uniswap",
         "description": {
             "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-            "FR": "Uniswap est un protocole d'\u00e9change d\u00e9centralis\u00e9 (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de cr\u00e9ation de march\u00e9 automatis\u00e9e (AMM) et des pools de liquidit\u00e9s au lieu des carnets d'ordres traditionnels, permettant des \u00e9changes de jetons ERC-20 sans confiance, efficaces et autog\u00e9r\u00e9s avec un glissement minimal et une grande efficacit\u00e9 du capital."
+            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital."
         },
         "symbol": "UNI",
         "paire": "UNI/USDT",
@@ -647,7 +647,7 @@
         "name": "Litecoin",
         "description": {
             "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, enabling users to make peer-to-peer transactions without intermediaries.",
-            "FR": "Litecoin est une crypto-monnaie d\u00e9centralis\u00e9e bas\u00e9e sur la technologie de la blockchain, con\u00e7ue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair \u00e0 pair sans interm\u00e9diaires."
+            "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires."
         },
         "symbol": "LTC",
         "paire": "LTC/USDT",
@@ -693,7 +693,7 @@
         "name": "Filecoin",
         "description": {
             "EN": "FIL is the native cryptocurrency of the Filecoin network, utilized for various purposes including storage payments and network participation incentives within the decentralized storage platform.",
-            "FR": "FIL est la crypto-monnaie native du r\u00e9seau Filecoin, utilis\u00e9e \u00e0 diverses fins, notamment les paiements de stockage et les incitations \u00e0 la participation au r\u00e9seau au sein de la plateforme de stockage d\u00e9centralis\u00e9e."
+            "FR": "FIL est la crypto-monnaie native du réseau Filecoin, utilisée à diverses fins, notamment les paiements de stockage et les incitations à la participation au réseau au sein de la plateforme de stockage décentralisée."
         },
         "symbol": "FIL",
         "paire": "FIL/USDT",
@@ -739,7 +739,7 @@
         "name": "Cosmos",
         "description": {
             "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un r\u00e9seau d\u00e9centralis\u00e9 de blockchains ind\u00e9pendantes, parall\u00e8les et interconnect\u00e9es appel\u00e9es zones, aliment\u00e9 par le protocole de communication interblockchain (IBC), visant \u00e0 r\u00e9soudre les probl\u00e8mes d'extensibilit\u00e9, \u00e0 promouvoir l'interop\u00e9rabilit\u00e9, \u00e0 rationaliser le d\u00e9veloppement d'applications et \u00e0 favoriser un \u00e9cosyst\u00e8me harmonieux de cha\u00eenes souveraines connect\u00e9es."
+            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées."
         },
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
@@ -785,7 +785,7 @@
         "name": "Immutable X",
         "description": {
             "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
-            "FR": "IMX est une crypto-monnaie \u00e9mise par Immutable X, fournissant une solution de mise \u00e0 l'\u00e9chelle de la couche 2 pour les applications bas\u00e9es sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et les jeux."
+            "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et les jeux."
         },
         "symbol": "IMX",
         "paire": "IMX/USDT",
@@ -831,7 +831,7 @@
         "name": "Near Protocol",
         "description": {
             "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
-            "FR": "NEAR est une plateforme blockchain con\u00e7ue pour cr\u00e9er et d\u00e9ployer des applications d\u00e9centralis\u00e9es (dApps) avec un accent sur la convivialit\u00e9, la scalabilit\u00e9 et l'exp\u00e9rience des d\u00e9veloppeurs, en utilisant le sharding et un m\u00e9canisme de consensus unique appel\u00e9 Nightshade."
+            "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade."
         },
         "symbol": "NEAR",
         "paire": "NEAR/USDT",
@@ -877,7 +877,7 @@
         "name": "Aptos",
         "description": {
             "EN": "APT is a utility token issued by Alpha Finance Lab, designed to enhance the functionality and governance within the Alpha ecosystem, including various DeFi products and services.",
-            "FR": "APT est un jeton utilitaire \u00e9mis par Alpha Finance Lab, con\u00e7u pour am\u00e9liorer la fonctionnalit\u00e9 et la gouvernance au sein de l'\u00e9cosyst\u00e8me Alpha, y compris divers produits et services DeFi."
+            "FR": "APT est un jeton utilitaire émis par Alpha Finance Lab, conçu pour améliorer la fonctionnalité et la gouvernance au sein de l'écosystème Alpha, y compris divers produits et services DeFi."
         },
         "symbol": "APT",
         "paire": "APT/USDT",
@@ -923,7 +923,7 @@
         "name": "Optimism",
         "description": {
             "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
-            "FR": "OP est une crypto-monnaie visant \u00e0 fournir des services de trading d'options d\u00e9centralis\u00e9s et de provision de liquidit\u00e9 sur diff\u00e9rentes plateformes blockchain, am\u00e9liorant l'accessibilit\u00e9 et l'efficacit\u00e9 sur le march\u00e9 des produits d\u00e9riv\u00e9s."
+            "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés."
         },
         "symbol": "OP",
         "paire": "OP/USDT",
@@ -969,7 +969,7 @@
         "name": "Injective Protocol",
         "description": {
             "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
-            "FR": "INJ est un jeton utilitaire \u00e9mis par le protocole Injective, facilitant le trading d\u00e9centralis\u00e9 de produits d\u00e9riv\u00e9s et les services d'\u00e9change au sein de l'\u00e9cosyst\u00e8me Injective."
+            "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective."
         },
         "symbol": "INJ",
         "paire": "INJ/USDT",
@@ -1015,7 +1015,7 @@
         "name": "The Graph",
         "description": {
             "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
-            "FR": "The Graph est un protocole d'indexation et d'interrogation d\u00e9centralis\u00e9 pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux d\u00e9veloppeurs de r\u00e9cup\u00e9rer efficacement des donn\u00e9es sp\u00e9cifiques \u00e0 partir d'\u00e9v\u00e9nements sur la cha\u00eene et de changements d'\u00e9tat en utilisant des requ\u00eates GraphQL normalis\u00e9es, ouvrant de nouvelles possibilit\u00e9s pour les applications et les services d\u00e9centralis\u00e9s."
+            "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés."
         },
         "symbol": "GRT",
         "paire": "GRT/USDT",
@@ -1061,7 +1061,7 @@
         "name": "Chiliz",
         "description": {
             "EN": "Chiliz is a blockchain-based platform providing solutions for the sports and entertainment industry, allowing organizations to create their own branded fan tokens for engaging with fans and offering unique experiences or rewards.",
-            "FR": "Chiliz est une plateforme bas\u00e9e sur la blockchain fournissant des solutions pour l'industrie du sport et du divertissement, permettant aux organisations de cr\u00e9er leurs propres jetons de fans de marque pour s'engager avec les fans et offrir des exp\u00e9riences ou des r\u00e9compenses uniques."
+            "FR": "Chiliz est une plateforme basée sur la blockchain fournissant des solutions pour l'industrie du sport et du divertissement, permettant aux organisations de créer leurs propres jetons de fans de marque pour s'engager avec les fans et offrir des expériences ou des récompenses uniques."
         },
         "symbol": "CHZ",
         "paire": "CHZ/USDT",
@@ -1107,7 +1107,7 @@
         "name": "Singularity NET",
         "description": {
             "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
-            "FR": "AGIX est une crypto-monnaie ax\u00e9e sur l'intelligence artificielle \u00e9mise par SingularityNET, visant \u00e0 faciliter l'interaction et la collaboration d\u00e9centralis\u00e9es entre humains et IA."
+            "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA."
         },
         "symbol": "AGIX",
         "paire": "AGIX/USDT",
