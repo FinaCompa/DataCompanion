@@ -9,7 +9,6 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "ohlcv_histo": [
-            52126.7,
             51646.0,
             52138.3,
             51775.6,
@@ -39,7 +38,8 @@
             71399.3,
             69500.0,
             65308.1,
-            68399.1
+            68399.1,
+            67611.9
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": "False",
@@ -55,7 +55,6 @@
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "ohlcv_histo": [
-            2801.91,
             2785.99,
             2880.81,
             2944.21,
@@ -85,7 +84,8 @@
             3881.99,
             3742.03,
             3523.66,
-            3644.27
+            3644.27,
+            3521.01
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": "False",
@@ -101,7 +101,6 @@
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "ohlcv_histo": [
-            360.4,
             352.8,
             349.8,
             351.5,
@@ -131,7 +130,8 @@
             603.2,
             634.2,
             576.6,
-            571.3
+            571.3,
+            555.2
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": "True",
@@ -147,7 +147,6 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "ohlcv_histo": [
-            110.35,
             108.92,
             112.24,
             111.52,
@@ -177,7 +176,8 @@
             176.68,
             184.03,
             182.06,
-            201.86
+            201.86,
+            195.9
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": "False",
@@ -193,7 +193,6 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "ohlcv_histo": [
-            0.5642,
             0.5495,
             0.5571,
             0.5627,
@@ -223,11 +222,12 @@
             0.6689,
             0.6341,
             0.6029,
-            0.6191
+            0.6191,
+            0.6452
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": "False",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Cardano",
@@ -239,7 +239,6 @@
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "ohlcv_histo": [
-            0.5986,
             0.6094,
             0.6191,
             0.6308,
@@ -269,11 +268,12 @@
             0.7508,
             0.7274,
             0.6594,
-            0.6814
+            0.6814,
+            0.6598
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": "False",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Dogecoin",
@@ -285,7 +285,6 @@
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "ohlcv_histo": [
-            0.0859,
             0.08355,
             0.08518,
             0.08942,
@@ -315,11 +314,12 @@
             0.17725,
             0.16361,
             0.14251,
-            0.15425
+            0.15425,
+            0.14352
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": "True",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Avalanche",
@@ -331,7 +331,6 @@
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
         "ohlcv_histo": [
-            40.25,
             39.747,
             40.292,
             39.49,
@@ -361,7 +360,8 @@
             53.956,
             58.397,
             53.465,
-            58.43
+            58.43,
+            60.656
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": "False",
@@ -377,7 +377,6 @@
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "ohlcv_histo": [
-            0.13286,
             0.13587,
             0.13517,
             0.13636,
@@ -407,11 +406,12 @@
             0.1292,
             0.12641,
             0.12531,
-            0.1263
+            0.1263,
+            0.12415
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": "True",
-        "IA": "Vente"
+        "IA": "Neutral"
     },
     {
         "name": "Shiba Inu",
@@ -423,7 +423,6 @@
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "ohlcv_histo": [
-            9.874e-06,
             9.623e-06,
             9.737e-06,
             9.896e-06,
@@ -453,11 +452,12 @@
             3.2219e-05,
             2.99e-05,
             2.5385e-05,
-            2.9545e-05
+            2.9545e-05,
+            2.6848e-05
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": "True",
-        "IA": "Neutral"
+        "IA": "Achat"
     },
     {
         "name": "Polkadot",
@@ -469,7 +469,6 @@
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "ohlcv_histo": [
-            7.65,
             7.704,
             7.86,
             8.027,
@@ -499,7 +498,8 @@
             11.557,
             10.816,
             9.686,
-            10.083
+            10.083,
+            9.901
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": "True",
@@ -515,7 +515,6 @@
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "ohlcv_histo": [
-            19.551,
             20.032,
             20.115,
             19.832,
@@ -545,11 +544,12 @@
             20.88,
             19.626,
             18.113,
-            18.667
+            18.667,
+            18.297
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": "True",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Polygon",
@@ -561,7 +561,6 @@
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "ohlcv_histo": [
-            0.9514,
             0.9281,
             0.9992,
             0.9968,
@@ -591,11 +590,12 @@
             1.2223,
             1.1411,
             1.0427,
-            1.0885
+            1.0885,
+            1.0307
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "premium": "True",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Uniswap",
@@ -607,7 +607,6 @@
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "ohlcv_histo": [
-            7.445,
             7.767,
             7.657,
             7.698,
@@ -637,7 +636,8 @@
             13.952,
             13.057,
             12.027,
-            12.425
+            12.425,
+            11.872
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": "True",
@@ -653,7 +653,6 @@
         "paire": "LTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
         "ohlcv_histo": [
-            70.58,
             69.96,
             70.79,
             71.3,
@@ -683,11 +682,12 @@
             94.08,
             89.74,
             84.17,
-            85.9
+            85.9,
+            86.77
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": "True",
-        "IA": "Achat"
+        "IA": "Neutral"
     },
     {
         "name": "Filecoin",
@@ -699,7 +699,6 @@
         "paire": "FIL/USDT",
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
         "ohlcv_histo": [
-            5.79,
             6.212,
             6.277,
             7.4,
@@ -729,7 +728,8 @@
             10.499,
             9.767,
             8.83,
-            9.172
+            9.172,
+            8.871
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": "True",
@@ -745,7 +745,6 @@
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "ohlcv_histo": [
-            10.235,
             10.274,
             10.592,
             10.73,
@@ -775,7 +774,8 @@
             13.677,
             12.637,
             11.933,
-            12.275
+            12.275,
+            11.718
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": "True",
@@ -791,7 +791,6 @@
         "paire": "IMX/USDT",
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "ohlcv_histo": [
-            3.1445,
             3.1584,
             3.3451,
             3.2712,
@@ -821,7 +820,8 @@
             3.3183,
             3.068,
             2.8518,
-            2.9614
+            2.9614,
+            2.8376
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": "True",
@@ -837,7 +837,6 @@
         "paire": "NEAR/USDT",
         "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
         "ohlcv_histo": [
-            3.28,
             3.331,
             3.522,
             3.53,
@@ -867,11 +866,12 @@
             8.855,
             7.486,
             6.728,
-            8.24
+            8.24,
+            7.026
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": "True",
-        "IA": "Neutral"
+        "IA": "Achat"
     },
     {
         "name": "Aptos",
@@ -883,7 +883,6 @@
         "paire": "APT/USDT",
         "logo": "https://static.coinpaprika.com/coin/apt-aptos/logo.png",
         "ohlcv_histo": [
-            9.8101,
             9.6947,
             9.6941,
             10.1211,
@@ -913,7 +912,8 @@
             14.2962,
             15.1184,
             13.3047,
-            14.0311
+            14.0311,
+            14.4299
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": "True",
@@ -929,7 +929,6 @@
         "paire": "OP/USDT",
         "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
         "ohlcv_histo": [
-            3.6384,
             3.5799,
             3.7934,
             3.9614,
@@ -959,7 +958,8 @@
             4.2014,
             3.8203,
             3.5539,
-            3.5823
+            3.5823,
+            3.3028
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": "True",
@@ -975,7 +975,6 @@
         "paire": "INJ/USDT",
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "ohlcv_histo": [
-            34.491,
             37.797,
             38.901,
             37.601,
@@ -1005,7 +1004,8 @@
             47.92,
             44.492,
             40.725,
-            42.828
+            42.828,
+            38.412
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": "True",
@@ -1021,7 +1021,6 @@
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "ohlcv_histo": [
-            0.1937,
             0.216,
             0.2385,
             0.245,
@@ -1051,7 +1050,8 @@
             0.437,
             0.4111,
             0.3678,
-            0.4224
+            0.4224,
+            0.3907
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": "True",
@@ -1067,7 +1067,6 @@
         "paire": "CHZ/USDT",
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "ohlcv_histo": [
-            0.11801,
             0.11333,
             0.11382,
             0.12153,
@@ -1097,7 +1096,8 @@
             0.15847,
             0.14736,
             0.13328,
-            0.13952
+            0.13952,
+            0.13268
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": "True",
@@ -1113,7 +1113,6 @@
         "paire": "AGIX/USDT",
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
         "ohlcv_histo": [
-            0.3825,
             0.4619,
             0.4573,
             0.5386,
@@ -1143,7 +1142,8 @@
             1.2749,
             1.1496,
             1.0136,
-            1.1766
+            1.1766,
+            1.0519
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": "True",
