@@ -28,7 +28,7 @@ for coin in list_json:
     if coin["symbol"] not in new_dict and coin["symbol"]+"/USDT" in crypto_monnaies_communes :
         new_url = base_url+"/"+coin["id"]
         response = requests.get(new_url).json()
-        premium = "False" if coin["symbol"] in free_cryptos else "True"
+        premium = False if coin["symbol"] in free_cryptos else True
 
         new_dict[coin["symbol"]] =  {
                                         "name":coin["name"],
