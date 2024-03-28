@@ -69,20 +69,6 @@
         "premium": false,
         "IA": "Null"
     },
-    "ADA": {
-        "name": "Cardano",
-        "description": {
-            "EN": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
-            "FR": "Cardano est une plateforme blockchain à preuve d'enjeu conçue pour développer des applications et des systèmes décentralisés évolutifs, sécurisés et économes en énergie, en donnant la priorité à une recherche universitaire rigoureuse, à un développement basé sur des données probantes et à la conformité réglementaire."
-        },
-        "symbol": "ADA",
-        "paire": "ADA/USDT",
-        "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
-        "premium": false,
-        "IA": "Null"
-    },
     "DOGE": {
         "name": "Dogecoin",
         "description": {
@@ -95,6 +81,20 @@
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
+        "IA": "Null"
+    },
+    "ADA": {
+        "name": "Cardano",
+        "description": {
+            "EN": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
+            "FR": "Cardano est une plateforme blockchain à preuve d'enjeu conçue pour développer des applications et des systèmes décentralisés évolutifs, sécurisés et économes en énergie, en donnant la priorité à une recherche universitaire rigoureuse, à un développement basé sur des données probantes et à la conformité réglementaire."
+        },
+        "symbol": "ADA",
+        "paire": "ADA/USDT",
+        "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
+        "premium": false,
         "IA": "Null"
     },
     "AVAX": {
@@ -293,20 +293,6 @@
         "premium": true,
         "IA": "Null"
     },
-    "INJ": {
-        "name": "Injective Protocol",
-        "description": {
-            "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
-            "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective."
-        },
-        "symbol": "INJ",
-        "paire": "INJ/USDT",
-        "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
     "OP": {
         "name": "Optimism",
         "description": {
@@ -318,6 +304,20 @@
         "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
         "ohlcv_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
+        "premium": true,
+        "IA": "Null"
+    },
+    "INJ": {
+        "name": "Injective Protocol",
+        "description": {
+            "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
+            "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective."
+        },
+        "symbol": "INJ",
+        "paire": "INJ/USDT",
+        "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
+        "ohlcv_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
         "IA": "Null"
     },
