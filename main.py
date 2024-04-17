@@ -97,11 +97,15 @@ def add_result(exchange, coin, timeframe, n_data):
     datas = df_process(datas)
     result = decision(datas,timeframe)
 
+    liste_test = []
+    for i in range(31):
+        liste_test.append(i)
+    
     mut.acquire()
     try:
         Final_Dict[coin.split("/")[0]]["IA"] = result
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
-        Final_Dict[coin.split("/")[0]]["time_histo"] = datas["ds"].tail(31).tolist()
+        Final_Dict[coin.split("/")[0]]["time_histo"] = liste_test
     finally:
         mut.release()
 
