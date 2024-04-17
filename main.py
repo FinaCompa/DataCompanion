@@ -97,10 +97,7 @@ def add_result(exchange, coin, timeframe, n_data):
     datas = df_process(datas)
     result = decision(datas,timeframe)
 
-    i = 0
-    for line in datas.ds:
-        datas["Time"].iloc[i] = line.strftime("%m-%d")  # Format the timestamp as a string
-        i+=1
+    datas['Time'] = datas['ds'].dt.strftime("%m-%d")  # Format the timestamp as a string and create a new column
     
     mut.acquire()
     try:
