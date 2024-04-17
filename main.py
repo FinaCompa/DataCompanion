@@ -52,11 +52,11 @@ def decision(df, timeframe):
     last_pr = df['y'][len(df)-1:].values[0]
 
     if iter_m1 > iter_m2 and last_pr < iter_m2:
-        return 'Achat'
+        return 'Up Moves'
     elif iter_m1 < iter_m2 and last_pr > iter_m2:
-        return 'Vente'
+        return 'Down Moves'
     else:
-        return 'Neutral'
+        return 'Chill'
 
 def process(data):
     #pred_date = {}
@@ -101,6 +101,7 @@ def add_result(exchange, coin, timeframe, n_data):
     try:
         Final_Dict[coin.split("/")[0]]["IA"] = result
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
+        Final_Dict[coin.split("/")[0]]["time_histo"] = datas["ds"].tail(31).tolist()
     finally:
         mut.release()
 
