@@ -9,6 +9,7 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
         "IA": "Null"
@@ -23,6 +24,7 @@
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
         "IA": "Null"
@@ -37,6 +39,7 @@
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -51,6 +54,7 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
         "IA": "Null"
@@ -65,6 +69,7 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
         "IA": "Null"
@@ -79,6 +84,7 @@
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -93,21 +99,8 @@
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
-        "premium": false,
-        "IA": "Null"
-    },
-    "AVAX": {
-        "name": "Avalanche",
-        "description": {
-            "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
-            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement évolutive, personnalisable et rapidement finalisée, permettant aux développeurs de créer des applications financières décentralisées (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des coûts faibles grâce à son mécanisme de consensus unique."
-        },
-        "symbol": "AVAX",
-        "paire": "AVAX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
         "IA": "Null"
     },
@@ -121,7 +114,38 @@
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "premium": true,
+        "IA": "Null"
+    },
+    "AVAX": {
+        "name": "Avalanche",
+        "description": {
+            "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
+            "FR": "Avalanche est une plateforme blockchain de couche 1 hautement évolutive, personnalisable et rapidement finalisée, permettant aux développeurs de créer des applications financières décentralisées (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des coûts faibles grâce à son mécanisme de consensus unique."
+        },
+        "symbol": "AVAX",
+        "paire": "AVAX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
+        "premium": false,
+        "IA": "Null"
+    },
+    "TRX": {
+        "name": "TRON",
+        "description": {
+            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
+            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
+        },
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
         "IA": "Null"
     },
@@ -135,6 +159,7 @@
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -149,21 +174,8 @@
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
-    "TRX": {
-        "name": "TRON",
-        "description": {
-            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
-        },
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
         "IA": "Null"
     },
@@ -177,35 +189,8 @@
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
-    "UNI": {
-        "name": "Uniswap",
-        "description": {
-            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital."
-        },
-        "symbol": "UNI",
-        "paire": "UNI/USDT",
-        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
-    "NEAR": {
-        "name": "Near Protocol",
-        "description": {
-            "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
-            "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade."
-        },
-        "symbol": "NEAR",
-        "paire": "NEAR/USDT",
-        "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
-        "ohlcv_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
         "IA": "Null"
     },
@@ -219,7 +204,38 @@
         "paire": "LTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
+        "premium": true,
+        "IA": "Null"
+    },
+    "NEAR": {
+        "name": "Near Protocol",
+        "description": {
+            "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
+            "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade."
+        },
+        "symbol": "NEAR",
+        "paire": "NEAR/USDT",
+        "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
+        "premium": true,
+        "IA": "Null"
+    },
+    "UNI": {
+        "name": "Uniswap",
+        "description": {
+            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
+            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital."
+        },
+        "symbol": "UNI",
+        "paire": "UNI/USDT",
+        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
         "IA": "Null"
     },
@@ -233,6 +249,7 @@
         "paire": "APT/USDT",
         "logo": "https://static.coinpaprika.com/coin/apt-aptos/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -247,6 +264,7 @@
         "paire": "FIL/USDT",
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -261,6 +279,7 @@
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -275,6 +294,7 @@
         "paire": "IMX/USDT",
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -289,6 +309,7 @@
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -303,6 +324,7 @@
         "paire": "OP/USDT",
         "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -317,6 +339,7 @@
         "paire": "INJ/USDT",
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -331,6 +354,7 @@
         "paire": "AGIX/USDT",
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
         "IA": "Null"
@@ -345,6 +369,7 @@
         "paire": "CHZ/USDT",
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "ohlcv_histo": "",
+        "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
         "IA": "Null"
