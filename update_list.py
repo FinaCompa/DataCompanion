@@ -37,6 +37,7 @@ for coin in list_json:
                                         "paire":coin["symbol"]+"/USDT",
                                         "logo":response["logo"],
                                         "ohlcv_histo":"",
+                                        "time_histo":"",
                                         "ohlcv_today":new_url+"/ohlcv/today",
                                         "premium":premium,
                                         "IA":"Null"
