@@ -97,7 +97,7 @@ def add_result(exchange, coin, timeframe, n_data):
     datas = df_process(datas)
     result = decision(datas,timeframe)
 
-    datas['Time'] = datas['ds'].dt.strftime("%m-%d")  # Format the timestamp as a string and create a new column
+    datas['Time'] = datas['ds'].dt.day
     
     mut.acquire()
     try:
