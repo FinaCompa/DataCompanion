@@ -9,7 +9,6 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "ohlcv_histo": [
-            68399.1,
             67611.9,
             61936.4,
             67825.1,
@@ -39,10 +38,10 @@
             63928.3,
             65670.0,
             63429.7,
-            63796.0
+            63796.0,
+            61274.5
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -72,7 +71,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
@@ -88,7 +88,6 @@
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "ohlcv_histo": [
-            3644.27,
             3521.01,
             3158.4,
             3515.63,
@@ -118,10 +117,10 @@
             3006.08,
             3155.0,
             3102.4,
-            3084.11
+            3084.11,
+            2984.87
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -151,11 +150,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Binance Coin",
@@ -167,7 +167,6 @@
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "ohlcv_histo": [
-            571.3,
             555.2,
             507.6,
             556.7,
@@ -197,10 +196,10 @@
             553.2,
             566.5,
             552.7,
-            537.7
+            537.7,
+            534.0
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -230,7 +229,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
@@ -246,7 +246,6 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "ohlcv_histo": [
-            201.86,
             195.9,
             169.85,
             191.78,
@@ -276,10 +275,10 @@
             138.44,
             151.29,
             138.53,
-            136.23
+            136.23,
+            131.82
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -309,7 +308,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
@@ -325,7 +325,6 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "ohlcv_histo": [
-            0.6191,
             0.6452,
             0.5846,
             0.6108,
@@ -355,10 +354,10 @@
             0.4786,
             0.5033,
             0.4976,
-            0.4964
+            0.4964,
+            0.495
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -388,7 +387,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
@@ -404,7 +404,6 @@
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "ohlcv_histo": [
-            0.15425,
             0.14352,
             0.12881,
             0.15211,
@@ -434,10 +433,10 @@
             0.15256,
             0.1621,
             0.16123,
-            0.15599
+            0.15599,
+            0.14758
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -467,7 +466,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
@@ -483,7 +483,6 @@
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "ohlcv_histo": [
-            0.6814,
             0.6598,
             0.5861,
             0.6396,
@@ -513,10 +512,10 @@
             0.4451,
             0.4674,
             0.4609,
-            0.4586
+            0.4586,
+            0.4442
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -546,7 +545,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": false,
@@ -562,7 +562,6 @@
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "ohlcv_histo": [
-            2.9545e-05,
             2.6848e-05,
             2.4882e-05,
             2.7755e-05,
@@ -592,10 +591,10 @@
             2.1103e-05,
             2.2699e-05,
             2.1922e-05,
-            2.2679e-05
+            2.2679e-05,
+            2.2065e-05
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -625,7 +624,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
@@ -641,7 +641,6 @@
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
         "ohlcv_histo": [
-            58.43,
             60.656,
             53.656,
             57.089,
@@ -671,10 +670,10 @@
             33.903,
             37.258,
             35.155,
-            34.758
+            34.758,
+            33.589
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -704,11 +703,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "TRON",
@@ -720,7 +720,6 @@
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "ohlcv_histo": [
-            0.1263,
             0.12415,
             0.11241,
             0.12078,
@@ -750,10 +749,10 @@
             0.11009,
             0.11246,
             0.11151,
-            0.11182
+            0.11182,
+            0.10971
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -783,7 +782,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
@@ -799,7 +799,6 @@
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "ohlcv_histo": [
-            10.083,
             9.901,
             8.781,
             9.485,
@@ -829,10 +828,10 @@
             6.39,
             6.858,
             6.707,
-            6.699
+            6.699,
+            6.58
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -862,11 +861,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Chainlink",
@@ -878,7 +878,6 @@
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "ohlcv_histo": [
-            18.667,
             18.297,
             16.826,
             18.413,
@@ -908,10 +907,10 @@
             13.298,
             14.098,
             13.574,
-            13.463
+            13.463,
+            13.14
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -941,11 +940,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Polygon",
@@ -957,7 +957,6 @@
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "ohlcv_histo": [
-            1.0885,
             1.0307,
             0.9318,
             1.0081,
@@ -987,10 +986,10 @@
             0.6528,
             0.7109,
             0.7075,
-            0.703
+            0.703,
+            0.6677
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1020,7 +1019,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "premium": true,
@@ -1036,7 +1036,6 @@
         "paire": "LTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
         "ohlcv_histo": [
-            85.9,
             86.77,
             78.47,
             84.65,
@@ -1066,10 +1065,10 @@
             77.38,
             79.73,
             78.08,
-            79.95
+            79.95,
+            80.17
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1099,7 +1098,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": true,
@@ -1115,7 +1115,6 @@
         "paire": "NEAR/USDT",
         "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
         "ohlcv_histo": [
-            8.24,
             7.026,
             6.354,
             6.915,
@@ -1145,10 +1144,10 @@
             5.218,
             5.718,
             5.221,
-            5.493
+            5.493,
+            5.409
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1178,7 +1177,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
@@ -1194,7 +1194,6 @@
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "ohlcv_histo": [
-            12.425,
             11.872,
             10.612,
             11.901,
@@ -1224,10 +1223,10 @@
             6.909,
             7.522,
             7.248,
-            7.187
+            7.187,
+            6.89
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1257,7 +1256,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
@@ -1273,7 +1273,6 @@
         "paire": "APT/USDT",
         "logo": "https://static.coinpaprika.com/coin/apt-aptos/logo.png",
         "ohlcv_histo": [
-            14.0311,
             14.4299,
             15.445,
             15.5907,
@@ -1303,10 +1302,10 @@
             8.7709,
             9.5865,
             9.1257,
-            9.2538
+            9.2538,
+            9.1451
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1336,11 +1335,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
-        "IA": "Chill"
+        "IA": "Down Moves"
     },
     {
         "name": "Filecoin",
@@ -1352,7 +1352,6 @@
         "paire": "FIL/USDT",
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
         "ohlcv_histo": [
-            9.172,
             8.871,
             7.997,
             8.636,
@@ -1382,10 +1381,10 @@
             5.726,
             6.155,
             6.008,
-            6.074
+            6.074,
+            5.846
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1415,7 +1414,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
@@ -1431,7 +1431,6 @@
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "ohlcv_histo": [
-            12.275,
             11.718,
             10.892,
             11.755,
@@ -1461,10 +1460,10 @@
             8.071,
             8.334,
             8.135,
-            8.166
+            8.166,
+            8.048
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1494,11 +1493,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Immutable X",
@@ -1510,7 +1510,6 @@
         "paire": "IMX/USDT",
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "ohlcv_histo": [
-            2.9614,
             2.8376,
             2.5824,
             2.9043,
@@ -1540,10 +1539,10 @@
             2.0531,
             2.1749,
             1.9542,
-            1.9005
+            1.9005,
+            1.8775
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1573,11 +1572,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "The Graph",
@@ -1589,7 +1589,6 @@
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "ohlcv_histo": [
-            0.4224,
             0.3907,
             0.3737,
             0.4043,
@@ -1619,10 +1618,10 @@
             0.2348,
             0.2594,
             0.2534,
-            0.2584
+            0.2584,
+            0.2415
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1652,11 +1651,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Optimism",
@@ -1668,7 +1668,6 @@
         "paire": "OP/USDT",
         "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
         "ohlcv_histo": [
-            3.5823,
             3.3028,
             3.442,
             3.5479,
@@ -1698,10 +1697,10 @@
             2.1164,
             2.3325,
             2.2657,
-            2.242
+            2.242,
+            2.1651
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1731,7 +1730,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
@@ -1747,7 +1747,6 @@
         "paire": "INJ/USDT",
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "ohlcv_histo": [
-            42.828,
             38.412,
             35.959,
             39.121,
@@ -1777,10 +1776,10 @@
             23.285,
             26.024,
             24.445,
-            25.026
+            25.026,
+            26.022
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1810,11 +1809,12 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
-        "IA": "Up Moves"
+        "IA": "Chill"
     },
     {
         "name": "Singularity NET",
@@ -1826,7 +1826,6 @@
         "paire": "AGIX/USDT",
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
         "ohlcv_histo": [
-            1.1766,
             1.0519,
             0.984,
             1.1073,
@@ -1856,10 +1855,10 @@
             0.7345,
             0.8833,
             0.8339,
-            0.8541
+            0.8541,
+            0.8088
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1889,7 +1888,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
@@ -1905,7 +1905,6 @@
         "paire": "CHZ/USDT",
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "ohlcv_histo": [
-            0.13952,
             0.13268,
             0.1207,
             0.13317,
@@ -1935,10 +1934,10 @@
             0.09813,
             0.10733,
             0.10224,
-            0.10751
+            0.10751,
+            0.10919
         ],
         "time_histo": [
-            "2024-03-17",
             "2024-03-18",
             "2024-03-19",
             "2024-03-20",
@@ -1968,7 +1967,8 @@
             "2024-04-13",
             "2024-04-14",
             "2024-04-15",
-            "2024-04-16"
+            "2024-04-16",
+            "2024-04-17"
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
