@@ -77,9 +77,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
         "IA": "Up Moves",
-        "min": 50748.2,
-        "max": 73082.7,
-        "start": "2024-02-18",
+        "min": 61274.5,
+        "max": 71633.8,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -160,9 +160,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
         "IA": "Chill",
-        "min": 2880.81,
-        "max": 4065.14,
-        "start": "2024-02-18",
+        "min": 2984.87,
+        "max": 3695.78,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -243,9 +243,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 349.8,
-        "max": 634.2,
-        "start": "2024-02-18",
+        "min": 507.6,
+        "max": 612.3,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -326,9 +326,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
         "IA": "Up Moves",
-        "min": 99.89,
+        "min": 131.82,
         "max": 202.47,
-        "start": "2024-02-18",
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -410,8 +410,8 @@
         "premium": false,
         "IA": "Up Moves",
         "min": 0.4786,
-        "max": 0.7225,
-        "start": "2024-02-18",
+        "max": 0.6452,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -492,9 +492,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 0.0841,
+        "min": 0.12881,
         "max": 0.22009,
-        "start": "2024-02-18",
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -576,8 +576,8 @@
         "premium": false,
         "IA": "Up Moves",
         "min": 0.4442,
-        "max": 0.7752,
-        "start": "2024-02-18",
+        "max": 0.6651,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -658,9 +658,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 9.517e-06,
-        "max": 3.5913e-05,
-        "start": "2024-02-18",
+        "min": 2.1103e-05,
+        "max": 3.2012e-05,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -743,7 +743,7 @@
         "IA": "Chill",
         "min": 33.589,
         "max": 60.656,
-        "start": "2024-02-18",
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -825,8 +825,8 @@
         "premium": true,
         "IA": "Up Moves",
         "min": 0.10971,
-        "max": 0.1429,
-        "start": "2024-02-18",
+        "max": 0.12415,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -908,8 +908,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 6.39,
-        "max": 11.557,
-        "start": "2024-02-18",
+        "max": 9.901,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -991,8 +991,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 13.14,
-        "max": 21.675,
-        "start": "2024-02-18",
+        "max": 20.012,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1074,8 +1074,8 @@
         "premium": true,
         "IA": "Up Moves",
         "min": 0.6528,
-        "max": 1.2704,
-        "start": "2024-02-18",
+        "max": 1.0463,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1156,9 +1156,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 68.8,
+        "min": 77.38,
         "max": 109.04,
-        "start": "2024-02-18",
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1239,9 +1239,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 3.24,
-        "max": 8.855,
-        "start": "2024-02-18",
+        "min": 5.218,
+        "max": 7.658,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1323,8 +1323,8 @@
         "premium": true,
         "IA": "Up Moves",
         "min": 6.89,
-        "max": 15.397,
-        "start": "2024-02-18",
+        "max": 12.949,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1407,7 +1407,7 @@
         "IA": "Down Moves",
         "min": 8.7709,
         "max": 18.066,
-        "start": "2024-02-18",
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1489,8 +1489,8 @@
         "premium": true,
         "IA": "Up Moves",
         "min": 5.726,
-        "max": 11.444,
-        "start": "2024-02-18",
+        "max": 9.958,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1572,8 +1572,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 8.048,
-        "max": 14.224,
-        "start": "2024-02-18",
+        "max": 12.624,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1655,8 +1655,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 1.8775,
-        "max": 3.6431,
-        "start": "2024-02-18",
+        "max": 3.1022,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1738,8 +1738,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 0.2348,
-        "max": 0.4519,
-        "start": "2024-02-18",
+        "max": 0.4113,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1821,8 +1821,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 2.1164,
-        "max": 4.6966,
-        "start": "2024-02-18",
+        "max": 3.9142,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1904,8 +1904,8 @@
         "premium": true,
         "IA": "Chill",
         "min": 23.285,
-        "max": 51.888,
-        "start": "2024-02-18",
+        "max": 39.121,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -1986,9 +1986,9 @@
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
         "IA": "Up Moves",
-        "min": 0.4573,
-        "max": 1.3913,
-        "start": "2024-02-18",
+        "min": 0.7345,
+        "max": 1.3889,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     },
     {
@@ -2070,8 +2070,8 @@
         "premium": true,
         "IA": "Up Moves",
         "min": 0.09813,
-        "max": 0.16653,
-        "start": "2024-02-18",
+        "max": 0.1579,
+        "start": "2024-03-18",
         "end": "2024-04-17"
     }
 ]
