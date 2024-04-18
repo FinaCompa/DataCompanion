@@ -104,10 +104,10 @@ def add_result(exchange, coin, timeframe, n_data):
         Final_Dict[coin.split("/")[0]]["IA"] = result
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["time_histo"] = datas["Time"].tail(31).tolist()
-        Final_Dict[coin.split("/")[0]]["min"] = min(datas["y"])
-        Final_Dict[coin.split("/")[0]]["max"] = max(datas["y"])
-        Final_Dict[coin.split("/")[0]]["start"] = datas["Time"].iloc[0]
-        Final_Dict[coin.split("/")[0]]["end"] = datas["Time"].iloc[-1]
+        Final_Dict[coin.split("/")[0]]["min"] = min(datas["y"].tail(31))
+        Final_Dict[coin.split("/")[0]]["max"] = max(datas["y"].tail(31))
+        Final_Dict[coin.split("/")[0]]["start"] = datas["Time"].tail(31).iloc[0]
+        Final_Dict[coin.split("/")[0]]["end"] = datas["Time"].tail(31).iloc[-1]
     finally:
         mut.release()
 
