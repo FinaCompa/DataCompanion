@@ -76,8 +76,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 61274.5,
         "max": 71633.8,
         "start": "2024-03-24",
@@ -160,8 +162,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 2984.87,
         "max": 3695.78,
         "start": "2024-03-24",
@@ -244,8 +248,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 534.0,
         "max": 612.3,
         "start": "2024-03-24",
@@ -328,8 +334,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 131.82,
         "max": 202.47,
         "start": "2024-03-24",
@@ -412,8 +420,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 0.4786,
         "max": 0.6405,
         "start": "2024-03-24",
@@ -496,8 +506,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Up Moves",
-        "IA_Bsc": "Up Moves",
+        "IA": {
+            "Basic": "Up Moves",
+            "Advanced": "Up Moves"
+        },
         "min": 0.14758,
         "max": 0.22009,
         "start": "2024-03-24",
@@ -580,8 +592,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 0.4442,
         "max": 0.6651,
         "start": "2024-03-24",
@@ -664,8 +678,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Up Moves",
-        "IA_Bsc": "Up Moves",
+        "IA": {
+            "Basic": "Up Moves",
+            "Advanced": "Up Moves"
+        },
         "min": 2.1103e-05,
         "max": 3.2012e-05,
         "start": "2024-03-24",
@@ -748,8 +764,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 33.589,
         "max": 57.738,
         "start": "2024-03-24",
@@ -832,8 +850,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 6.39,
         "max": 9.738,
         "start": "2024-03-24",
@@ -916,8 +936,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 0.10928,
         "max": 0.12302,
         "start": "2024-03-24",
@@ -1000,8 +1022,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 13.14,
         "max": 20.012,
         "start": "2024-03-24",
@@ -1084,8 +1108,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 5.218,
         "max": 7.658,
         "start": "2024-03-24",
@@ -1168,8 +1194,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 0.6528,
         "max": 1.0463,
         "start": "2024-03-24",
@@ -1252,8 +1280,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 77.38,
         "max": 109.04,
         "start": "2024-03-24",
@@ -1336,8 +1366,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 6.89,
         "max": 12.949,
         "start": "2024-03-24",
@@ -1420,8 +1452,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 8.7709,
         "max": 18.066,
         "start": "2024-03-24",
@@ -1504,8 +1538,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 5.726,
         "max": 9.958,
         "start": "2024-03-24",
@@ -1588,8 +1624,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 8.048,
         "max": 12.624,
         "start": "2024-03-24",
@@ -1672,8 +1710,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 1.8775,
         "max": 3.1022,
         "start": "2024-03-24",
@@ -1756,8 +1796,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 0.2348,
         "max": 0.4113,
         "start": "2024-03-24",
@@ -1840,8 +1882,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Down Moves",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        },
         "min": 2.1164,
         "max": 3.9142,
         "start": "2024-03-24",
@@ -1924,8 +1968,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 23.285,
         "max": 39.042,
         "start": "2024-03-24",
@@ -2008,8 +2054,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Up Moves",
-        "IA_Bsc": "Up Moves",
+        "IA": {
+            "Basic": "Up Moves",
+            "Advanced": "Up Moves"
+        },
         "min": 0.7345,
         "max": 1.3889,
         "start": "2024-03-24",
@@ -2092,8 +2140,10 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Chill",
-        "IA_Bsc": "Down Moves",
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Chill"
+        },
         "min": 0.09813,
         "max": 0.1579,
         "start": "2024-03-24",
