@@ -78,7 +78,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 61274.5,
         "max": 71633.8,
@@ -164,7 +164,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 2984.87,
         "max": 3695.78,
@@ -250,7 +250,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 534.0,
         "max": 612.3,
@@ -336,7 +336,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 131.82,
         "max": 202.47,
@@ -594,7 +594,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 0.4442,
         "max": 0.6651,
@@ -852,7 +852,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 0.10928,
         "max": 0.12302,
@@ -938,7 +938,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 6.39,
         "max": 9.738,
@@ -1110,7 +1110,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 0.6528,
         "max": 1.0463,
@@ -1282,7 +1282,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 5.218,
         "max": 7.658,
@@ -1626,7 +1626,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 8.048,
         "max": 12.624,
@@ -1970,7 +1970,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 23.285,
         "max": 39.042,
@@ -2142,7 +2142,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": ""
+            "Advanced": "Chill"
         },
         "min": 0.09813,
         "max": 0.1579,
