@@ -69,7 +69,7 @@ def decision(df, timeframe):
         IA["Advanced"] = 'Chill'
         IA["Basic"] = 'Chill'
         
-    return IA["Advanced"], IA["Basic"]
+    return IA
 
 def process(data):
     #pred_date = {}
@@ -108,14 +108,13 @@ def add_result(exchange, coin, timeframe, n_data):
 
     datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
     datas = df_process(datas)
-    advanced, basic = decision(datas,timeframe)
+    result = decision(datas,timeframe)
 
     datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     
     mut.acquire()
     try:
-        Final_Dict[coin.split("/")[0]]["IA_Adv"] = advanced
-        Final_Dict[coin.split("/")[0]]["IA_Bsc"] = basic
+        Final_Dict[coin.split("/")[0]]["IA"] = result
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["time_histo"] = datas["Time"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["min"] = min(datas["y"].tail(31))
