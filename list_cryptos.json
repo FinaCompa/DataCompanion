@@ -12,7 +12,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "ETH": {
         "name": "Ethereum",
@@ -27,7 +28,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "BNB": {
         "name": "Binance Coin",
@@ -42,7 +44,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "SOL": {
         "name": "Solana",
@@ -57,7 +60,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "XRP": {
         "name": "XRP",
@@ -72,7 +76,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "DOGE": {
         "name": "Dogecoin",
@@ -87,7 +92,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "ADA": {
         "name": "Cardano",
@@ -102,7 +108,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "SHIB": {
         "name": "Shiba Inu",
@@ -117,7 +124,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "AVAX": {
         "name": "Avalanche",
@@ -132,22 +140,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
-        "IA": "Null"
-    },
-    "TRX": {
-        "name": "TRON",
-        "description": {
-            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
-        },
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "DOT": {
         "name": "Polkadot",
@@ -162,7 +156,24 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
+    },
+    "TRX": {
+        "name": "TRON",
+        "description": {
+            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
+            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
+        },
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
+        "premium": true,
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "LINK": {
         "name": "Chainlink",
@@ -177,37 +188,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": true,
-        "IA": "Null"
-    },
-    "MATIC": {
-        "name": "Polygon",
-        "description": {
-            "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
-            "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés."
-        },
-        "symbol": "MATIC",
-        "paire": "MATIC/USDT",
-        "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
-    "LTC": {
-        "name": "Litecoin",
-        "description": {
-            "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, enabling users to make peer-to-peer transactions without intermediaries.",
-            "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires."
-        },
-        "symbol": "LTC",
-        "paire": "LTC/USDT",
-        "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "NEAR": {
         "name": "Near Protocol",
@@ -222,7 +204,40 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
+    },
+    "MATIC": {
+        "name": "Polygon",
+        "description": {
+            "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
+            "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés."
+        },
+        "symbol": "MATIC",
+        "paire": "MATIC/USDT",
+        "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
+        "premium": true,
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
+    },
+    "LTC": {
+        "name": "Litecoin",
+        "description": {
+            "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, enabling users to make peer-to-peer transactions without intermediaries.",
+            "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires."
+        },
+        "symbol": "LTC",
+        "paire": "LTC/USDT",
+        "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
+        "ohlcv_histo": "",
+        "time_histo": "",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
+        "premium": true,
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "UNI": {
         "name": "Uniswap",
@@ -237,7 +252,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "APT": {
         "name": "Aptos",
@@ -252,7 +268,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "FIL": {
         "name": "Filecoin",
@@ -267,7 +284,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "ATOM": {
         "name": "Cosmos",
@@ -282,7 +300,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "IMX": {
         "name": "Immutable X",
@@ -297,7 +316,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "GRT": {
         "name": "The Graph",
@@ -312,7 +332,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "OP": {
         "name": "Optimism",
@@ -327,7 +348,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "INJ": {
         "name": "Injective Protocol",
@@ -342,7 +364,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "AGIX": {
         "name": "Singularity NET",
@@ -357,7 +380,8 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     },
     "CHZ": {
         "name": "Chiliz",
@@ -372,6 +396,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA_Adv": "Null",
+        "IA_Bsc": "Null"
     }
 }
