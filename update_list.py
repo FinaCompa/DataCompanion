@@ -40,7 +40,8 @@ for coin in list_json:
                                         "time_histo":"",
                                         "ohlcv_today":new_url+"/ohlcv/today",
                                         "premium":premium,
-                                        "IA":"Null"
+                                        "IA_Adv":"Null",
+                                        "IA_Bsc":"Null"
                                     }
 
 try:
