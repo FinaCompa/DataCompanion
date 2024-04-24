@@ -12,8 +12,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "ETH": {
         "name": "Ethereum",
@@ -28,8 +27,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "BNB": {
         "name": "Binance Coin",
@@ -44,8 +42,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "SOL": {
         "name": "Solana",
@@ -60,8 +57,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "XRP": {
         "name": "XRP",
@@ -76,8 +72,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "DOGE": {
         "name": "Dogecoin",
@@ -92,8 +87,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "ADA": {
         "name": "Cardano",
@@ -108,8 +102,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "SHIB": {
         "name": "Shiba Inu",
@@ -124,8 +117,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "AVAX": {
         "name": "Avalanche",
@@ -140,8 +132,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "DOT": {
         "name": "Polkadot",
@@ -156,8 +147,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "TRX": {
         "name": "TRON",
@@ -172,8 +162,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "LINK": {
         "name": "Chainlink",
@@ -188,8 +177,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "NEAR": {
         "name": "Near Protocol",
@@ -204,8 +192,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "MATIC": {
         "name": "Polygon",
@@ -220,8 +207,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "LTC": {
         "name": "Litecoin",
@@ -236,8 +222,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "UNI": {
         "name": "Uniswap",
@@ -252,8 +237,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "APT": {
         "name": "Aptos",
@@ -268,8 +252,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "FIL": {
         "name": "Filecoin",
@@ -284,8 +267,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "ATOM": {
         "name": "Cosmos",
@@ -300,8 +282,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "IMX": {
         "name": "Immutable X",
@@ -316,8 +297,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "GRT": {
         "name": "The Graph",
@@ -332,8 +312,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "OP": {
         "name": "Optimism",
@@ -348,8 +327,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "INJ": {
         "name": "Injective Protocol",
@@ -364,8 +342,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "AGIX": {
         "name": "Singularity NET",
@@ -380,8 +357,7 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     },
     "CHZ": {
         "name": "Chiliz",
@@ -396,7 +372,6 @@
         "time_histo": "",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
-        "IA_Adv": "Null",
-        "IA_Bsc": "Null"
+        "IA": "Null"
     }
 }
