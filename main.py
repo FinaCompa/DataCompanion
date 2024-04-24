@@ -57,10 +57,14 @@ def decision(df, timeframe):
         IA["Basic"] = 'Up Moves'
         if iter_m1 > iter_m2:
             IA["Advanced"] = 'Up Moves'
+        else:
+            IA["Advanced"] = 'Chill'
     elif last_pr > iter_m2:
         IA["Basic"] = 'Down Moves'
         if iter_m1 < iter_m2:
             IA["Advanced"] = 'Down Moves'
+        else:
+            IA["Advanced"] = 'Chill'
     else:
         IA["Advanced"] = 'Chill'
         IA["Basic"] = 'Chill'
