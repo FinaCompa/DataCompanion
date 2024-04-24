@@ -51,12 +51,21 @@ def decision(df, timeframe):
     iter_m2 = prediction['yhat'][len(prediction)-2:].values[0]
     last_pr = df['y'][len(df)-1:].values[0]
 
-    if iter_m1 > iter_m2 and last_pr < iter_m2:
-        return 'Up Moves'
-    elif iter_m1 < iter_m2 and last_pr > iter_m2:
-        return 'Down Moves'
+    IA = {"Basic":"",
+         "Advanced":""}
+    if last_pr < iter_m2:
+        IA["Basic"] = 'Up Moves'
+        if iter_m1 > iter_m2:
+            IA["Advanced"] = 'Up Moves'
+    elif last_pr > iter_m2:
+        IA["Basic"] = 'Down Moves'
+        if iter_m1 < iter_m2:
+            IA["Advanced"] = 'Down Moves'
     else:
-        return 'Chill'
+        IA["Advanced"] = 'Chill'
+        IA["Basic"] = 'Chill'
+        
+    return IA
 
 def process(data):
     #pred_date = {}
