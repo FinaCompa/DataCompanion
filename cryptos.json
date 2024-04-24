@@ -79,11 +79,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 61274.5,
-        "max": 71633.8,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Ethereum",
@@ -165,11 +161,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 2984.87,
-        "max": 3695.78,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Binance Coin",
@@ -251,11 +243,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 534.0,
-        "max": 612.3,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Solana",
@@ -337,11 +325,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 131.82,
-        "max": 202.47,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "XRP",
@@ -423,11 +407,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 0.4786,
-        "max": 0.6405,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Dogecoin",
@@ -509,11 +489,7 @@
         "IA": {
             "Basic": "Up Moves",
             "Advanced": "Up Moves"
-        },
-        "min": 0.14758,
-        "max": 0.22009,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Cardano",
@@ -595,11 +571,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 0.4442,
-        "max": 0.6651,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Shiba Inu",
@@ -681,11 +653,7 @@
         "IA": {
             "Basic": "Up Moves",
             "Advanced": "Up Moves"
-        },
-        "min": 2.1103e-05,
-        "max": 3.2012e-05,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Avalanche",
@@ -767,11 +735,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 33.589,
-        "max": 57.738,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Polkadot",
@@ -853,11 +817,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 6.39,
-        "max": 9.738,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "TRON",
@@ -939,11 +899,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 0.10928,
-        "max": 0.12302,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Chainlink",
@@ -1025,11 +981,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 13.14,
-        "max": 20.012,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Near Protocol",
@@ -1111,11 +1063,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 5.218,
-        "max": 7.658,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Polygon",
@@ -1197,11 +1145,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 0.6528,
-        "max": 1.0463,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Litecoin",
@@ -1283,11 +1227,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 77.38,
-        "max": 109.04,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Uniswap",
@@ -1369,11 +1309,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 6.89,
-        "max": 12.949,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Aptos",
@@ -1455,11 +1391,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 8.7709,
-        "max": 18.066,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Filecoin",
@@ -1541,11 +1473,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 5.726,
-        "max": 9.958,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Cosmos",
@@ -1627,11 +1555,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 8.048,
-        "max": 12.624,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Immutable X",
@@ -1713,11 +1637,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 1.8775,
-        "max": 3.1022,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "The Graph",
@@ -1799,11 +1719,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 0.2348,
-        "max": 0.4113,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Optimism",
@@ -1885,11 +1801,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Down Moves"
-        },
-        "min": 2.1164,
-        "max": 3.9142,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Injective Protocol",
@@ -1971,11 +1883,7 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 23.285,
-        "max": 39.042,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Singularity NET",
@@ -2057,11 +1965,7 @@
         "IA": {
             "Basic": "Up Moves",
             "Advanced": "Up Moves"
-        },
-        "min": 0.7345,
-        "max": 1.3889,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     },
     {
         "name": "Chiliz",
@@ -2143,10 +2047,6 @@
         "IA": {
             "Basic": "Down Moves",
             "Advanced": "Chill"
-        },
-        "min": 0.09813,
-        "max": 0.1579,
-        "start": "2024-03-24",
-        "end": "2024-04-23"
+        }
     }
 ]
