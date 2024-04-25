@@ -10,11 +10,11 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "ETH": {
         "name": "Ethereum",
@@ -27,11 +27,11 @@
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "BNB": {
         "name": "Binance Coin",
@@ -44,11 +44,11 @@
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "SOL": {
         "name": "Solana",
@@ -61,11 +61,11 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "XRP": {
         "name": "XRP",
@@ -78,11 +78,11 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "DOGE": {
         "name": "Dogecoin",
@@ -95,11 +95,11 @@
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "ADA": {
         "name": "Cardano",
@@ -112,11 +112,11 @@
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "SHIB": {
         "name": "Shiba Inu",
@@ -129,11 +129,11 @@
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "AVAX": {
         "name": "Avalanche",
@@ -146,11 +146,11 @@
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "premium": false,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "TRX": {
         "name": "TRON",
@@ -163,11 +163,11 @@
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "DOT": {
         "name": "Polkadot",
@@ -180,11 +180,11 @@
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "LINK": {
         "name": "Chainlink",
@@ -197,11 +197,11 @@
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "NEAR": {
         "name": "Near Protocol",
@@ -214,11 +214,11 @@
         "paire": "NEAR/USDT",
         "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "MATIC": {
         "name": "Polygon",
@@ -231,11 +231,11 @@
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "LTC": {
         "name": "Litecoin",
@@ -248,11 +248,11 @@
         "paire": "LTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "UNI": {
         "name": "Uniswap",
@@ -265,11 +265,11 @@
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "APT": {
         "name": "Aptos",
@@ -282,11 +282,11 @@
         "paire": "APT/USDT",
         "logo": "https://static.coinpaprika.com/coin/apt-aptos/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "ATOM": {
         "name": "Cosmos",
@@ -299,11 +299,11 @@
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "FIL": {
         "name": "Filecoin",
@@ -316,11 +316,11 @@
         "paire": "FIL/USDT",
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "IMX": {
         "name": "Immutable X",
@@ -333,28 +333,11 @@
         "paire": "IMX/USDT",
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
+        "premium": true,
+        "IA": "Null",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
-    },
-    "GRT": {
-        "name": "The Graph",
-        "description": {
-            "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
-            "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés.",
-            "ES": "The Graph es un protocolo de indexación e interrogación descentralizado para blockchains como Ethereum, IPFS y Filecoin, que permite a los desarrolladores recuperar de manera eficiente datos específicos de eventos en la cadena y cambios de estado utilizando consultas GraphQL estandarizadas, desbloqueando nuevas posibilidades para aplicaciones y servicios descentralizados."
-        },
-        "symbol": "GRT",
-        "paire": "GRT/USDT",
-        "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
-        "premium": true,
-        "IA": "Null"
+        "time_histo": ""
     },
     "OP": {
         "name": "Optimism",
@@ -367,11 +350,28 @@
         "paire": "OP/USDT",
         "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
+    },
+    "GRT": {
+        "name": "The Graph",
+        "description": {
+            "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
+            "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés.",
+            "ES": "The Graph es un protocolo de indexación e interrogación descentralizado para blockchains como Ethereum, IPFS y Filecoin, que permite a los desarrolladores recuperar de manera eficiente datos específicos de eventos en la cadena y cambios de estado utilizando consultas GraphQL estandarizadas, desbloqueando nuevas posibilidades para aplicaciones y servicios descentralizados."
+        },
+        "symbol": "GRT",
+        "paire": "GRT/USDT",
+        "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "INJ": {
         "name": "Injective Protocol",
@@ -384,11 +384,11 @@
         "paire": "INJ/USDT",
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "AGIX": {
         "name": "Singularity NET",
@@ -401,11 +401,11 @@
         "paire": "AGIX/USDT",
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     },
     "CHZ": {
         "name": "Chiliz",
@@ -418,10 +418,10 @@
         "paire": "CHZ/USDT",
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "ohlcv_histo": "",
-        "time_histo": "",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "premium": true,
-        "IA": "Null"
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
     }
 }
