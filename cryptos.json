@@ -9,6 +9,7 @@
         "symbol": "BTC",
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             69869.8,
             69995.6,
@@ -92,6 +93,7 @@
         "symbol": "ETH",
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             3590.21,
             3587.93,
@@ -175,6 +177,7 @@
         "symbol": "BNB",
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             586.9,
             580.3,
@@ -258,6 +261,7 @@
         "symbol": "SOL",
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             188.97,
             190.45,
@@ -341,6 +345,7 @@
         "symbol": "XRP",
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.6405,
             0.6318,
@@ -424,6 +429,7 @@
         "symbol": "DOGE",
         "paire": "DOGE/USDT",
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.17527,
             0.18225,
@@ -507,6 +513,7 @@
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.6566,
             0.6651,
@@ -590,6 +597,7 @@
         "symbol": "SHIB",
         "paire": "SHIB/USDT",
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             2.8693e-05,
             3.0639e-05,
@@ -673,6 +681,7 @@
         "symbol": "AVAX",
         "paire": "AVAX/USDT",
         "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             57.738,
             55.812,
@@ -756,6 +765,7 @@
         "symbol": "TRX",
         "paire": "TRX/USDT",
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.12043,
             0.12078,
@@ -839,6 +849,7 @@
         "symbol": "DOT",
         "paire": "DOT/USDT",
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             9.738,
             9.69,
@@ -922,6 +933,7 @@
         "symbol": "LINK",
         "paire": "LINK/USDT",
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             19.384,
             20.012,
@@ -1005,6 +1017,7 @@
         "symbol": "NEAR",
         "paire": "NEAR/USDT",
         "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             7.449,
             7.658,
@@ -1088,6 +1101,7 @@
         "symbol": "MATIC",
         "paire": "MATIC/USDT",
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             1.0455,
             1.0463,
@@ -1171,6 +1185,7 @@
         "symbol": "LTC",
         "paire": "LTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/ltc-litecoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             90.58,
             95.74,
@@ -1254,6 +1269,7 @@
         "symbol": "UNI",
         "paire": "UNI/USDT",
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             12.435,
             12.691,
@@ -1337,6 +1353,7 @@
         "symbol": "APT",
         "paire": "APT/USDT",
         "logo": "https://static.coinpaprika.com/coin/apt-aptos/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             17.3407,
             18.066,
@@ -1420,6 +1437,7 @@
         "symbol": "ATOM",
         "paire": "ATOM/USDT",
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             12.181,
             12.214,
@@ -1503,6 +1521,7 @@
         "symbol": "FIL",
         "paire": "FIL/USDT",
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             9.375,
             9.44,
@@ -1586,6 +1605,7 @@
         "symbol": "IMX",
         "paire": "IMX/USDT",
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             3.0892,
             3.0066,
@@ -1660,89 +1680,6 @@
         }
     },
     {
-        "name": "Optimism",
-        "description": {
-            "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
-            "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés.",
-            "ES": "OP es una criptomoneda que tiene como objetivo proporcionar servicios de trading de opciones descentralizadas y de provisión de liquidez en diversas plataformas blockchain, mejorando la accesibilidad y eficiencia dentro del mercado de derivados."
-        },
-        "symbol": "OP",
-        "paire": "OP/USDT",
-        "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
-        "ohlcv_histo": [
-            3.8561,
-            3.9142,
-            3.67,
-            3.725,
-            3.617,
-            3.6578,
-            3.689,
-            3.4942,
-            3.1546,
-            3.052,
-            3.1049,
-            2.8731,
-            2.9924,
-            3.196,
-            3.3651,
-            3.0441,
-            3.0355,
-            2.9409,
-            2.4483,
-            2.1164,
-            2.3325,
-            2.2657,
-            2.242,
-            2.1651,
-            2.2262,
-            2.2307,
-            2.5058,
-            2.4449,
-            2.55,
-            2.4917,
-            2.4216
-        ],
-        "time_histo": [
-            "2024-03-25",
-            "2024-03-26",
-            "2024-03-27",
-            "2024-03-28",
-            "2024-03-29",
-            "2024-03-30",
-            "2024-03-31",
-            "2024-04-01",
-            "2024-04-02",
-            "2024-04-03",
-            "2024-04-04",
-            "2024-04-05",
-            "2024-04-06",
-            "2024-04-07",
-            "2024-04-08",
-            "2024-04-09",
-            "2024-04-10",
-            "2024-04-11",
-            "2024-04-12",
-            "2024-04-13",
-            "2024-04-14",
-            "2024-04-15",
-            "2024-04-16",
-            "2024-04-17",
-            "2024-04-18",
-            "2024-04-19",
-            "2024-04-20",
-            "2024-04-21",
-            "2024-04-22",
-            "2024-04-23",
-            "2024-04-24"
-        ],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
-        "premium": true,
-        "IA": {
-            "Basic": "Down Moves",
-            "Advanced": "Down Moves"
-        }
-    },
-    {
         "name": "The Graph",
         "description": {
             "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
@@ -1752,6 +1689,7 @@
         "symbol": "GRT",
         "paire": "GRT/USDT",
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.4028,
             0.3985,
@@ -1826,6 +1764,90 @@
         }
     },
     {
+        "name": "Optimism",
+        "description": {
+            "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
+            "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés.",
+            "ES": "OP es una criptomoneda que tiene como objetivo proporcionar servicios de trading de opciones descentralizadas y de provisión de liquidez en diversas plataformas blockchain, mejorando la accesibilidad y eficiencia dentro del mercado de derivados."
+        },
+        "symbol": "OP",
+        "paire": "OP/USDT",
+        "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "ohlcv_histo": [
+            3.8561,
+            3.9142,
+            3.67,
+            3.725,
+            3.617,
+            3.6578,
+            3.689,
+            3.4942,
+            3.1546,
+            3.052,
+            3.1049,
+            2.8731,
+            2.9924,
+            3.196,
+            3.3651,
+            3.0441,
+            3.0355,
+            2.9409,
+            2.4483,
+            2.1164,
+            2.3325,
+            2.2657,
+            2.242,
+            2.1651,
+            2.2262,
+            2.2307,
+            2.5058,
+            2.4449,
+            2.55,
+            2.4917,
+            2.4216
+        ],
+        "time_histo": [
+            "2024-03-25",
+            "2024-03-26",
+            "2024-03-27",
+            "2024-03-28",
+            "2024-03-29",
+            "2024-03-30",
+            "2024-03-31",
+            "2024-04-01",
+            "2024-04-02",
+            "2024-04-03",
+            "2024-04-04",
+            "2024-04-05",
+            "2024-04-06",
+            "2024-04-07",
+            "2024-04-08",
+            "2024-04-09",
+            "2024-04-10",
+            "2024-04-11",
+            "2024-04-12",
+            "2024-04-13",
+            "2024-04-14",
+            "2024-04-15",
+            "2024-04-16",
+            "2024-04-17",
+            "2024-04-18",
+            "2024-04-19",
+            "2024-04-20",
+            "2024-04-21",
+            "2024-04-22",
+            "2024-04-23",
+            "2024-04-24"
+        ],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
+        "premium": true,
+        "IA": {
+            "Basic": "Down Moves",
+            "Advanced": "Down Moves"
+        }
+    },
+    {
         "name": "Injective Protocol",
         "description": {
             "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
@@ -1835,6 +1857,7 @@
         "symbol": "INJ",
         "paire": "INJ/USDT",
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             37.856,
             39.042,
@@ -1918,6 +1941,7 @@
         "symbol": "AGIX",
         "paire": "AGIX/USDT",
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             1.1724,
             1.1885,
@@ -2001,6 +2025,7 @@
         "symbol": "CHZ",
         "paire": "CHZ/USDT",
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "ohlcv_histo": [
             0.14529,
             0.14758,
