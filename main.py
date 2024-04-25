@@ -36,7 +36,7 @@ def df_process(df):
 
 
 ##### Take decision
-def decisionBasic(df, timeframe):
+def decisionBasic(df, timeframe, IA):
     if timeframe == '1m':
         timeframe = 'T'
     else:
@@ -51,8 +51,6 @@ def decisionBasic(df, timeframe):
     iter_m2 = prediction['yhat'][len(prediction)-2:].values[0]
     last_pr = df['y'][len(df)-1:].values[0]
 
-    IA = {"Basic":"",
-         "Advanced":""}
     if last_pr < iter_m2:
         IA["Basic"] = 'Up Moves'
         if iter_m1 > iter_m2:
@@ -105,16 +103,24 @@ def add_result(exchange, coin, timeframe, n_data):
         datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
     finally:
         mut_get.release()
-
-    datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
+        
+    IA = {"Basic":"",
+         "Advanced":""}
+    
+    # Advanced part
+    # Load model (mut_load_mod)
+    # IA = function(df, IA)
+    # function process + simulate + add choice to IA and return it
+    
+    # Basic part
     datas = df_process(datas)
-    result = decisionBasic(datas,timeframe)
+    IA = decisionBasic(datas, timeframe, IA)
 
     datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     
     mut.acquire()
     try:
-        Final_Dict[coin.split("/")[0]]["IA"] = result
+        Final_Dict[coin.split("/")[0]]["IA"] = IA
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["time_histo"] = datas["Time"].tail(31).tolist()
     finally:
