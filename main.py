@@ -144,7 +144,8 @@ try:
 except KeyError:
     exit(1)
 g = Github(TOKEN)
-    
+
+print("write json")
 REPO = g.get_repo("FinaCompa/DataCompanion")
 CONTENT = REPO.get_contents("cryptos.json")
 REPO.update_file(CONTENT.name, "update", json.dumps(process(Final_Dict), indent=4, ensure_ascii=False), CONTENT.sha, branch="main")
