@@ -36,7 +36,7 @@ def df_process(df):
 
 
 ##### Take decision
-def decision(df, timeframe):
+def decisionBasic(df, timeframe):
     if timeframe == '1m':
         timeframe = 'T'
     else:
@@ -93,7 +93,7 @@ n_data = 60
 
 mut = threading.Lock()  # Création d'un nouveau verrou
 mut_get = threading.Lock()
-
+mut_load_mod = threading.Lock()
 
 
 ######################### Threaded Fun #########################
@@ -108,7 +108,7 @@ def add_result(exchange, coin, timeframe, n_data):
 
     datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
     datas = df_process(datas)
-    result = decision(datas,timeframe)
+    result = decisionBasic(datas,timeframe)
 
     datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     
