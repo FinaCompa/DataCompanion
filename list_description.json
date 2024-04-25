@@ -1,114 +1,146 @@
 {
     "BTC/USDT": {
         "EN": "Bitcoin is a decentralized digital currency that enables peer-to-peer transactions without the need for intermediaries like banks. It operates on a secure, transparent, and public ledger called the blockchain, ensuring the integrity and immutability of all transactions.",
-        "FR": "Le Bitcoin est une monnaie numérique décentralisée permettant des transactions de pair à pair sans recourir à des intermédiaires tels que les banques. Il fonctionne sur un grand livre sécurisé, transparent et public appelé blockchain, garantissant l'intégrité et l'immutabilité de toutes les transactions."
+        "FR": "Le Bitcoin est une monnaie numérique décentralisée permettant des transactions de pair à pair sans recourir à des intermédiaires tels que les banques. Il fonctionne sur un grand livre sécurisé, transparent et public appelé blockchain, garantissant l'intégrité et l'immutabilité de toutes les transactions.",
+        "ES": "Bitcoin es una moneda digital descentralizada que permite transacciones entre pares sin necesidad de intermediarios como los bancos. Opera en un libro mayor seguro, transparente y público llamado blockchain, garantizando la integridad e inmutabilidad de todas las transacciones."
     },
     "ETH/USDT": {
         "EN": "Ethereum is an open-source, blockchain-based platform featuring smart contract functionality, enabling developers to build and deploy decentralized applications (dApps) with enhanced security, transparency, and automation capabilities.",
-        "FR": "Ethereum est une plateforme open-source basée sur la blockchain, dotée d'une fonctionnalité de contrat intelligent, permettant aux développeurs de créer et de déployer des applications décentralisées (dApps) avec une sécurité, une transparence et des capacités d'automatisation accrues."
+        "FR": "Ethereum est une plateforme open-source basée sur la blockchain, dotée d'une fonctionnalité de contrat intelligent, permettant aux développeurs de créer et de déployer des applications décentralisées (dApps) avec une sécurité, une transparence et des capacités d'automatisation accrues.",
+        "ES": "Ethereum es una plataforma de código abierto basada en blockchain que ofrece funcionalidades de contrato inteligente, permitiendo a los desarrolladores construir y desplegar aplicaciones descentralizadas (dApps) con mayor seguridad, transparencia y capacidades de automatización."
     },
     "BNB/USDT": {
         "EN": "Binance Coin (BNB) is the native cryptocurrency of the Binance exchange platform, offering users discounted trading fees, participation in token sales, and various utilities within the expansive Binance ecosystem.",
-        "FR": "Binance Coin (BNB) est la crypto-monnaie native de la plateforme d'échange Binance, offrant aux utilisateurs des frais de négociation réduits, la participation à des ventes de jetons et divers services au sein de l'écosystème étendu de Binance."
+        "FR": "Binance Coin (BNB) est la crypto-monnaie native de la plateforme d'échange Binance, offrant aux utilisateurs des frais de négociation réduits, la participation à des ventes de jetons et divers services au sein de l'écosystème étendu de Binance.",
+        "ES": "Binance Coin (BNB) es la criptomoneda nativa de la plataforma de intercambio Binance, que ofrece a los usuarios tarifas de negociación con descuento, participación en ventas de tokens y diversas utilidades dentro del amplio ecosistema de Binance."
     },
     "SOL/USDT": {
         "EN": "Solana is a fast, decentralized blockchain platform capable of processing over 65,000 transactions per second, making it one of the fastest in the industry.",
-        "FR": "Solana est une plateforme blockchain rapide et décentralisée capable de traiter plus de 65 000 transactions par seconde, ce qui en fait l'une des plus rapides de l'industrie."
+        "FR": "Solana est une plateforme blockchain rapide et décentralisée capable de traiter plus de 65 000 transactions par seconde, ce qui en fait l'une des plus rapides de l'industrie.",
+        "ES": "Solana es una plataforma blockchain rápida y descentralizada capaz de procesar más de 65,000 transacciones por segundo, lo que la convierte en una de las más rápidas de la industria."
     },
     "XRP/USDT": {
         "EN": "Ripple is a real-time gross settlement system (RTGS), currency exchange, and remittance network built on a distributed ledger technology called XRP Ledger, facilitating fast, cost-effective, and global cross-border financial transactions among banks and payment providers.",
-        "FR": "Ripple est un système de règlement brut en temps réel (RTGS), d'échange de devises et de transfert de fonds construit sur une technologie de grand livre distribué appelée XRP Ledger, facilitant les transactions financières transfrontalières rapides, rentables et mondiales entre les banques et les fournisseurs de paiement."
+        "FR": "Ripple est un système de règlement brut en temps réel (RTGS), d'échange de devises et de transfert de fonds construit sur une technologie de grand livre distribué appelée XRP Ledger, facilitant les transactions financières transfrontalières rapides, rentables et mondiales entre les banques et les fournisseurs de paiement.",
+        "ES": "Ripple es un sistema de liquidación bruta en tiempo real (RTGS), intercambio de divisas y red de remesas construida sobre una tecnología de libro mayor distribuido llamada XRP Ledger, facilitando transacciones financieras transfronterizas rápidas, rentables y globales entre bancos y proveedores de pago."
     },
     "ADA/USDT": {
         "EN": "Cardano is a proof-of-stake blockchain platform designed for developing scalable, secure, and energy-efficient decentralized applications and systems, prioritizing rigorous academic research, evidence-based development, and regulatory compliance.",
-        "FR": "Cardano est une plateforme blockchain à preuve d'enjeu conçue pour développer des applications et des systèmes décentralisés évolutifs, sécurisés et économes en énergie, en donnant la priorité à une recherche universitaire rigoureuse, à un développement basé sur des données probantes et à la conformité réglementaire."
+        "FR": "Cardano est une plateforme blockchain à preuve d'enjeu conçue pour développer des applications et des systèmes décentralisés évolutifs, sécurisés et économes en énergie, en donnant la priorité à une recherche universitaire rigoureuse, à un développement basé sur des données probantes et à la conformité réglementaire.",
+        "ES": "Cardano es una plataforma blockchain de prueba de participación diseñada para desarrollar aplicaciones y sistemas descentralizados escalables, seguros y eficientes en energía, priorizando la investigación académica rigurosa, el desarrollo basado en evidencia y el cumplimiento normativo."
     },
     "AVAX/USDT": {
         "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
-        "FR": "Avalanche est une plateforme blockchain de couche 1 hautement évolutive, personnalisable et rapidement finalisée, permettant aux développeurs de créer des applications financières décentralisées (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des coûts faibles grâce à son mécanisme de consensus unique."
+        "FR": "Avalanche est une plateforme blockchain de couche 1 hautement évolutive, personnalisable et rapidement finalisée, permettant aux développeurs de créer des applications financières décentralisées (DeFi), des solutions d'entreprise et d'autres cas d'utilisation innovants tout en garantissant des confirmations de transactions subsecondes et des coûts faibles grâce à son mécanisme de consensus unique.",
+        "ES": "Avalanche es una plataforma blockchain de capa 1 altamente escalable, personalizable y rápidamente finalizada, que permite a los desarrolladores crear aplicaciones financieras descentralizadas (DeFi), soluciones empresariales y otros casos de uso innovadores, garantizando confirmaciones de transacciones en subsegundos y costos bajos a través de su mecanismo de consenso único."
     },
     "DOGE/USDT": {
         "EN": "Dogecoin is a lighthearted, meme-inspired cryptocurrency based on the popular Doge Shiba Inu dog image, utilizing a simplified Proof-of-Work algorithm, focusing on community building, tipping content creators, and promoting fun, inclusiveness, and positivity within the crypto space.",
-        "FR": "Dogecoin est une crypto-monnaie légère, inspirée des memes et basée sur l'image populaire du chien Shiba Inu Doge, utilisant un algorithme simplifié de preuve de travail, se concentrant sur le développement de la communauté, la rémunération des créateurs de contenu et la promotion du plaisir, de l'inclusion et de la positivité dans l'espace crypto."
+        "FR": "Dogecoin est une crypto-monnaie légère, inspirée des memes et basée sur l'image populaire du chien Sh
+
+iba Inu Doge, utilisant un algorithme simplifié de preuve de travail, se concentrant sur le développement de la communauté, la rémunération des créateurs de contenu et la promotion du plaisir, de l'inclusion et de la positivité dans l'espace crypto.",
+        "ES": "Dogecoin es una criptomoneda inspirada en memes y ligera basada en la popular imagen del perro Shiba Inu Doge, utilizando un algoritmo simplificado de Prueba de Trabajo, centrándose en la construcción de comunidad, dando propinas a creadores de contenido y promoviendo diversión, inclusión y positividad dentro del espacio criptográfico."
     },
     "TRX/USDT": {
         "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-        "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale."
+        "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale.",
+        "ES": "Tron es una plataforma blockchain descentralizada y de código abierto que fomenta la creación y el despliegue de dApps, juegos y activos digitales, con el objetivo de revolucionar la industria del entretenimiento eliminando intermediarios, reduciendo costos y democratizando el acceso al contenido digital a nivel global."
     },
     "DOT/USDT": {
         "EN": "Polkadot is a multi-chain, heterogeneous sharded network allowing seamless communication and interoperability between different specialized blockchains, known as parachains, thus creating a unified, scalable, and flexible Web3 infrastructure for decentralized applications and services.",
-        "FR": "Polkadot est un réseau hétérogène à chaînes multiples permettant une communication et une interopérabilité transparentes entre différentes blockchains spécialisées, appelées parachains, créant ainsi une infrastructure Web3 unifiée, évolutive et flexible pour les applications et services décentralisés."
+        "FR": "Polkadot est un réseau hétérogène à chaînes multiples permettant une communication et une interopérabilité transparentes entre différentes blockchains spécialisées, appelées parachains, créant ainsi une infrastructure Web3 unifiée, évolutive et flexible pour les applications et services décentralisés.",
+        "ES": "Polkadot es una red heterogénea de múltiples cadenas que permite una comunicación y interoperabilidad fluidas entre diferentes blockchains especializadas, conocidas como parachains, creando así una infraestructura Web3 unificada, escalable y flexible para aplicaciones y servicios descentralizados."
     },
     "LINK/USDT": {
         "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
-        "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel."
+        "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel.",
+        "ES": "Chainlink es una red de oráculos descentralizada que proporciona conectividad confiable, segura e inmutable entre contratos inteligentes en blockchains y fuentes de datos externas, APIs y servicios computacionales fuera de la cadena, expandiendo así sus funcionalidades y mejorando la adopción del mundo real."
     },
     "MATIC/USDT": {
         "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
-        "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés."
+        "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés.",
+        "ES": "Polygon (anteriormente Matic Network) es una solución de escalabilidad de capa 2 para Ethereum, aprovechando el marco de Plasma y las sidechains PoS para mejorar la escalabilidad, reducir las tarifas de gas, mejorar la experiencia del usuario y permitir transacciones más rápidas, más baratas y más respetuosas con el medio ambiente para aplicaciones y servicios descentralizados."
     },
     "SHIB/USDT": {
         "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
-        "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux."
+        "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
+        "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
     },
     "UNI/USDT": {
         "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-        "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital."
+        "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et aut
+
+ogérés avec un glissement minimal et une grande efficacité du capital.",
+        "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
     },
     "ATOM/USDT": {
         "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-        "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées."
+        "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
+        "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
     },
     "XMR/USDT": {
         "EN": "Monero is a privacy-focused cryptocurrency that utilizes advanced cryptographic techniques to ensure completely anonymous and untraceable transactions.",
-        "FR": "Monero est une crypto-monnaie axée sur la confidentialité qui utilise des techniques cryptographiques avancées pour garantir des transactions totalement anonymes et intraçables."
+        "FR": "Monero est une crypto-monnaie axée sur la confidentialité qui utilise des techniques cryptographiques avancées pour garantir des transactions totalement anonymes et intraçables.",
+        "ES": "Monero es una criptomoneda centrada en la privacidad que utiliza técnicas criptográficas avanzadas para garantizar transacciones completamente anónimas e in rastreables."
     },
     "GRT/USDT": {
         "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
-        "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés."
+        "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés.",
+        "ES": "The Graph es un protocolo de indexación e interrogación descentralizado para blockchains como Ethereum, IPFS y Filecoin, que permite a los desarrolladores recuperar de manera eficiente datos específicos de eventos en la cadena y cambios de estado utilizando consultas GraphQL estandarizadas, desbloqueando nuevas posibilidades para aplicaciones y servicios descentralizados."
     },
     "CHZ/USDT": {
         "EN": "Chiliz is a blockchain-based platform providing solutions for the sports and entertainment industry, allowing organizations to create their own branded fan tokens for engaging with fans and offering unique experiences or rewards.",
-        "FR": "Chiliz est une plateforme basée sur la blockchain fournissant des solutions pour l'industrie du sport et du divertissement, permettant aux organisations de créer leurs propres jetons de fans de marque pour s'engager avec les fans et offrir des expériences ou des récompenses uniques."
+        "FR": "Chiliz est une plateforme basée sur la blockchain fournissant des solutions pour l'industrie du sport et du divertissement, permettant aux organisations de créer leurs propres jetons de fans de marque pour s'engager avec les fans et offrir des expériences ou des récompenses uniques.",
+        "ES": "Chiliz es una plataforma basada en blockchain que proporciona soluciones para la industria del deporte y el entretenimiento, permitiendo a las organizaciones crear sus propios tokens de fanáticos de marca para interactuar con los fans y ofrecer experiencias o recompensas únicas."
     },
     "AGIX/USDT": {
         "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
-        "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA."
+        "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA.",
+        "ES": "AGIX es una criptomoneda centrada en la inteligencia artificial emitida por SingularityNET, con el objetivo de facilitar la interacción y colaboración descentralizadas entre humanos e IA."
     },
     "LTC/USDT": {
         "EN": "Litecoin is a decentralized cryptocurrency based on blockchain technology, designed as a faster and more efficient alternative to Bitcoin, enabling users to make peer-to-peer transactions without intermediaries.",
-        "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires."
+        "FR": "Litecoin est une crypto-monnaie décentralisée basée sur la technologie de la blockchain, conçue comme une alternative plus rapide et plus efficace au Bitcoin, permettant aux utilisateurs d'effectuer des transactions de pair à pair sans intermédiaires.",
+        "ES": "Litecoin es una criptomoneda descentralizada basada en tecnología blockchain, diseñada como una alternativa más rápida y eficiente a Bitcoin, permitiendo a los usuarios realizar transacciones de persona a persona sin intermediarios."
     },
     "IMX/USDT": {
         "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
-        "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et les jeux."
-    },
+        "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et le jeu.",
+        "ES": "IMX es una criptomoneda emitida por Immutable X, que proporciona una solución de escalabilidad de capa 2 para aplicaciones basadas en Ethereum, con un enfoque en NFT (Tokens no fungibles) y juegos."
+    }
     "TAO/USDT": {
         "EN": "TAO is a cryptocurrency aiming to facilitate decentralized finance (DeFi) solutions through its blockchain platform, focusing on interoperability, scalability, and user experience.",
         "FR": "TAO est une crypto-monnaie visant à faciliter les solutions de finance décentralisée (DeFi) grâce à sa plateforme blockchain, en mettant l'accent sur l'interopérabilité, la scalabilité et l'expérience utilisateur."
+        "ES": "TAO es una criptomoneda que tiene como objetivo facilitar soluciones de finanzas descentralizadas (DeFi) a través de su plataforma de blockchain, centrándose en la interoperabilidad, escalabilidad y experiencia del usuario."
     },
     "APT/USDT": {
         "EN": "APT is a utility token issued by Alpha Finance Lab, designed to enhance the functionality and governance within the Alpha ecosystem, including various DeFi products and services.",
         "FR": "APT est un jeton utilitaire émis par Alpha Finance Lab, conçu pour améliorer la fonctionnalité et la gouvernance au sein de l'écosystème Alpha, y compris divers produits et services DeFi."
+        "ES": "APT es un token de utilidad emitido por Alpha Finance Lab, diseñado para mejorar la funcionalidad y gobernanza dentro del ecosistema Alpha, incluyendo varios productos y servicios DeFi."
     },
     "FIL/USDT": {
         "EN": "FIL is the native cryptocurrency of the Filecoin network, utilized for various purposes including storage payments and network participation incentives within the decentralized storage platform.",
         "FR": "FIL est la crypto-monnaie native du réseau Filecoin, utilisée à diverses fins, notamment les paiements de stockage et les incitations à la participation au réseau au sein de la plateforme de stockage décentralisée."
+        "ES": "FIL es la criptomoneda nativa de la red Filecoin, utilizada para diversos propósitos, incluidos pagos de almacenamiento e incentivos de participación en la red dentro de la plataforma de almacenamiento descentralizado."
     },
     "NEAR/USDT": {
         "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
         "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade."
+        "ES": "NEAR es una plataforma blockchain diseñada para construir y desplegar aplicaciones descentralizadas (dApps) con un enfoque en la usabilidad, escalabilidad y experiencia del desarrollador, utilizando fragmentación y un mecanismo de consenso único llamado Nightshade."
     },
     "INJ/USDT": {
         "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
         "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective."
+        "ES": "INJ es un token de utilidad emitido por el Protocolo Injective, que facilita el trading descentralizado de derivados y los servicios de intercambio dentro del ecosistema Injective."
     },
     "OP/USDT": {
         "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
         "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés."
+        "ES": "OP es una criptomoneda que tiene como objetivo proporcionar servicios de trading de opciones descentralizadas y de provisión de liquidez en diversas plataformas blockchain, mejorando la accesibilidad y eficiencia dentro del mercado de derivados."
     },
     "VET/USDT": {
         "EN": "VET is the native cryptocurrency of the VeChainThor blockchain, utilized for various purposes including supply chain management, enterprise solutions, and decentralized applications (dApps).",
         "FR": "VET est la crypto-monnaie native de la blockchain VeChainThor, utilisée à diverses fins, notamment la gestion de la chaîne d'approvisionnement, les solutions d'entreprise et les applications décentralisées (dApps)."
+        "ES": "VET es la criptomoneda nativa de la blockchain VeChainThor, utilizada para diversos fines, incluida la gestión de la cadena de suministro, soluciones empresariales y aplicaciones descentralizadas (dApps)."
     }
 }
