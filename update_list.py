@@ -36,6 +36,7 @@ for coin in list_json:
                                         "symbol":coin["symbol"],
                                         "paire":coin["symbol"]+"/USDT",
                                         "logo":response["logo"],
+                                        "logo_oppo":"https://static.coinpaprika.com/coin/usdt-tether/logo.png",
                                         "ohlcv_histo":"",
                                         "time_histo":"",
                                         "ohlcv_today":new_url+"/ohlcv/today",
