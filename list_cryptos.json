@@ -288,23 +288,6 @@
         "ohlcv_histo": "",
         "time_histo": ""
     },
-    "ATOM": {
-        "name": "Cosmos",
-        "description": {
-            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
-            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
-        },
-        "symbol": "ATOM",
-        "paire": "ATOM/USDT",
-        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": "Null",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
-    },
     "FIL": {
         "name": "Filecoin",
         "description": {
@@ -319,6 +302,23 @@
         "premium": true,
         "IA": "Null",
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
+    },
+    "ATOM": {
+        "name": "Cosmos",
+        "description": {
+            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
+            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
+            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
+        },
+        "symbol": "ATOM",
+        "paire": "ATOM/USDT",
+        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": "Null",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
     },
