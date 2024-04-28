@@ -265,7 +265,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "ohlcv_histo": [
@@ -601,7 +601,7 @@
         "premium": true,
         "IA": {
             "Basic": "Up Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "ohlcv_histo": [
@@ -1609,7 +1609,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [
@@ -1895,7 +1895,7 @@
             26.507,
             25.526,
             25.951,
-            26.479
+            26.61
         ],
         "time_histo": [
             "2024-03-29",
@@ -1979,7 +1979,7 @@
             0.9331,
             0.8791,
             0.888,
-            0.9161
+            0.92
         ],
         "time_histo": [
             "2024-03-29",
