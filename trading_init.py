@@ -2,7 +2,7 @@ from gymnasium.envs.registration import register
 from copy import deepcopy
 import pandas as pd
 
-df = pd.read_csv('datas/BTC_USDT.csv')
+df = pd.read_csv('BTC_USDT.csv')
 
 register(
     id='Production',
