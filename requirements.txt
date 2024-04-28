@@ -4,3 +4,5 @@ prophet==1.1.5
 PyGithub==2.1.1
 gymnasium
 stable-baselines3
+finta
+numpy
