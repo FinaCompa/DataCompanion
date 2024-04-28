@@ -9,6 +9,9 @@ import datetime
 import threading
 from prophet import Prophet
 from github import Github
+import gymnasium as gym
+import trading_init
+from stable_baselines3 import PPO
 
 
 ######################### Function #########################
@@ -42,7 +45,7 @@ def decisionBasic(df, timeframe, IA):
         timeframe = timeframe[-1].upper()
     
     m = Prophet()
-    m.fit(df=df)
+    m.fit(df=df.tail(60))
     future = m.make_future_dataframe(periods=1, freq=timeframe)
     prediction = m.predict(future)
 
@@ -50,23 +53,43 @@ def decisionBasic(df, timeframe, IA):
     iter_m2 = prediction['yhat'][len(prediction)-2:].values[0]
     last_pr = df['y'][len(df)-1:].values[0]
 
-    if last_pr < iter_m2:
+    if last_pr < iter_m2 and iter_m1 > iter_m2:
         IA["Basic"] = 'Up Moves'
-        if iter_m1 > iter_m2:
-            IA["Advanced"] = 'Up Moves'
-        else:
-            IA["Advanced"] = 'Chill'
-    elif last_pr > iter_m2:
+    elif last_pr > iter_m2 and iter_m1 > iter_m2:
         IA["Basic"] = 'Down Moves'
-        if iter_m1 < iter_m2:
-            IA["Advanced"] = 'Down Moves'
-        else:
-            IA["Advanced"] = 'Chill'
     else:
-        IA["Advanced"] = 'Chill'
         IA["Basic"] = 'Chill'
         
     return IA
+
+
+def decisionAdvanced(df, IA):
+    env = gym.make(
+        id='Production',
+        dataframe=df,
+        window=31,
+        max_drawdown=0
+        )
+    model = PPO.load('trade_PPO', env=env)
+    obs, info = env.reset()
+    done = False
+    terminated = False
+    truncated = False
+    score = 0
+    while not done:
+        action = model.predict(obs, deterministic=True)
+        obs, reward, terminated, truncated, info = env.step(action[0])
+        score += reward
+        done = terminated or truncated
+    
+    if info['position'] == 0:
+        IA['Advanced'] = 'Down Moves'
+    else:
+        IA['Advanced'] = 'Up Moves'
+        
+    return IA
+
+
 
 def process(data):
     #pred_date = {}
@@ -85,7 +108,7 @@ with open('list_cryptos.json', 'r') as f:
     # Charger les données JSON depuis le fichier
     Final_Dict = json.load(f)
 timeframe = '1d'
-n_data = 60
+n_data = 200
 
 mut = threading.Lock()  # Création d'un nouveau verrou
 mut_get = threading.Lock()
@@ -113,6 +136,7 @@ def add_result(exchange, coin, timeframe, n_data):
     # Basic part
     datas = df_process(datas)
     IA = decisionBasic(datas, timeframe, IA)
+    IA = decisionAdvanced(datas, IA)
 
     datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     
