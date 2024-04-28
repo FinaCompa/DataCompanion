@@ -27,7 +27,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip
 
-      - if: ${{ steps.cache-python.output.cache-hit != 'true' }}    
+      - if: ${{ steps.cache-python.outputs.cache-hit == 'true' }}    
         name: install python packages
         run: |
           python -m pip install --upgrade pip
