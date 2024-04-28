@@ -29,10 +29,9 @@ def get_crypto_data(exchange, timeframe, symbol, n):
 
 ##### df process
 def df_process(df):
-    df_prophet = pd.DataFrame(columns=["ds","y"])
-    df_prophet['ds'] = df['Time']
-    df_prophet['y'] = df['Close']
-    return df_prophet
+    df['ds'] = df['Time']
+    df['y'] = df['Close']
+    return df
 
 
 ##### Take decision
@@ -77,7 +76,6 @@ def process(data):
         final_list.append(data[coin])
     #final_list.append(pred_date)
     return final_list
-
 
 ######################### G variables #########################
 threads = []
