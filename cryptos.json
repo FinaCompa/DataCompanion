@@ -13,7 +13,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "ohlcv_histo": [
@@ -97,7 +97,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "ohlcv_histo": [
@@ -181,7 +181,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "ohlcv_histo": [
@@ -265,7 +265,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Up Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "ohlcv_histo": [
@@ -349,7 +349,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "ohlcv_histo": [
@@ -433,7 +433,7 @@
         "premium": true,
         "IA": {
             "Basic": "Up Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "ohlcv_histo": [
@@ -517,7 +517,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "ohlcv_histo": [
@@ -685,7 +685,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "ohlcv_histo": [
@@ -769,7 +769,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "ohlcv_histo": [
@@ -853,7 +853,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "ohlcv_histo": [
@@ -937,7 +937,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": [
@@ -1021,7 +1021,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "ohlcv_histo": [
@@ -1105,7 +1105,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "ohlcv_histo": [
@@ -1188,7 +1188,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
@@ -1273,7 +1273,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "ohlcv_histo": [
@@ -1356,7 +1356,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
@@ -1440,7 +1440,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
@@ -1525,7 +1525,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "ohlcv_histo": [
@@ -1609,7 +1609,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Up Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [
@@ -1693,7 +1693,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "ohlcv_histo": [
@@ -1777,7 +1777,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "ohlcv_histo": [
@@ -1860,12 +1860,11 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
-            "Advanced": "Chill"
+            "Basic": "Chill",
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "ohlcv_histo": [
-            38.458,
             36.653,
             35.83,
             36.806,
@@ -1895,10 +1894,10 @@
             26.445,
             26.507,
             25.526,
-            25.951
+            25.951,
+            26.504
         ],
         "time_histo": [
-            "2024-03-28",
             "2024-03-29",
             "2024-03-30",
             "2024-03-31",
@@ -1928,7 +1927,8 @@
             "2024-04-24",
             "2024-04-25",
             "2024-04-26",
-            "2024-04-27"
+            "2024-04-27",
+            "2024-04-28"
         ]
     },
     {
@@ -1944,12 +1944,11 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
-            "Advanced": "Up Moves"
+            "Basic": "Chill",
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "ohlcv_histo": [
-            1.3889,
             1.3162,
             1.3062,
             1.2634,
@@ -1979,10 +1978,10 @@
             0.9472,
             0.9331,
             0.8791,
-            0.888
+            0.888,
+            0.9217
         ],
         "time_histo": [
-            "2024-03-28",
             "2024-03-29",
             "2024-03-30",
             "2024-03-31",
@@ -2012,7 +2011,8 @@
             "2024-04-24",
             "2024-04-25",
             "2024-04-26",
-            "2024-04-27"
+            "2024-04-27",
+            "2024-04-28"
         ]
     },
     {
@@ -2029,7 +2029,7 @@
         "premium": true,
         "IA": {
             "Basic": "Up Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "ohlcv_histo": [
