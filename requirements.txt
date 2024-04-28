@@ -2,3 +2,5 @@ ccxt==4.2.22
 pandas==2.1.4
 prophet==1.1.5
 PyGithub==2.1.1
+gymnasium
+stable-baselines3
