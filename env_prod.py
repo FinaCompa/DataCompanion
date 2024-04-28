@@ -147,7 +147,7 @@ class Trading(Env):
     
     ###################################################
 
-    def _calculate_reward(self):
+    def _calculate_reward(self): # lol no
         step_reward = 0.0
 
         return step_reward
@@ -161,9 +161,6 @@ class Trading(Env):
             if self._position == 0:
                 shares = (self._total_profit * (1 - self.trade_fee_ask_percent)) / self._last_trade_price
                 self._total_profit = (shares * (1 - self.trade_fee_bid_percent)) * self._current_price
-                #self._total_profit *= current_price / last_trade_price
-                #print(f'{self._total_profit}')
-                #print(f'{current_price}\t{last_trade_price}')
 
     ###################################################
 
