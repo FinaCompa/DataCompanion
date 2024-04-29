@@ -9,7 +9,6 @@ register(
     entry_point='env_prod:Trading',
     kwargs={
         'dataframe': deepcopy(df),
-        'window': 31,
-        'max_drawdown': 0.85 
+        'window': 31
     }
 )
