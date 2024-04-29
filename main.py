@@ -67,8 +67,7 @@ def decisionAdvanced(df, IA):
     env = gym.make(
         id='Production',
         dataframe=df,
-        window=31,
-        max_drawdown=0
+        window=31
         )
     model = PPO.load('trade_PPO', env=env)
     obs, info = env.reset()
