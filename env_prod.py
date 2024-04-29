@@ -14,7 +14,7 @@ import random
 
 class Trading(Env):
 
-    def __init__(self, dataframe, window, max_drawdown):
+    def __init__(self, dataframe, window):
         # from inputs
         self.df = dataframe
         self.window = window
@@ -23,7 +23,6 @@ class Trading(Env):
         self.prices, self.signals = self._process_data(dataframe)
         self._end_tick = len(self.prices)-1
         self.shape = (window, self.signals.shape[1])
-        self.max_drawdown = max_drawdown
 
         # spaces
         self.action_space = Discrete(2)
