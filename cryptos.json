@@ -13,7 +13,7 @@
         "premium": false,
         "IA": {
             "Basic": "Up Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "ohlcv_histo": [
@@ -97,7 +97,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "ohlcv_histo": [
@@ -265,7 +265,7 @@
         "premium": false,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "ohlcv_histo": [
@@ -349,7 +349,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "ohlcv_histo": [
@@ -517,7 +517,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "ohlcv_histo": [
@@ -685,7 +685,7 @@
         "premium": false,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "ohlcv_histo": [
@@ -769,7 +769,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "ohlcv_histo": [
@@ -853,7 +853,7 @@
         "premium": true,
         "IA": {
             "Basic": "Down Moves",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "ohlcv_histo": [
@@ -937,7 +937,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": [
@@ -1021,7 +1021,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "ohlcv_histo": [
@@ -1105,7 +1105,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "ohlcv_histo": [
@@ -1273,7 +1273,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "ohlcv_histo": [
@@ -1441,7 +1441,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "ohlcv_histo": [
@@ -1525,7 +1525,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": [
@@ -1609,7 +1609,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [
@@ -1693,7 +1693,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "ohlcv_histo": [
@@ -1777,7 +1777,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "ohlcv_histo": [
@@ -1895,7 +1895,7 @@
             25.526,
             25.951,
             25.785,
-            25.325
+            25.242
         ],
         "time_histo": [
             "2024-03-30",
@@ -1945,7 +1945,7 @@
         "premium": true,
         "IA": {
             "Basic": "Chill",
-            "Advanced": "Up Moves"
+            "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "ohlcv_histo": [
@@ -1979,7 +1979,7 @@
             0.8791,
             0.888,
             0.8799,
-            0.8676
+            0.8588
         ],
         "time_histo": [
             "2024-03-30",
