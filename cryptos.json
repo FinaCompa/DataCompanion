@@ -1860,7 +1860,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Chill",
+            "Basic": "Down Moves",
             "Advanced": "Down Moves"
         },
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
@@ -1895,7 +1895,7 @@
             25.526,
             25.951,
             25.785,
-            25.827
+            25.325
         ],
         "time_histo": [
             "2024-03-30",
@@ -1979,7 +1979,7 @@
             0.8791,
             0.888,
             0.8799,
-            0.8796
+            0.8676
         ],
         "time_histo": [
             "2024-03-30",
