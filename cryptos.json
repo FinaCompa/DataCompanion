@@ -11,7 +11,10 @@
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
@@ -30,7 +33,10 @@
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
@@ -49,7 +55,10 @@
         "logo": "https://static.coinpaprika.com/coin/bnb-binance-coin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
@@ -68,7 +77,10 @@
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
@@ -173,7 +185,10 @@
         "logo": "https://static.coinpaprika.com/coin/doge-dogecoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
@@ -192,7 +207,10 @@
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
@@ -211,7 +229,10 @@
         "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
@@ -316,7 +337,10 @@
         "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
@@ -335,7 +359,10 @@
         "logo": "https://static.coinpaprika.com/coin/dot-polkadot/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
@@ -354,7 +381,10 @@
         "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
@@ -373,7 +403,10 @@
         "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
@@ -392,7 +425,10 @@
         "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
@@ -497,7 +533,10 @@
         "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
@@ -602,7 +641,10 @@
         "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
@@ -621,7 +663,10 @@
         "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
@@ -640,7 +685,10 @@
         "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
@@ -745,7 +793,10 @@
         "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
@@ -764,7 +815,10 @@
         "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
@@ -783,7 +837,10 @@
         "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
@@ -802,7 +859,10 @@
         "logo": "https://static.coinpaprika.com/coin/chz-chiliz/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
-        "IA": "Null",
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
