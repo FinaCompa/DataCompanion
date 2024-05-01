@@ -143,6 +143,7 @@ def add_result(exchange, coin, timeframe, n_data):
     liste_Advanced = Old_Dict[i]["histo_Advanced"]
     
     if exist:
+        print('\n\n\n Exist \n\n\n')
         if (close > open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
             liste_Basic.append(100)
         elif (close < open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
@@ -151,8 +152,10 @@ def add_result(exchange, coin, timeframe, n_data):
         
         if (close > open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(100)
+            print('\n\n\n Adv100 \n\n\n')
         elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(0)
+            print('\n\n\n Adv0 \n\n\n')
         liste_Advanced = liste_Advanced[:-10]
 
     print(f'\n\n\n Liste Advanced : {liste_Advanced}\n\n\n')
