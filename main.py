@@ -134,7 +134,7 @@ def add_result(exchange, coin, timeframe, n_data):
     close = datas['Close'].iloc[-1]
 
     exist = False
-    for i in range(Old_Dict):
+    for i in range(len(Old_Dict)):
         if Old_Dict[i]["symbol"] == coin:
             exist = True
             break
