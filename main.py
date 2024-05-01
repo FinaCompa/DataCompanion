@@ -155,17 +155,19 @@ def add_result(exchange, coin, timeframe, n_data):
             liste_Advanced.append(0)
         liste_Advanced = liste_Advanced[:-10]
 
+    print(f'\n\n\n Liste Advanced : {liste_Advanced}\n\n\n')
     
     # IA
     IA = {"Basic":"",
          "Advanced":""}
     datas = df_process(datas)
+    datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     # Basic part
     IA = decisionBasic(datas, timeframe, IA)
     # Advanced part
+    del datas['ds']
+    del datas['y']
     IA = decisionAdvanced(datas, IA)
-
-    datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
     
     mut.acquire()
     try:
