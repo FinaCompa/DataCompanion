@@ -106,6 +106,11 @@ exchange = ccxt.okx()
 with open('list_cryptos.json', 'r') as f:
     # Charger les données JSON depuis le fichier
     Final_Dict = json.load(f)
+
+with open('cryptos.json', 'r') as f:
+    # Charger les données JSON depuis le fichier
+    Old_Dict = json.load(f)
+
 timeframe = '1d'
 n_data = 200
 
@@ -117,24 +122,39 @@ mut_load_mod = threading.Lock()
 ######################### Threaded Fun #########################
 def add_result(exchange, coin, timeframe, n_data):
     global Final_Dict
-
+    global Old_Dict
+    
     mut_get.acquire()
     try:
         datas = get_crypto_data(exchange=exchange, timeframe=timeframe, symbol=coin, n=n_data)
     finally:
         mut_get.release()
-        
+
+    open = datas['Open'].iloc[-1]
+    close = datas['Close'].iloc[-1]
+
+    liste_Basic = Final_Dict[coin.split("/")[0]]["histo_Basic"]
+    if (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Up Moves') or (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Down Moves'):
+        liste_Basique.append(100)
+    elif (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Up Moves') or (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Down Moves'):
+        liste_Basique.append(0)
+    liste_Basic = liste_Basic[:-31]
+    
+    liste_Advanced = Final_Dict[coin.split("/")[0]]["histo_Advanced"]
+    if (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Up Moves') or (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Down Moves'):
+        liste_Advanced.append(100)
+    elif (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Up Moves') or (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Down Moves'):
+        liste_Advanced.append(0)
+    liste_Advanced = liste_Advanced[:-31]
+
+    
+    # IA
     IA = {"Basic":"",
          "Advanced":""}
-    
-    # Advanced part
-    # Load model (mut_load_mod)
-    # IA = function(df, IA)
-    # function process + simulate + add choice to IA and return it
-    
-    # Basic part
     datas = df_process(datas)
+    # Basic part
     IA = decisionBasic(datas, timeframe, IA)
+    # Advanced part
     IA = decisionAdvanced(datas, IA)
 
     datas['Time'] = datas['ds'].dt.strftime("%Y-%m-%d")
@@ -144,6 +164,8 @@ def add_result(exchange, coin, timeframe, n_data):
         Final_Dict[coin.split("/")[0]]["IA"] = IA
         Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["time_histo"] = datas["Time"].tail(31).tolist()
+        Final_Dict[coin.split("/")[0]]["histo_Advanced"] = liste_Advanced
+        Final_Dict[coin.split("/")[0]]["histo_Basic"] = liste_Basic
     finally:
         mut.release()
 
