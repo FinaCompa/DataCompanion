@@ -38,7 +38,10 @@ for coin in list_json:
                                         "logo":response["logo"],
                                         "logo_oppo":"https://static.coinpaprika.com/coin/usdt-tether/logo.png",
                                         "premium":premium,
-                                        "IA":"Null",
+                                        "IA":{
+                                            "Basic":"",
+                                            "Advanced":""
+                                        },
                                         "histo_Advanced": [],
                                         "histo_Basic": [],
                                         "ohlcv_today":new_url+"/ohlcv/today",
