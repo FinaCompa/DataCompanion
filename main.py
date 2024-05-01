@@ -144,9 +144,9 @@ def add_result(exchange, coin, timeframe, n_data):
     
     if exist:
         if (close > open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
-            liste_Basique.append(100)
+            liste_Basic.append(100)
         elif (close < open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
-            liste_Basique.append(0)
+            liste_Basic.append(0)
         liste_Basic = liste_Basic[:-10]
         
         if (close > open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
