@@ -133,19 +133,26 @@ def add_result(exchange, coin, timeframe, n_data):
     open = datas['Open'].iloc[-1]
     close = datas['Close'].iloc[-1]
 
-    liste_Basic = Old_Dict[coin.split("/")[0]]["histo_Basic"]
-    if (close > open and Old_Dict[coin.split("/")[0]]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[coin.split("/")[0]]["IA"]["Basic"] == "Down Moves"):
-        liste_Basique.append(100)
-    elif (close < open and Old_Dict[coin.split("/")[0]]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[coin.split("/")[0]]["IA"]["Basic"] == "Down Moves"):
-        liste_Basique.append(0)
-    liste_Basic = liste_Basic[:-10]
-    
-    liste_Advanced = Old_Dict[coin.split("/")[0]]["histo_Advanced"]
-    if (close > open and Old_Dict[coin.split("/")[0]]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[coin.split("/")[0]]["IA"]["Advanced"] == "Down Moves"):
-        liste_Advanced.append(100)
-    elif (close < open and Old_Dict[coin.split("/")[0]]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[coin.split("/")[0]]["IA"]["Advanced"] == "Down Moves"):
-        liste_Advanced.append(0)
-    liste_Advanced = liste_Advanced[:-10]
+    exist = False
+    for i in range(Old_Dict):
+        if Old_Dict[i]["symbol"] == coin:
+            exist = True
+            break
+
+    if exist:
+        liste_Basic = Old_Dict[i]["histo_Basic"]
+        if (close > open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
+            liste_Basique.append(100)
+        elif (close < open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
+            liste_Basique.append(0)
+        liste_Basic = liste_Basic[:-10]
+        
+        liste_Advanced = Old_Dict[i]["histo_Advanced"]
+        if (close > open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
+            liste_Advanced.append(100)
+        elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
+            liste_Advanced.append(0)
+        liste_Advanced = liste_Advanced[:-10]
 
     
     # IA
