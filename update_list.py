@@ -42,8 +42,8 @@ for coin in list_json:
                                         "histo_Advanced": [],
                                         "histo_Basic": [],
                                         "ohlcv_today":new_url+"/ohlcv/today",
-                                        "ohlcv_histo":"",
-                                        "time_histo":""
+                                        "ohlcv_histo":[],
+                                        "time_histo":[]
                                     }
 
 try:
