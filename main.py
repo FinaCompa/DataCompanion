@@ -157,6 +157,7 @@ def add_result(exchange, coin, timeframe, n_data):
         elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(0)
             print('\n\n\n Adv0 \n\n\n')
+            print(f'{liste_Advanced}')
         liste_Advanced = liste_Advanced[:-10]
 
     print(f'\n\n\n Liste Advanced : {liste_Advanced}\n\n\n')
