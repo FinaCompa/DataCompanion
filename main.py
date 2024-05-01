@@ -153,6 +153,7 @@ def add_result(exchange, coin, timeframe, n_data):
         if (close > open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(100)
             print('\n\n\n Adv100 \n\n\n')
+            print(f'{liste_Advanced}')
         elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(0)
             print('\n\n\n Adv0 \n\n\n')
@@ -175,7 +176,7 @@ def add_result(exchange, coin, timeframe, n_data):
     mut.acquire()
     try:
         Final_Dict[coin.split("/")[0]]["IA"] = IA
-        Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["y"].tail(31).tolist()
+        Final_Dict[coin.split("/")[0]]["ohlcv_histo"] = datas["Close"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["time_histo"] = datas["Time"].tail(31).tolist()
         Final_Dict[coin.split("/")[0]]["histo_Advanced"] = liste_Advanced
         Final_Dict[coin.split("/")[0]]["histo_Basic"] = liste_Basic
