@@ -15,8 +15,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "ETH": {
         "name": "Ethereum",
@@ -34,8 +34,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "BNB": {
         "name": "Binance Coin",
@@ -53,8 +53,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "SOL": {
         "name": "Solana",
@@ -72,8 +72,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "XRP": {
         "name": "XRP",
@@ -91,8 +91,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "DOGE": {
         "name": "Dogecoin",
@@ -110,8 +110,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "ADA": {
         "name": "Cardano",
@@ -129,8 +129,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "SHIB": {
         "name": "Shiba Inu",
@@ -148,8 +148,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "AVAX": {
         "name": "Avalanche",
@@ -167,8 +167,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "TRX": {
         "name": "TRON",
@@ -186,8 +186,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "DOT": {
         "name": "Polkadot",
@@ -205,8 +205,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "LINK": {
         "name": "Chainlink",
@@ -224,8 +224,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "NEAR": {
         "name": "Near Protocol",
@@ -243,8 +243,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "MATIC": {
         "name": "Polygon",
@@ -262,8 +262,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "LTC": {
         "name": "Litecoin",
@@ -281,8 +281,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "UNI": {
         "name": "Uniswap",
@@ -300,8 +300,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "APT": {
         "name": "Aptos",
@@ -319,8 +319,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "ATOM": {
         "name": "Cosmos",
@@ -338,8 +338,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "FIL": {
         "name": "Filecoin",
@@ -357,8 +357,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "IMX": {
         "name": "Immutable X",
@@ -376,8 +376,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "OP": {
         "name": "Optimism",
@@ -395,8 +395,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "GRT": {
         "name": "The Graph",
@@ -414,8 +414,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "INJ": {
         "name": "Injective Protocol",
@@ -433,8 +433,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "AGIX": {
         "name": "Singularity NET",
@@ -452,8 +452,8 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     },
     "CHZ": {
         "name": "Chiliz",
@@ -471,7 +471,7 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
+        "ohlcv_histo": [],
+        "time_histo": []
     }
 }
