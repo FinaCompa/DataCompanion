@@ -138,14 +138,14 @@ def add_result(exchange, coin, timeframe, n_data):
         liste_Basique.append(100)
     elif (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Up Moves') or (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Basic"] == 'Down Moves'):
         liste_Basique.append(0)
-    liste_Basic = liste_Basic[:-31]
+    liste_Basic = liste_Basic[:-10]
     
     liste_Advanced = Final_Dict[coin.split("/")[0]]["histo_Advanced"]
     if (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Up Moves') or (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Down Moves'):
         liste_Advanced.append(100)
     elif (close < open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Up Moves') or (close > open and Final_Dict[coin.split("/")[0]]["IA"]["Advanced"] == 'Down Moves'):
         liste_Advanced.append(0)
-    liste_Advanced = liste_Advanced[:-31]
+    liste_Advanced = liste_Advanced[:-10]
 
     
     # IA
