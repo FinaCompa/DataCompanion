@@ -12,6 +12,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -29,6 +31,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -46,6 +50,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -63,6 +69,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -80,6 +88,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -97,6 +107,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -114,6 +126,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -131,6 +145,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -148,6 +164,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -165,6 +183,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -182,6 +202,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -199,6 +221,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -216,6 +240,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -233,6 +259,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -250,6 +278,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -267,6 +297,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -284,24 +316,9 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
-        "ohlcv_histo": "",
-        "time_histo": ""
-    },
-    "FIL": {
-        "name": "Filecoin",
-        "description": {
-            "EN": "FIL is the native cryptocurrency of the Filecoin network, utilized for various purposes including storage payments and network participation incentives within the decentralized storage platform.",
-            "FR": "FIL est la crypto-monnaie native du réseau Filecoin, utilisée à diverses fins, notamment les paiements de stockage et les incitations à la participation au réseau au sein de la plateforme de stockage décentralisée.",
-            "ES": "FIL es la criptomoneda nativa de la red Filecoin, utilizada para diversos propósitos, incluidos pagos de almacenamiento e incentivos de participación en la red dentro de la plataforma de almacenamiento descentralizado."
-        },
-        "symbol": "FIL",
-        "paire": "FIL/USDT",
-        "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": "Null",
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
     },
@@ -318,7 +335,28 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "ohlcv_histo": "",
+        "time_histo": ""
+    },
+    "FIL": {
+        "name": "Filecoin",
+        "description": {
+            "EN": "FIL is the native cryptocurrency of the Filecoin network, utilized for various purposes including storage payments and network participation incentives within the decentralized storage platform.",
+            "FR": "FIL est la crypto-monnaie native du réseau Filecoin, utilisée à diverses fins, notamment les paiements de stockage et les incitations à la participation au réseau au sein de la plateforme de stockage décentralisée.",
+            "ES": "FIL es la criptomoneda nativa de la red Filecoin, utilizada para diversos propósitos, incluidos pagos de almacenamiento e incentivos de participación en la red dentro de la plataforma de almacenamiento descentralizado."
+        },
+        "symbol": "FIL",
+        "paire": "FIL/USDT",
+        "logo": "https://static.coinpaprika.com/coin/fil-filecoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
     },
@@ -335,6 +373,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -352,6 +392,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -369,6 +411,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -386,6 +430,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -403,6 +449,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
@@ -420,6 +468,8 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": "Null",
+        "histo_Advanced": [],
+        "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "ohlcv_histo": "",
         "time_histo": ""
