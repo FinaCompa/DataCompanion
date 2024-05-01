@@ -135,19 +135,20 @@ def add_result(exchange, coin, timeframe, n_data):
 
     exist = False
     for i in range(len(Old_Dict)):
-        if Old_Dict[i]["symbol"] == coin:
+        if Old_Dict[i]["paire"] == coin:
             exist = True
             break
 
+    liste_Basic = Old_Dict[i]["histo_Basic"]
+    liste_Advanced = Old_Dict[i]["histo_Advanced"]
+    
     if exist:
-        liste_Basic = Old_Dict[i]["histo_Basic"]
         if (close > open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
             liste_Basique.append(100)
         elif (close < open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
             liste_Basique.append(0)
         liste_Basic = liste_Basic[:-10]
         
-        liste_Advanced = Old_Dict[i]["histo_Advanced"]
         if (close > open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(100)
         elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
