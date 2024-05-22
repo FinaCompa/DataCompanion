@@ -16,7 +16,7 @@ class Trading(Env):
 
     def __init__(self, df, window):
         # inputs
-        self.df = df
+        self.df = pd.Dataframe(df)
         self.window = window
 
         self.shape = (window, 7)
