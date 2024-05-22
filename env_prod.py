@@ -27,7 +27,6 @@ class Trading(Env):
 
         self.terminated = None
         self.truncated = None
-        self.df = None
         self._trade = None
         self._position = None
         self._current_tick = None
