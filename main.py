@@ -114,7 +114,7 @@ with open('cryptos.json', 'r') as f:
     Old_Dict = json.load(f)
 
 timeframe = '1d'
-n_data = 200
+n_data = 300
 
 mut = threading.Lock()  # Création d'un nouveau verrou
 mut_get = threading.Lock()
