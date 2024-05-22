@@ -8,7 +8,7 @@ register(
     id='Production',
     entry_point='env_prod:Trading',
     kwargs={
-        'dataframe': deepcopy(df),
-        'window': 31
+        'df': deepcopy(df),
+        'window': 31,
     }
 )
