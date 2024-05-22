@@ -44,6 +44,8 @@ class Trading(Env):
         self.wait = None
         self.history = None
 
+        print(self.df)
+
     ###################################################
 
     def reset(self, **kwargs):
@@ -51,7 +53,7 @@ class Trading(Env):
         self.truncated = False
         self._start_tick = self.window
         
-        print(f'\n\n\n{type(self.df)}\n\n\n')
+        
         self.prices, self.signals = self._process_data(self.df)
         #print(f"Last prices : {self.prices[-3:]}\nLast df : {self.df['Close'].iloc[-3:]}")
         self._end_tick = len(self.prices) - 1
