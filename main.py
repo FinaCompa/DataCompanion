@@ -64,6 +64,7 @@ def decisionBasic(df, timeframe, IA):
 
 
 def decisionAdvanced(df, IA):
+    print(df)
     env = gym.make(
         id='Production',
         df=df,
