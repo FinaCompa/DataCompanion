@@ -66,7 +66,7 @@ def decisionBasic(df, timeframe, IA):
 def decisionAdvanced(df, IA):
     env = gym.make(
         id='Production',
-        dataframe=df,
+        df=df,
         window=31
         )
     model = PPO.load('trade_PPO', env=env)
