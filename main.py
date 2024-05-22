@@ -64,6 +64,7 @@ def decisionBasic(df, timeframe, IA):
 
 
 def decisionAdvanced(df, IA):
+    print(f'\n\n\n{type(df)}\n\n\n')
     env = gym.make(
         id='Production',
         df=df,
@@ -76,7 +77,7 @@ def decisionAdvanced(df, IA):
     truncated = False
     score = 0
     while not done:
-        action = model.predict(obs, deterministic=True)
+        action = model.predict(obs, deterministic=False)
         obs, reward, terminated, truncated, info = env.step(action[0])
         score += reward
         done = terminated or truncated
@@ -143,7 +144,6 @@ def add_result(exchange, coin, timeframe, n_data):
     liste_Advanced = Old_Dict[i]["histo_Advanced"]
     
     if exist:
-        print('\n\n\n Exist \n\n\n')
         if (close > open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close < open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
             liste_Basic.append(100)
         elif (close < open and Old_Dict[i]["IA"]["Basic"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Basic"] == "Down Moves"):
@@ -155,8 +155,6 @@ def add_result(exchange, coin, timeframe, n_data):
         elif (close < open and Old_Dict[i]["IA"]["Advanced"] == "Up Moves") or (close > open and Old_Dict[i]["IA"]["Advanced"] == "Down Moves"):
             liste_Advanced.append(0)
         liste_Advanced = liste_Advanced[-10:]
-
-    print(f'\n\n\n Liste Advanced : {liste_Advanced}\n\n\n')
     
     # IA
     IA = {"Basic":"",
