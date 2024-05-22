@@ -14,11 +14,10 @@ import random
 
 class Trading(Env):
 
-    def __init__(self, df, window, max_drawdown):
+    def __init__(self, df, window):
         # inputs
         self.df = df
         self.window = window
-        self.max_drawdown = max_drawdown
 
         self.shape = (window, 7)
 
