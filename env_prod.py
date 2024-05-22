@@ -44,8 +44,6 @@ class Trading(Env):
         self.wait = None
         self.history = None
 
-        print(self.df)
-
     ###################################################
 
     def reset(self, **kwargs):
