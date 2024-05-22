@@ -70,7 +70,7 @@ def decisionAdvanced(df, IA):
         df=df,
         window=31
         )
-    print(env.df)
+    
     model = PPO.load('trade_PPO', env=env)
     obs, info = env.reset()
     done = False
