@@ -154,28 +154,6 @@
         "time_histo": []
     },
     {
-        "name": "Shiba Inu",
-        "description": {
-            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
-            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
-            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
-        },
-        "symbol": "SHIB",
-        "paire": "SHIB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    {
         "name": "Avalanche",
         "description": {
             "EN": "Avalanche is a highly scalable, customizable, and rapidly finalizing layer-1 blockchain platform, empowering developers to create decentralized finance (DeFi) applications, enterprise solutions, and other innovative use cases while ensuring subsecond transaction confirmations and low costs through its unique consensus mechanism.",
@@ -194,6 +172,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    {
+        "name": "Shiba Inu",
+        "description": {
+            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
+            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
+            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
+        },
+        "symbol": "SHIB",
+        "paire": "SHIB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -374,15 +374,15 @@
         "time_histo": []
     },
     {
-        "name": "Cosmos",
+        "name": "Immutable X",
         "description": {
-            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
-            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
+            "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
+            "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et le jeu.",
+            "ES": "IMX es una criptomoneda emitida por Immutable X, que proporciona una solución de escalabilidad de capa 2 para aplicaciones basadas en Ethereum, con un enfoque en NFT (Tokens no fungibles) y juegos."
         },
-        "symbol": "ATOM",
-        "paire": "ATOM/USDT",
-        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "symbol": "IMX",
+        "paire": "IMX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -391,7 +391,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -418,15 +418,15 @@
         "time_histo": []
     },
     {
-        "name": "Immutable X",
+        "name": "Cosmos",
         "description": {
-            "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
-            "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et le jeu.",
-            "ES": "IMX es una criptomoneda emitida por Immutable X, que proporciona una solución de escalabilidad de capa 2 para aplicaciones basadas en Ethereum, con un enfoque en NFT (Tokens no fungibles) y juegos."
+            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
+            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
+            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
         },
-        "symbol": "IMX",
-        "paire": "IMX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
+        "symbol": "ATOM",
+        "paire": "ATOM/USDT",
+        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -435,29 +435,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    {
-        "name": "Optimism",
-        "description": {
-            "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
-            "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés.",
-            "ES": "OP es una criptomoneda que tiene como objetivo proporcionar servicios de trading de opciones descentralizadas y de provisión de liquidez en diversas plataformas blockchain, mejorando la accesibilidad y eficiencia dentro del mercado de derivados."
-        },
-        "symbol": "OP",
-        "paire": "OP/USDT",
-        "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -480,6 +458,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    {
+        "name": "Optimism",
+        "description": {
+            "EN": "OP is a cryptocurrency aiming to provide decentralized options trading and liquidity provision services on various blockchain platforms, enhancing accessibility and efficiency within the derivatives market.",
+            "FR": "OP est une crypto-monnaie visant à fournir des services de trading d'options décentralisés et de provision de liquidité sur différentes plateformes blockchain, améliorant l'accessibilité et l'efficacité sur le marché des produits dérivés.",
+            "ES": "OP es una criptomoneda que tiene como objetivo proporcionar servicios de trading de opciones descentralizadas y de provisión de liquidez en diversas plataformas blockchain, mejorando la accesibilidad y eficiencia dentro del mercado de derivados."
+        },
+        "symbol": "OP",
+        "paire": "OP/USDT",
+        "logo": "https://static.coinpaprika.com/coin/op-optimism/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
