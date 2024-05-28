@@ -27,6 +27,12 @@ def get_crypto_data(exchange, timeframe, symbol, n):
 
     df['Time'] = pd.to_datetime(df["Time"]/1000, unit='s')
 
+    # Check if the last row's 'Time' value is equal to the current date
+    current_date = datetime.datetime.now().date()
+    print(current_date)
+    if df.iloc[-1]['Time'].date() == current_date:
+        df = df.iloc[:-1]
+
     return df
 
 
@@ -114,7 +120,7 @@ with open('cryptos.json', 'r') as f:
     Old_Dict = json.load(f)
 
 timeframe = '1d'
-n_data = 300
+n_data = 200
 
 mut = threading.Lock()  # Création d'un nouveau verrou
 mut_get = threading.Lock()
