@@ -2,7 +2,7 @@ name: run main.py
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Tous les jours à 00:00 AM
+    - cron: '30 0 * * *' # Tous les jours à 00:30 AM
   workflow_dispatch: # permet de déclencher manuellement le workflow
 
 jobs:
