@@ -7,10 +7,6 @@ from finta import TA
 import pandas as pd
 import random
 
-# Activer l'option future pour éviter le warning
-pd.set_option('future.no_silent_downcasting', True)
-
-
 
 ##############################################################################################################################
 
