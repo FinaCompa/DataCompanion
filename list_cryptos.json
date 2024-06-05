@@ -153,6 +153,28 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
+    "SHIB": {
+        "name": "Shiba Inu",
+        "description": {
+            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
+            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
+            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
+        },
+        "symbol": "SHIB",
+        "paire": "SHIB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
     "AVAX": {
         "name": "Avalanche",
         "description": {
@@ -175,16 +197,16 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "SHIB": {
-        "name": "Shiba Inu",
+    "LINK": {
+        "name": "Chainlink",
         "description": {
-            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
-            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
-            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
+            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
+            "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel.",
+            "ES": "Chainlink es una red de oráculos descentralizada que proporciona conectividad confiable, segura e inmutable entre contratos inteligentes en blockchains y fuentes de datos externas, APIs y servicios computacionales fuera de la cadena, expandiendo así sus funcionalidades y mejorando la adopción del mundo real."
         },
-        "symbol": "SHIB",
-        "paire": "SHIB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
+        "symbol": "LINK",
+        "paire": "LINK/USDT",
+        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -193,7 +215,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -241,28 +263,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "LINK": {
-        "name": "Chainlink",
-        "description": {
-            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
-            "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel.",
-            "ES": "Chainlink es una red de oráculos descentralizada que proporciona conectividad confiable, segura e inmutable entre contratos inteligentes en blockchains y fuentes de datos externas, APIs y servicios computacionales fuera de la cadena, expandiendo así sus funcionalidades y mejorando la adopción del mundo real."
-        },
-        "symbol": "LINK",
-        "paire": "LINK/USDT",
-        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "NEAR": {
         "name": "Near Protocol",
         "description": {
@@ -282,6 +282,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "UNI": {
+        "name": "Uniswap",
+        "description": {
+            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
+            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
+            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
+        },
+        "symbol": "UNI",
+        "paire": "UNI/USDT",
+        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -329,28 +351,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "UNI": {
-        "name": "Uniswap",
-        "description": {
-            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
-            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
-        },
-        "symbol": "UNI",
-        "paire": "UNI/USDT",
-        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "APT": {
         "name": "Aptos",
         "description": {
@@ -370,28 +370,6 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    "IMX": {
-        "name": "Immutable X",
-        "description": {
-            "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
-            "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et le jeu.",
-            "ES": "IMX es una criptomoneda emitida por Immutable X, que proporciona una solución de escalabilidad de capa 2 para aplicaciones basadas en Ethereum, con un enfoque en NFT (Tokens no fungibles) y juegos."
-        },
-        "symbol": "IMX",
-        "paire": "IMX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -436,6 +414,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "IMX": {
+        "name": "Immutable X",
+        "description": {
+            "EN": "IMX is a cryptocurrency issued by Immutable X, providing a layer-2 scaling solution for Ethereum-based applications, with a focus on NFTs (Non-Fungible Tokens) and gaming.",
+            "FR": "IMX est une crypto-monnaie émise par Immutable X, fournissant une solution de mise à l'échelle de la couche 2 pour les applications basées sur Ethereum, avec un accent sur les NFT (jetons non fongibles) et le jeu.",
+            "ES": "IMX es una criptomoneda emitida por Immutable X, que proporciona una solución de escalabilidad de capa 2 para aplicaciones basadas en Ethereum, con un enfoque en NFT (Tokens no fungibles) y juegos."
+        },
+        "symbol": "IMX",
+        "paire": "IMX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/imx-immutable-x/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -505,28 +505,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "AGIX": {
-        "name": "Singularity NET",
-        "description": {
-            "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
-            "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA.",
-            "ES": "AGIX es una criptomoneda centrada en la inteligencia artificial emitida por SingularityNET, con el objetivo de facilitar la interacción y colaboración descentralizadas entre humanos e IA."
-        },
-        "symbol": "AGIX",
-        "paire": "AGIX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "CHZ": {
         "name": "Chiliz",
         "description": {
@@ -546,6 +524,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "AGIX": {
+        "name": "Singularity NET",
+        "description": {
+            "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
+            "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA.",
+            "ES": "AGIX es una criptomoneda centrada en la inteligencia artificial emitida por SingularityNET, con el objetivo de facilitar la interacción y colaboración descentralizadas entre humanos e IA."
+        },
+        "symbol": "AGIX",
+        "paire": "AGIX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     }
