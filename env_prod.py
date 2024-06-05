@@ -16,7 +16,7 @@ class Trading(Env):
 
     def __init__(self, df, window):
         # inputs
-        self.df = pd.DataFrame(df)
+        self.df = df
         self.window = window
 
         self.shape = (window, 7)
@@ -46,11 +46,10 @@ class Trading(Env):
     ###################################################
 
     def reset(self, **kwargs):
+        #print(self.df)
         self.terminated = False
         self.truncated = False
         self._start_tick = self.window
-        
-        
         self.prices, self.signals = self._process_data(self.df)
         #print(f"Last prices : {self.prices[-3:]}\nLast df : {self.df['Close'].iloc[-3:]}")
         self._end_tick = len(self.prices) - 1
@@ -75,20 +74,36 @@ class Trading(Env):
     
     def _process_data(self,df):
         prices = df.loc[:, 'Close'].to_numpy()
-        prices = prices[self._start_tick-self.window : len(df)]
+        prices = prices[self._start_tick - self.window:len(df)]
 
-        # Indicators
+        # Calculate RSI and normalize
         RSI = (TA.RSI(df) / 50) - 1
+        RSI = np.nan_to_num(RSI, nan=0.0).astype(np.float64)
+
+        # Calculate MFI and normalize
         MFI = (TA.MFI(df) / 50) - 1
+        MFI = np.nan_to_num(MFI, nan=0.0).astype(np.float64)
+
+        # Calculate Williams %R and normalize
         WIL = (TA.WILLIAMS(df) / 50) + 1
+        WIL = np.nan_to_num(WIL, nan=0.0).astype(np.float64)
+
+        # Calculate Percent B and normalize
         PCB = TA.PERCENT_B(df) - 0.5
+        PCB = np.nan_to_num(PCB, nan=0.0).astype(np.float64)
+
+        # Calculate VZO and normalize
         VZO = TA.VZO(df) / 100
-        SAR = np.where(TA.SAR(df,0.01) < df['Close'], 1, -1)
+        VZO = np.nan_to_num(VZO, nan=0.0).astype(np.float64)
+
+        # Calculate SAR and normalize
+        SAR = np.where(TA.SAR(df, 0.01) < df['Close'], 1, -1)
+        SAR = np.nan_to_num(SAR, nan=0.0).astype(np.float64)
+
+        # Assign PCH to RSI (as given in your original code)
         PCH = RSI
 
-        signals = np.column_stack((RSI,MFI,WIL,PCB,VZO,SAR,PCH))
-
-        # Replace NaN values with 0
+        signals = np.column_stack((RSI, MFI, WIL, PCB, VZO, SAR, PCH))
         signals = np.nan_to_num(signals, nan=0.0)
 
         return prices, signals
