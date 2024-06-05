@@ -7,6 +7,9 @@ from finta import TA
 import pandas as pd
 import random
 
+# Activer l'option future pour éviter le warning
+pd.set_option('future.no_silent_downcasting', True)
+
 
 
 ##############################################################################################################################
@@ -19,7 +22,7 @@ class Trading(Env):
         self.df = df
         self.window = window
 
-        self.shape = (window, 7)
+        self.shape = (window, 8)
 
         # spaces
         self.action_space = Discrete(2)
@@ -46,16 +49,14 @@ class Trading(Env):
     ###################################################
 
     def reset(self, **kwargs):
-        #print(self.df)
+        print(self.df)
         self.terminated = False
         self.truncated = False
-        self._start_tick = self.window
+        self._start_tick = self.window + 20
         self.prices, self.signals = self._process_data(self.df)
-        #print(f"Last prices : {self.prices[-3:]}\nLast df : {self.df['Close'].iloc[-3:]}")
         self._end_tick = len(self.prices) - 1
         self._current_tick = self._start_tick
         self._last_trade_tick = self._current_tick - 1
-        #print(f'start {self._start_tick}\nend {self._end_tick}')
         self._trade = False
         self._position = 0
         self._position_history = (self.window * [None]) + [self._position]
@@ -72,7 +73,7 @@ class Trading(Env):
 
     ###################################################
     
-    def _process_data(self,df):
+    def _process_data(self, df):
         prices = df.loc[:, 'Close'].to_numpy()
         prices = prices[self._start_tick - self.window:len(df)]
 
@@ -96,14 +97,19 @@ class Trading(Env):
         VZO = TA.VZO(df) / 100
         VZO = np.nan_to_num(VZO, nan=0.0).astype(np.float64)
 
-        # Calculate SAR and normalize
-        SAR = np.where(TA.SAR(df, 0.01) < df['Close'], 1, -1)
-        SAR = np.nan_to_num(SAR, nan=0.0).astype(np.float64)
+        # Calculate PCT and normalize
+        PCT = np.where(df["Close"].pct_change() < 0, 1, -1)
+        PCT = np.nan_to_num(PCT, nan=0.0).astype(np.float64)
+        df = df.infer_objects(copy=False)
 
-        # Assign PCH to RSI (as given in your original code)
+        # Calculate ZLEMA and normalize
+        ZLEMA = np.where(TA.ZLEMA(df,14) < df['Close'], 1, -1)
+        ZLEMA = np.nan_to_num(ZLEMA, nan=0.0).astype(np.float64)
+
+        # Assign RSI to PCH (as given in your original code)
         PCH = RSI
 
-        signals = np.column_stack((RSI, MFI, WIL, PCB, VZO, SAR, PCH))
+        signals = np.column_stack((RSI, MFI, WIL, PCB, VZO, PCT, ZLEMA, PCH))
         signals = np.nan_to_num(signals, nan=0.0)
 
         return prices, signals
