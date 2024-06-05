@@ -45,7 +45,6 @@ class Trading(Env):
     ###################################################
 
     def reset(self, **kwargs):
-        print(self.df)
         self.terminated = False
         self.truncated = False
         self._start_tick = self.window + 20
