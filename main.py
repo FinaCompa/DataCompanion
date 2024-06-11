@@ -84,7 +84,7 @@ def decisionAdvanced(df, IA):
     truncated = False
     score = 0
     while not done:
-        action = model.predict(obs, deterministic=False)
+        action = model.predict(obs, deterministic=True)
         obs, reward, terminated, truncated, info = env.step(action[0])
         score += reward
         done = terminated or truncated
