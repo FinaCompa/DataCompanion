@@ -18,7 +18,7 @@ class Trading(Env):
         self.df = df
         self.window = window
 
-        self.shape = (window, 8)
+        self.shape = (window, 18)
 
         # spaces
         self.action_space = Discrete(2)
@@ -72,39 +72,94 @@ class Trading(Env):
         prices = df.loc[:, 'Close'].to_numpy()
         prices = prices[self._start_tick - self.window:len(df)]
 
-        # Calculate RSI and normalize
-        RSI = (TA.RSI(df) / 50) - 1
-        RSI = np.nan_to_num(RSI, nan=0.0).astype(np.float64)
-
-        # Calculate MFI and normalize
-        MFI = (TA.MFI(df) / 50) - 1
-        MFI = np.nan_to_num(MFI, nan=0.0).astype(np.float64)
-
-        # Calculate Williams %R and normalize
-        WIL = (TA.WILLIAMS(df) / 50) + 1
-        WIL = np.nan_to_num(WIL, nan=0.0).astype(np.float64)
-
-        # Calculate Percent B and normalize
-        PCB = TA.PERCENT_B(df) - 0.5
-        PCB = np.nan_to_num(PCB, nan=0.0).astype(np.float64)
-
-        # Calculate VZO and normalize
-        VZO = TA.VZO(df) / 100
-        VZO = np.nan_to_num(VZO, nan=0.0).astype(np.float64)
 
         # Calculate PCT and normalize
-        PCT = np.where(df["Close"].pct_change() < 0, 1, -1)
+        PCT = np.where(df["Close"].pct_change() > 0, 1, -1)
         PCT = np.nan_to_num(PCT, nan=0.0).astype(np.float64)
         df = df.infer_objects(copy=False)
 
-        # Calculate ZLEMA and normalize
-        ZLEMA = np.where(TA.ZLEMA(df,14) < df['Close'], 1, -1)
-        ZLEMA = np.nan_to_num(ZLEMA, nan=0.0).astype(np.float64)
 
-        # Assign RSI to PCH (as given in your original code)
-        PCH = RSI
+        # Calculate BASPN and normalize
+        BASPN = np.where(TA.BASPN(df)["Buy."] > TA.BASPN(df)["Sell."], 1, 0)
+        BASPN = np.nan_to_num(BASPN, nan=0.0).astype(np.float64)
 
-        signals = np.column_stack((RSI, MFI, WIL, PCB, VZO, PCT, ZLEMA, PCH))
+
+        chand = TA.CHANDELIER(df)
+        # Calculate CHANDELIER and normalize
+        CHAND1 = np.where(np.where(chand["Short."] > chand["Long."], 1, 0), 1, 0)
+        CHAND1 = np.nan_to_num(CHAND1, nan=0.0).astype(np.float64)
+
+        CHAND2 = np.where(np.where(chand["Short."] > df.Close, 1, 0), 1, 0)
+        CHAND2 = np.nan_to_num(CHAND2, nan=0.0).astype(np.float64)
+
+        CHAND3 = np.where(np.where(chand["Long."] > df.Close, 1, 0), 1, 0)
+        CHAND3 = np.nan_to_num(CHAND3, nan=0.0).astype(np.float64)
+
+
+        # Calculate VORTEX and normalize
+        VORTEX = np.clip((TA.VORTEX(df)["VIp"]+TA.VORTEX(df)["VIm"]-2)*5, -1, 1)
+        VORTEX = np.nan_to_num(VORTEX, nan=0.0).astype(np.float64)
+
+
+        # Calculate VW_MACD and normalize
+        MACD = np.where(TA.VW_MACD(df)["MACD"] > TA.VW_MACD(df)["SIGNAL"], 1, 0)
+        MACD = np.nan_to_num(MACD, nan=0.0).astype(np.float64)
+
+
+        # Calculate HMA and normalize
+        HMA = np.where(df.Close > TA.HMA(df), 1, 0)
+        HMA = np.nan_to_num(HMA, nan=0.0).astype(np.float64)
+
+
+        # Calculate SSMA and normalize
+        SSMA = np.where(df.Close > TA.SSMA(df), 1, 0)
+        SSMA = np.nan_to_num(SSMA, nan=0.0).astype(np.float64)
+
+
+        # Calculate SSHMA and normalize
+        SSHMA = np.where(TA.HMA(df) > TA.SSMA(df), 1, 0)
+        SSHMA = np.nan_to_num(SSHMA, nan=0.0).astype(np.float64)
+
+
+        # Calculate BOP and normalize
+        BOP = TA.BOP(df)
+        BOP = np.nan_to_num(BOP, nan=0.0).astype(np.float64)
+
+
+        # Calculate RSI and normalize
+        RSI = TA.RSI(df) / 100
+        RSI = np.nan_to_num(RSI, nan=0.0).astype(np.float64)
+
+
+        # Calculate ER and normalize
+        ER = TA.ER(df)
+        ER = np.nan_to_num(ER, nan=0.0).astype(np.float64)
+
+
+        # Calculate IFT_RSI and normalize
+        IFT_RSI = TA.IFT_RSI(df)
+        IFT_RSI = np.nan_to_num(IFT_RSI, nan=0.0).astype(np.float64)
+
+
+        # Calculate MFI and normalize
+        MFI = TA.MFI(df) / 100
+        MFI = np.nan_to_num(MFI, nan=0.0).astype(np.float64)
+
+
+        # Calculate SQZMI and normalize
+        SQZMI = TA.SQZMI(df)
+        SQZMI = np.nan_to_num(SQZMI, nan=0.0).astype(np.float64)
+
+
+        # Calculate STOCH and normalize
+        STOCH = TA.STOCH(df) / 100
+        STOCH = np.nan_to_num(STOCH, nan=0.0).astype(np.float64)
+
+
+        # Assign BASPN to PCH (as given in your original code)
+        PCH = PCT
+
+        signals = np.column_stack((PCT,BASPN,CHAND1,CHAND2,CHAND3,VORTEX,MACD,HMA,SSMA,SSHMA,BOP,RSI,ER,IFT_RSI,MFI,SQZMI,STOCH,PCH))
         signals = np.nan_to_num(signals, nan=0.0)
 
         return prices, signals
