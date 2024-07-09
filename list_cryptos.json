@@ -153,16 +153,16 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "SHIB": {
-        "name": "Shiba Inu",
+    "TRX": {
+        "name": "TRON",
         "description": {
-            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
-            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
-            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
+            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
+            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale.",
+            "ES": "Tron es una plataforma blockchain descentralizada y de código abierto que fomenta la creación y el despliegue de dApps, juegos y activos digitales, con el objetivo de revolucionar la industria del entretenimiento eliminando intermediarios, reduciendo costos y democratizando el acceso al contenido digital a nivel global."
         },
-        "symbol": "SHIB",
-        "paire": "SHIB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -171,7 +171,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -197,16 +197,16 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "LINK": {
-        "name": "Chainlink",
+    "SHIB": {
+        "name": "Shiba Inu",
         "description": {
-            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
-            "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel.",
-            "ES": "Chainlink es una red de oráculos descentralizada que proporciona conectividad confiable, segura e inmutable entre contratos inteligentes en blockchains y fuentes de datos externas, APIs y servicios computacionales fuera de la cadena, expandiendo así sus funcionalidades y mejorando la adopción del mundo real."
+            "EN": "Shiba Inu is a meme-inspired cryptocurrency project themed around the Shiba Inu dog breed, initially launched as a joke but gaining popularity due to its playful nature, strong community support, and potential utility as a decentralized, community-driven experiment in social media-fueled virality and value creation.",
+            "FR": "Shiba Inu est un projet de crypto-monnaie inspiré des memes et basé sur la race de chien Shiba Inu, lancé à l'origine comme une blague mais gagnant en popularité en raison de son caractère ludique, du fort soutien de la communauté et de son utilité potentielle en tant qu'expérience décentralisée et communautaire de viralité et de création de valeur alimentée par les médias sociaux.",
+            "ES": "Shiba Inu es un proyecto de criptomoneda inspirado en memes y temático en torno a la raza de perro Shiba Inu, lanzado inicialmente como una broma pero ganando popularidad debido a su naturaleza juguetona, fuerte apoyo de la comunidad y utilidad potencial como un experimento descentralizado impulsado por la comunidad en viralidad y creación de valor alimentado por las redes sociales."
         },
-        "symbol": "LINK",
-        "paire": "LINK/USDT",
-        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
+        "symbol": "SHIB",
+        "paire": "SHIB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/shib-shiba-inu/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -215,29 +215,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    "TRX": {
-        "name": "TRON",
-        "description": {
-            "EN": "Tron is a decentralized, open-source blockchain platform fostering the creation and deployment of dApps, games, and digital assets, aiming to revolutionize the entertainment industry by eliminating middlemen, reducing costs, and democratizing access to digital content globally.",
-            "FR": "Tron est une plateforme blockchain décentralisée et open-source favorisant la création et le déploiement de dApps, de jeux et d'actifs numériques, visant à révolutionner l'industrie du divertissement en éliminant les intermédiaires, en réduisant les coûts et en démocratisant l'accès au contenu numérique à l'échelle mondiale.",
-            "ES": "Tron es una plataforma blockchain descentralizada y de código abierto que fomenta la creación y el despliegue de dApps, juegos y activos digitales, con el objetivo de revolucionar la industria del entretenimiento eliminando intermediarios, reduciendo costos y democratizando el acceso al contenido digital a nivel global."
-        },
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -263,16 +241,16 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "NEAR": {
-        "name": "Near Protocol",
+    "LINK": {
+        "name": "Chainlink",
         "description": {
-            "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
-            "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade.",
-            "ES": "NEAR es una plataforma blockchain diseñada para construir y desplegar aplicaciones descentralizadas (dApps) con un enfoque en la usabilidad, escalabilidad y experiencia del desarrollador, utilizando fragmentación y un mecanismo de consenso único llamado Nightshade."
+            "EN": "Chainlink is a decentralized oracle network providing reliable, secure, and tamper-proof connectivity between smart contracts on blockchains and external data sources, APIs, and off-chain computational services, thereby expanding their functionalities and enhancing real-world adoption.",
+            "FR": "Chainlink est un réseau d'oracles décentralisé fournissant une connectivité fiable, sécurisée et inviolable entre les contrats intelligents sur les blockchains et les sources de données externes, les API et les services de calcul hors chaîne, élargissant ainsi leurs fonctionnalités et améliorant l'adoption dans le monde réel.",
+            "ES": "Chainlink es una red de oráculos descentralizada que proporciona conectividad confiable, segura e inmutable entre contratos inteligentes en blockchains y fuentes de datos externas, APIs y servicios computacionales fuera de la cadena, expandiendo así sus funcionalidades y mejorando la adopción del mundo real."
         },
-        "symbol": "NEAR",
-        "paire": "NEAR/USDT",
-        "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
+        "symbol": "LINK",
+        "paire": "LINK/USDT",
+        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -281,51 +259,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    "UNI": {
-        "name": "Uniswap",
-        "description": {
-            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
-            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
-        },
-        "symbol": "UNI",
-        "paire": "UNI/USDT",
-        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    "MATIC": {
-        "name": "Polygon",
-        "description": {
-            "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
-            "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés.",
-            "ES": "Polygon (anteriormente Matic Network) es una solución de escalabilidad de capa 2 para Ethereum, aprovechando el marco de Plasma y las sidechains PoS para mejorar la escalabilidad, reducir las tarifas de gas, mejorar la experiencia del usuario y permitir transacciones más rápidas, más baratas y más respetuosas con el medio ambiente para aplicaciones y servicios descentralizados."
-        },
-        "symbol": "MATIC",
-        "paire": "MATIC/USDT",
-        "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -351,6 +285,72 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
+    "UNI": {
+        "name": "Uniswap",
+        "description": {
+            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
+            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
+            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
+        },
+        "symbol": "UNI",
+        "paire": "UNI/USDT",
+        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "NEAR": {
+        "name": "Near Protocol",
+        "description": {
+            "EN": "NEAR is a blockchain platform designed for building and deploying decentralized applications (dApps) with a focus on usability, scalability, and developer experience, utilizing sharding and a unique consensus mechanism called Nightshade.",
+            "FR": "NEAR est une plateforme blockchain conçue pour créer et déployer des applications décentralisées (dApps) avec un accent sur la convivialité, la scalabilité et l'expérience des développeurs, en utilisant le sharding et un mécanisme de consensus unique appelé Nightshade.",
+            "ES": "NEAR es una plataforma blockchain diseñada para construir y desplegar aplicaciones descentralizadas (dApps) con un enfoque en la usabilidad, escalabilidad y experiencia del desarrollador, utilizando fragmentación y un mecanismo de consenso único llamado Nightshade."
+        },
+        "symbol": "NEAR",
+        "paire": "NEAR/USDT",
+        "logo": "https://static.coinpaprika.com/coin/near-near-protocol/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "MATIC": {
+        "name": "Polygon",
+        "description": {
+            "EN": "Polygon (formerly Matic Network) is a Layer-2 scaling solution for Ethereum, leveraging the Plasma framework and PoS sidechains to enhance scalability, reduce gas fees, improve user experience, and enable faster, cheaper, and more eco-friendly transactions for decentralized applications and services.",
+            "FR": "Polygon (anciennement Matic Network) est une solution de mise à l'échelle de la couche 2 pour Ethereum, tirant parti du cadre Plasma et des sidechains PoS pour améliorer l'extensibilité, réduire les frais de gaz, améliorer l'expérience utilisateur et permettre des transactions plus rapides, moins chères et plus respectueuses de l'environnement pour les applications et services décentralisés.",
+            "ES": "Polygon (anteriormente Matic Network) es una solución de escalabilidad de capa 2 para Ethereum, aprovechando el marco de Plasma y las sidechains PoS para mejorar la escalabilidad, reducir las tarifas de gas, mejorar la experiencia del usuario y permitir transacciones más rápidas, más baratas y más respetuosas con el medio ambiente para aplicaciones y servicios descentralizados."
+        },
+        "symbol": "MATIC",
+        "paire": "MATIC/USDT",
+        "logo": "https://static.coinpaprika.com/coin/matic-polygon/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
     "APT": {
         "name": "Aptos",
         "description": {
@@ -370,6 +370,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "ATOM": {
+        "name": "Cosmos",
+        "description": {
+            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
+            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
+            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
+        },
+        "symbol": "ATOM",
+        "paire": "ATOM/USDT",
+        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -395,16 +417,16 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "ATOM": {
-        "name": "Cosmos",
+    "INJ": {
+        "name": "Injective Protocol",
         "description": {
-            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
-            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
+            "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
+            "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective.",
+            "ES": "INJ es un token de utilidad emitido por el Protocolo Injective, que facilita el trading descentralizado de derivados y los servicios de intercambio dentro del ecosistema Injective."
         },
-        "symbol": "ATOM",
-        "paire": "ATOM/USDT",
-        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "symbol": "INJ",
+        "paire": "INJ/USDT",
+        "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
@@ -413,7 +435,7 @@
         },
         "histo_Advanced": [],
         "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -483,28 +505,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "INJ": {
-        "name": "Injective Protocol",
-        "description": {
-            "EN": "INJ is a utility token issued by Injective Protocol, facilitating decentralized derivatives trading and exchange services within the Injective ecosystem.",
-            "FR": "INJ est un jeton utilitaire émis par le protocole Injective, facilitant le trading décentralisé de produits dérivés et les services d'échange au sein de l'écosystème Injective.",
-            "ES": "INJ es un token de utilidad emitido por el Protocolo Injective, que facilita el trading descentralizado de derivados y los servicios de intercambio dentro del ecosistema Injective."
-        },
-        "symbol": "INJ",
-        "paire": "INJ/USDT",
-        "logo": "https://static.coinpaprika.com/coin/inj-injective-protocol/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "CHZ": {
         "name": "Chiliz",
         "description": {
@@ -524,28 +524,6 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
-    "AGIX": {
-        "name": "Singularity NET",
-        "description": {
-            "EN": "AGIX is an AI-focused cryptocurrency issued by SingularityNET, aiming to facilitate decentralized human-AI interaction and collaboration.",
-            "FR": "AGIX est une crypto-monnaie axée sur l'intelligence artificielle émise par SingularityNET, visant à faciliter l'interaction et la collaboration décentralisées entre humains et IA.",
-            "ES": "AGIX es una criptomoneda centrada en la inteligencia artificial emitida por SingularityNET, con el objetivo de facilitar la interacción y colaboración descentralizadas entre humanos e IA."
-        },
-        "symbol": "AGIX",
-        "paire": "AGIX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/agix-singularitynet/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/agix-singularitynet/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     }
