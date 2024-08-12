@@ -183,7 +183,7 @@ def add_result(exchange, coin, timeframe, n_data):
         Final_Dict[coin.split("/")[0]]["histo_Advanced"] = liste_Advanced
         Final_Dict[coin.split("/")[0]]["histo_Basic"] = liste_Basic
     finally:
-    mut.release()
+        mut.release()
 
 
 ######################### Main #########################
