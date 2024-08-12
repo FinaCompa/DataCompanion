@@ -285,28 +285,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "UNI": {
-        "name": "Uniswap",
-        "description": {
-            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
-            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
-            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
-        },
-        "symbol": "UNI",
-        "paire": "UNI/USDT",
-        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "NEAR": {
         "name": "Near Protocol",
         "description": {
@@ -351,6 +329,28 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
+    "UNI": {
+        "name": "Uniswap",
+        "description": {
+            "EN": "Uniswap is a leading decentralized exchange (DEX) protocol built on Ethereum, employing automated market making (AMM) algorithms and liquidity pools instead of traditional order books, enabling trustless, efficient, and self-governing swaps of ERC-20 tokens with minimal slippage and high capital efficiency.",
+            "FR": "Uniswap est un protocole d'échange décentralisé (DEX) de premier plan construit sur Ethereum, utilisant des algorithmes de création de marché automatisée (AMM) et des pools de liquidités au lieu des carnets d'ordres traditionnels, permettant des échanges de jetons ERC-20 sans confiance, efficaces et autogérés avec un glissement minimal et une grande efficacité du capital.",
+            "ES": "Uniswap es un protocolo de intercambio descentralizado (DEX) líder construido en Ethereum, que emplea algoritmos de creación de mercado automatizados (AMM) y pools de liquidez en lugar de libros de órdenes tradicionales, permitiendo intercambios sin confianza, eficientes y autogobernados de tokens ERC-20 con un deslizamiento mínimo y alta eficiencia de capital."
+        },
+        "symbol": "UNI",
+        "paire": "UNI/USDT",
+        "logo": "https://static.coinpaprika.com/coin/uni-uniswap/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
     "APT": {
         "name": "Aptos",
         "description": {
@@ -373,28 +373,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "ATOM": {
-        "name": "Cosmos",
-        "description": {
-            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
-            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
-            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
-        },
-        "symbol": "ATOM",
-        "paire": "ATOM/USDT",
-        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "FIL": {
         "name": "Filecoin",
         "description": {
@@ -414,6 +392,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "ATOM": {
+        "name": "Cosmos",
+        "description": {
+            "EN": "Cosmos is a decentralized network of independent, parallel, and interconnected blockchains called zones, powered by the Interblockchain Communication Protocol (IBC), aiming to solve scalability issues, promote interoperability, streamline application development, and foster a harmonious ecosystem of connected sovereign chains.",
+            "FR": "Cosmos est un réseau décentralisé de blockchains indépendantes, parallèles et interconnectées appelées zones, alimenté par le protocole de communication interblockchain (IBC), visant à résoudre les problèmes d'extensibilité, à promouvoir l'interopérabilité, à rationaliser le développement d'applications et à favoriser un écosystème harmonieux de chaînes souveraines connectées.",
+            "ES": "Cosmos es una red descentralizada de blockchains independientes, paralelas e interconectadas llamadas zonas, alimentada por el Protocolo de Comunicación Interblockchain (IBC), con el objetivo de resolver problemas de escalabilidad, promover la interoperabilidad, agilizar el desarrollo de aplicaciones y fomentar un ecosistema armonioso de cadenas soberanas conectadas."
+        },
+        "symbol": "ATOM",
+        "paire": "ATOM/USDT",
+        "logo": "https://static.coinpaprika.com/coin/atom-cosmos/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
@@ -461,28 +461,6 @@
         "ohlcv_histo": [],
         "time_histo": []
     },
-    "GRT": {
-        "name": "The Graph",
-        "description": {
-            "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
-            "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés.",
-            "ES": "The Graph es un protocolo de indexación e interrogación descentralizado para blockchains como Ethereum, IPFS y Filecoin, que permite a los desarrolladores recuperar de manera eficiente datos específicos de eventos en la cadena y cambios de estado utilizando consultas GraphQL estandarizadas, desbloqueando nuevas posibilidades para aplicaciones y servicios descentralizados."
-        },
-        "symbol": "GRT",
-        "paire": "GRT/USDT",
-        "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "premium": true,
-        "IA": {
-            "Basic": "",
-            "Advanced": ""
-        },
-        "histo_Advanced": [],
-        "histo_Basic": [],
-        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
-        "ohlcv_histo": [],
-        "time_histo": []
-    },
     "OP": {
         "name": "Optimism",
         "description": {
@@ -502,6 +480,28 @@
         "histo_Advanced": [],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
+        "ohlcv_histo": [],
+        "time_histo": []
+    },
+    "GRT": {
+        "name": "The Graph",
+        "description": {
+            "EN": "The Graph is a decentralized indexing and querying protocol for blockchains such as Ethereum, IPFS, and Filecoin, enabling developers to efficiently retrieve specific data from on-chain events and state changes using standardized GraphQL queries, unlocking new possibilities for decentralized applications and services.",
+            "FR": "The Graph est un protocole d'indexation et d'interrogation décentralisé pour des blockchains telles qu'Ethereum, IPFS et Filecoin, permettant aux développeurs de récupérer efficacement des données spécifiques à partir d'événements sur la chaîne et de changements d'état en utilisant des requêtes GraphQL normalisées, ouvrant de nouvelles possibilités pour les applications et les services décentralisés.",
+            "ES": "The Graph es un protocolo de indexación e interrogación descentralizado para blockchains como Ethereum, IPFS y Filecoin, que permite a los desarrolladores recuperar de manera eficiente datos específicos de eventos en la cadena y cambios de estado utilizando consultas GraphQL estandarizadas, desbloqueando nuevas posibilidades para aplicaciones y servicios descentralizados."
+        },
+        "symbol": "GRT",
+        "paire": "GRT/USDT",
+        "logo": "https://static.coinpaprika.com/coin/grt-the-graph/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "premium": true,
+        "IA": {
+            "Basic": "",
+            "Advanced": ""
+        },
+        "histo_Advanced": [],
+        "histo_Basic": [],
+        "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "ohlcv_histo": [],
         "time_histo": []
     },
