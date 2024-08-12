@@ -7,6 +7,10 @@ from finta import TA
 import pandas as pd
 import random
 
+# Activer l'option future pour éviter le warning
+#pd.set_option('future.no_silent_downcasting', True)
+
+
 
 ##############################################################################################################################
 
@@ -45,10 +49,12 @@ class Trading(Env):
     ###################################################
 
     def reset(self, **kwargs):
+        #print(self.df)
         self.terminated = False
         self.truncated = False
         self._start_tick = self.window + 20
         self.prices, self.signals = self._process_data(self.df)
+        self._last_trade_price = self.prices[self._start_tick]
         self._end_tick = len(self.prices) - 1
         self._current_tick = self._start_tick
         self._last_trade_tick = self._current_tick - 1
