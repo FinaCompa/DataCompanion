@@ -12,11 +12,10 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             0,
@@ -25,6 +24,7 @@
             100,
             100,
             0,
+            100,
             100
         ],
         "histo_Basic": [
@@ -33,11 +33,11 @@
             0,
             100,
             0,
-            100
+            100,
+            0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/btc-bitcoin/ohlcv/today",
         "ohlcv_histo": [
-            64630.0,
             65356.0,
             61489.9,
             60710.0,
@@ -67,10 +67,10 @@
             59404.8,
             59034.0,
             59352.1,
-            59135.6
+            59135.6,
+            58974.5
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -100,7 +100,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -120,7 +121,6 @@
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             0,
@@ -128,13 +128,13 @@
             100,
             100,
             0,
+            100,
             100,
             100
         ],
         "histo_Basic": [],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/eth-ethereum/ohlcv/today",
         "ohlcv_histo": [
-            3232.7,
             3203.1,
             2989.61,
             2903.79,
@@ -164,10 +164,10 @@
             2457.38,
             2528.4,
             2527.8,
-            2525.89
+            2525.89,
+            2513.2
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -197,7 +197,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -213,18 +214,18 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
-            0,
             100,
             100,
             100,
             100,
             0,
+            100,
             100,
             100
         ],
@@ -235,11 +236,11 @@
             0,
             100,
             100,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/bnb-binance-coin/ohlcv/today",
         "ohlcv_histo": [
-            576.6,
             575.1,
             543.1,
             529.5,
@@ -269,10 +270,10 @@
             533.2,
             537.1,
             536.7,
-            535.2
+            535.2,
+            533.1
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -302,7 +303,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -318,14 +320,14 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
+            100,
             100,
             100,
             100,
@@ -338,11 +340,11 @@
             100,
             0,
             100,
-            100
+            100,
+            0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/sol-solana/ohlcv/today",
         "ohlcv_histo": [
-            171.69,
             167.37,
             152.74,
             142.52,
@@ -372,10 +374,10 @@
             146.8,
             143.92,
             140.02,
-            137.99
+            137.99,
+            135.35
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -405,7 +407,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -421,36 +424,35 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             0,
             100,
             100,
             100,
-            0,
-            100,
-            0
-        ],
-        "histo_Basic": [
-            100,
-            0,
-            100,
-            100,
-            100,
-            0,
             0,
             100,
             0,
             100
         ],
+        "histo_Basic": [
+            0,
+            100,
+            100,
+            100,
+            0,
+            0,
+            100,
+            0,
+            100,
+            0
+        ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/xrp-xrp/ohlcv/today",
         "ohlcv_histo": [
-            0.6231,
             0.5964,
             0.5606,
             0.5559,
@@ -480,10 +482,10 @@
             0.5666,
             0.5693,
             0.5621,
-            0.5667
+            0.5667,
+            0.5662
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -513,7 +515,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -529,11 +532,10 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             100,
@@ -542,16 +544,17 @@
             100,
             0,
             0,
-            0
+            0,
+            100
         ],
         "histo_Basic": [
             100,
             100,
-            0
+            0,
+            100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/doge-dogecoin/ohlcv/today",
         "ohlcv_histo": [
-            0.12195,
             0.11895,
             0.11155,
             0.10813,
@@ -581,10 +584,10 @@
             0.09892,
             0.09966,
             0.10036,
-            0.10178
+            0.10178,
+            0.10126
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -614,7 +617,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -630,28 +634,28 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
             100,
             100,
             100,
             100,
             0,
+            100,
             100
         ],
         "histo_Basic": [
             0,
+            100,
             100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ada-cardano/ohlcv/today",
         "ohlcv_histo": [
-            0.3883,
             0.3926,
             0.3636,
             0.3647,
@@ -681,10 +685,10 @@
             0.3504,
             0.3501,
             0.3578,
-            0.3469
+            0.3469,
+            0.345
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -714,7 +718,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -734,7 +739,6 @@
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            100,
             0,
             0,
             0,
@@ -743,23 +747,23 @@
             100,
             0,
             0,
-            0
+            0,
+            100
         ],
         "histo_Basic": [
             0,
             0,
             0,
             0,
-            0,
             100,
             0,
             100,
             100,
-            100
+            100,
+            0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/trx-tron/ohlcv/today",
         "ohlcv_histo": [
-            0.12866,
             0.12827,
             0.12363,
             0.12543,
@@ -789,10 +793,10 @@
             0.15801,
             0.15825,
             0.15995,
-            0.16003
+            0.16003,
+            0.15767
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -822,7 +826,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -838,27 +843,27 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": false,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
+            100,
+            100,
+            100,
+            100,
+            100,
             0,
-            100,
-            100,
-            100,
-            100,
-            100,
-            0
+            100
         ],
         "histo_Basic": [
-            0
+            0,
+            100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/avax-avalanche/ohlcv/today",
         "ohlcv_histo": [
-            25.71,
             25.708,
             23.607,
             22.67,
@@ -888,10 +893,10 @@
             24.088,
             23.448,
             22.903,
-            23.277
+            23.277,
+            22.806
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -921,7 +926,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -937,11 +943,10 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             0,
@@ -950,17 +955,18 @@
             100,
             0,
             0,
+            100,
             100
         ],
         "histo_Basic": [
             0,
             0,
             0,
+            100,
             100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/shib-shiba-inu/ohlcv/today",
         "ohlcv_histo": [
-            1.5923e-05,
             1.5791e-05,
             1.467e-05,
             1.4232e-05,
@@ -990,10 +996,10 @@
             1.3761e-05,
             1.3857e-05,
             1.4075e-05,
-            1.3995e-05
+            1.3995e-05,
+            1.3838e-05
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1023,7 +1029,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1039,29 +1046,29 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
+            100,
+            100,
+            100,
+            100,
+            100,
             0,
-            100,
-            100,
-            100,
-            100,
-            100,
-            0
+            100
         ],
         "histo_Basic": [
             0,
             100,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/dot-polkadot/ohlcv/today",
         "ohlcv_histo": [
-            5.389,
             5.345,
             5.126,
             5.043,
@@ -1091,10 +1098,10 @@
             4.384,
             4.255,
             4.252,
-            4.278
+            4.278,
+            4.259
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1124,7 +1131,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1140,25 +1148,26 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
             100,
             100,
             100,
             0,
             100,
-            0
+            0,
+            100
         ],
-        "histo_Basic": [],
+        "histo_Basic": [
+            100
+        ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/link-chainlink/ohlcv/today",
         "ohlcv_histo": [
-            12.834,
             12.891,
             11.92,
             11.683,
@@ -1188,10 +1197,10 @@
             11.157,
             11.175,
             10.941,
-            11.111
+            11.111,
+            11.015
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1221,7 +1230,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1237,17 +1247,17 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             100,
-            100,
             0,
             0,
             100,
             100,
             100,
+            0,
             0,
             0,
             0
@@ -1257,11 +1267,11 @@
             100,
             0,
             100,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/ltc-litecoin/ohlcv/today",
         "ohlcv_histo": [
-            70.14,
             69.57,
             65.08,
             64.64,
@@ -1291,10 +1301,10 @@
             60.4,
             61.83,
             62.49,
-            64.94
+            64.94,
+            64.97
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1324,7 +1334,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1340,14 +1351,14 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
+            100,
             100,
             100,
             100,
@@ -1357,11 +1368,11 @@
         ],
         "histo_Basic": [
             100,
-            100
+            100,
+            0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/near-near-protocol/ohlcv/today",
         "ohlcv_histo": [
-            4.991,
             4.981,
             4.605,
             4.365,
@@ -1391,10 +1402,10 @@
             4.528,
             4.343,
             4.214,
-            4.114
+            4.114,
+            4.031
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1424,7 +1435,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1440,14 +1452,14 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
+            100,
             100,
             100,
             100,
@@ -1458,11 +1470,11 @@
         "histo_Basic": [
             0,
             100,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/matic-polygon/ohlcv/today",
         "ohlcv_histo": [
-            0.4958,
             0.4918,
             0.4679,
             0.4546,
@@ -1492,10 +1504,10 @@
             0.4661,
             0.4368,
             0.4252,
-            0.4208
+            0.4208,
+            0.4197
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1525,7 +1537,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1541,17 +1554,17 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
-            0,
             100,
             0,
             100,
             100,
             100,
             100,
+            0,
             0,
             0,
             0
@@ -1559,11 +1572,11 @@
         "histo_Basic": [
             0,
             100,
+            100,
             100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/uni-uniswap/ohlcv/today",
         "ohlcv_histo": [
-            7.172,
             7.186,
             6.614,
             6.627,
@@ -1593,10 +1606,10 @@
             5.715,
             5.77,
             5.838,
-            5.893
+            5.893,
+            5.941
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1626,7 +1639,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1642,7 +1656,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
@@ -1650,21 +1664,21 @@
             0,
             0,
             0,
-            0,
             100,
             100,
             100,
             0,
+            100,
             100
         ],
         "histo_Basic": [
             0,
             100,
+            100,
             100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/apt-aptos/ohlcv/today",
         "ohlcv_histo": [
-            6.412,
             6.409,
             6.016,
             5.576,
@@ -1694,10 +1708,10 @@
             6.834,
             6.733,
             6.794,
-            6.714
+            6.714,
+            6.49
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1727,7 +1741,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1743,7 +1758,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
@@ -1751,7 +1766,7 @@
             0,
             0,
             0,
-            0,
+            100,
             100,
             100,
             100,
@@ -1763,11 +1778,11 @@
             100,
             0,
             100,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/fil-filecoin/ohlcv/today",
         "ohlcv_histo": [
-            4.208,
             4.164,
             3.871,
             3.689,
@@ -1797,10 +1812,10 @@
             3.722,
             3.646,
             3.646,
-            3.641
+            3.641,
+            3.57
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1830,7 +1845,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1846,12 +1862,11 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             100,
-            100,
             0,
             0,
             100,
@@ -1859,16 +1874,17 @@
             100,
             0,
             0,
-            0
+            0,
+            100
         ],
         "histo_Basic": [
             100,
             0,
-            0
+            0,
+            100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/atom-cosmos/ohlcv/today",
         "ohlcv_histo": [
-            5.808,
             5.779,
             5.359,
             5.124,
@@ -1898,10 +1914,10 @@
             4.591,
             4.599,
             4.608,
-            4.647
+            4.647,
+            4.56
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -1931,7 +1947,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -1947,7 +1964,7 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Up Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
@@ -1955,7 +1972,7 @@
             0,
             0,
             0,
-            0,
+            100,
             100,
             100,
             100,
@@ -1969,11 +1986,11 @@
             0,
             100,
             0,
+            0,
             0
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/inj-injective-protocol/ohlcv/today",
         "ohlcv_histo": [
-            21.965,
             21.665,
             19.759,
             18.49,
@@ -2003,10 +2020,10 @@
             19.006,
             17.957,
             17.467,
-            17.41
+            17.41,
+            17.271
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -2036,7 +2053,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -2060,11 +2078,11 @@
             0,
             0,
             0,
-            0,
             100,
             100,
             0,
             0,
+            100,
             100
         ],
         "histo_Basic": [
@@ -2075,7 +2093,6 @@
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/imx-immutable-x/ohlcv/today",
         "ohlcv_histo": [
-            1.3953,
             1.3757,
             1.2788,
             1.2031,
@@ -2105,10 +2122,10 @@
             1.3472,
             1.4425,
             1.4572,
-            1.4261
+            1.4261,
+            1.3636
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -2138,7 +2155,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -2154,30 +2172,30 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
-            0,
             100,
             100,
             100,
             100,
             0,
             100,
-            0
+            0,
+            100
         ],
         "histo_Basic": [
             0,
             100,
             100,
-            0
+            0,
+            100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/op-optimism/ohlcv/today",
         "ohlcv_histo": [
-            1.5817,
             1.5743,
             1.4628,
             1.4236,
@@ -2207,10 +2225,10 @@
             1.3737,
             1.4263,
             1.426,
-            1.4686
+            1.4686,
+            1.4169
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -2240,7 +2258,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -2256,27 +2275,27 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
             100,
             100,
             100,
             100,
             0,
-            0
+            0,
+            100
         ],
         "histo_Basic": [
-            0
+            0,
+            100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/grt-the-graph/ohlcv/today",
         "ohlcv_histo": [
-            0.1801,
             0.1785,
             0.1626,
             0.1539,
@@ -2306,10 +2325,10 @@
             0.151,
             0.1464,
             0.1466,
-            0.1475
+            0.1475,
+            0.1459
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -2339,7 +2358,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     },
     {
@@ -2355,29 +2375,29 @@
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "premium": true,
         "IA": {
-            "Basic": "Down Moves",
+            "Basic": "Chill",
             "Advanced": "Down Moves"
         },
         "histo_Advanced": [
             0,
             0,
             0,
-            0,
             100,
             100,
             100,
             100,
             0,
+            100,
             100
         ],
         "histo_Basic": [
             0,
             0,
+            100,
             100
         ],
         "ohlcv_today": "https://api.coinpaprika.com/v1/coins/chz-chiliz/ohlcv/today",
         "ohlcv_histo": [
-            0.06481,
             0.06366,
             0.06,
             0.05744,
@@ -2407,10 +2427,10 @@
             0.05451,
             0.0537,
             0.05605,
-            0.0541
+            0.0541,
+            0.05297
         ],
         "time_histo": [
-            "2024-07-31",
             "2024-08-01",
             "2024-08-02",
             "2024-08-03",
@@ -2440,7 +2460,8 @@
             "2024-08-27",
             "2024-08-28",
             "2024-08-29",
-            "2024-08-30"
+            "2024-08-30",
+            "2024-08-31"
         ]
     }
 ]
