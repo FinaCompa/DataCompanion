@@ -1,1 +1,140 @@
-
+{
+    "BTC": {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "paire": "BTC/USDT",
+        "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency, as the system works without a central bank or single administrator.",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/215.pdf",
+        "source_code": "https://github.com/bitcoin/bitcoin",
+        "IA": {
+            "1d": {
+                "XGBoost": {
+                    "Prediction": 0
+                },
+                "Bagging": {
+                    "Prediction": 1
+                },
+                "Stacking": {
+                    "Prediction": 1
+                },
+                "KNN": {
+                    "Prediction": -1
+                },
+                "Random Forest": {
+                    "Prediction": -1
+                }
+            },
+            "1w": {
+                "XGBoost": {
+                    "Prediction": 1
+                },
+                "Bagging": {
+                    "Prediction": 1
+                },
+                "Stacking": {
+                    "Prediction": 1
+                },
+                "KNN": {
+                    "Prediction": 1
+                },
+                "Random Forest": {
+                    "Prediction": 1
+                }
+            }
+        }
+    },
+    "ETH": {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "paire": "ETH/USDT",
+        "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "Ethereum is a decentralized platform for applications. Applications build on it can use smart contracts - computer algorithms which execute themselves when data is supplied to the platform. There is no need for any human operators.",
+        "whitepaper": "https://ethereum.org/en/whitepaper/",
+        "source_code": "https://github.com/ethereum/go-ethereum",
+        "IA": {
+            "1d": {
+                "XGBoost": {
+                    "Prediction": 1
+                },
+                "Bagging": {
+                    "Prediction": 1
+                },
+                "Stacking": {
+                    "Prediction": 1
+                },
+                "KNN": {
+                    "Prediction": -1
+                },
+                "Random Forest": {
+                    "Prediction": -1
+                }
+            },
+            "1w": {
+                "XGBoost": {
+                    "Prediction": -1
+                },
+                "Bagging": {
+                    "Prediction": 1
+                },
+                "Stacking": {
+                    "Prediction": 1
+                },
+                "KNN": {
+                    "Prediction": -1
+                },
+                "Random Forest": {
+                    "Prediction": 1
+                }
+            }
+        }
+    },
+    "XRP": {
+        "name": "XRP",
+        "symbol": "XRP",
+        "paire": "XRP/USDT",
+        "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "Ripple (XRP) is one of the fastest and most scalable digital asset, enabling real-time global payments anywhere in the world.",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/27.pdf",
+        "source_code": "https://github.com/ripple/rippled",
+        "IA": {
+            "1d": {
+                "XGBoost": {
+                    "Prediction": 0
+                },
+                "Bagging": {
+                    "Prediction": -1
+                },
+                "Stacking": {
+                    "Prediction": -1
+                },
+                "KNN": {
+                    "Prediction": -1
+                },
+                "Random Forest": {
+                    "Prediction": -1
+                }
+            },
+            "1w": {
+                "XGBoost": {
+                    "Prediction": -1
+                },
+                "Bagging": {
+                    "Prediction": -1
+                },
+                "Stacking": {
+                    "Prediction": -1
+                },
+                "KNN": {
+                    "Prediction": -1
+                },
+                "Random Forest": {
+                    "Prediction": -1
+                }
+            }
+        }
+    }
+}
