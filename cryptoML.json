@@ -14,13 +14,13 @@
                     "Prediction": 0
                 },
                 "Bagging": {
-                    "Prediction": 1
+                    "Prediction": 0
                 },
                 "Stacking": {
                     "Prediction": 1
                 },
                 "KNN": {
-                    "Prediction": 1
+                    "Prediction": 0
                 },
                 "RandomForest": {
                     "Prediction": 0
@@ -57,7 +57,7 @@
         "IA": {
             "1d": {
                 "XGBoost": {
-                    "Prediction": 1
+                    "Prediction": 0
                 },
                 "Bagging": {
                     "Prediction": 1
@@ -66,7 +66,7 @@
                     "Prediction": 1
                 },
                 "KNN": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "RandomForest": {
                     "Prediction": 1
@@ -103,7 +103,7 @@
         "IA": {
             "1d": {
                 "XGBoost": {
-                    "Prediction": 1
+                    "Prediction": 0
                 },
                 "Bagging": {
                     "Prediction": 1
@@ -152,16 +152,16 @@
                     "Prediction": 0
                 },
                 "Bagging": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "Stacking": {
                     "Prediction": 1
                 },
                 "KNN": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "RandomForest": {
-                    "Prediction": 1
+                    "Prediction": -1
                 }
             },
             "1w": {
@@ -195,7 +195,7 @@
         "IA": {
             "1d": {
                 "XGBoost": {
-                    "Prediction": 0
+                    "Prediction": -1
                 },
                 "Bagging": {
                     "Prediction": 1
@@ -241,19 +241,19 @@
         "IA": {
             "1d": {
                 "XGBoost": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "Bagging": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "Stacking": {
                     "Prediction": 1
                 },
                 "KNN": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "RandomForest": {
-                    "Prediction": 1
+                    "Prediction": -1
                 }
             },
             "1w": {
@@ -287,7 +287,7 @@
         "IA": {
             "1d": {
                 "XGBoost": {
-                    "Prediction": 1
+                    "Prediction": 0
                 },
                 "Bagging": {
                     "Prediction": 1
