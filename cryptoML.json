@@ -60,7 +60,7 @@
                     "Prediction": 0
                 },
                 "Bagging": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "Stacking": {
                     "Prediction": 1
@@ -112,7 +112,7 @@
                     "Prediction": -1
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1
+                    "Prediction": 1
                 },
                 "Random-Forest": {
                     "Prediction": 1
@@ -178,7 +178,7 @@
                     "Prediction": -1
                 },
                 "Random-Forest": {
-                    "Prediction": -1
+                    "Prediction": 1
                 }
             }
         }
@@ -198,13 +198,13 @@
                     "Prediction": 0
                 },
                 "Bagging": {
-                    "Prediction": -1
+                    "Prediction": 1
                 },
                 "Stacking": {
                     "Prediction": 1
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1
+                    "Prediction": 1
                 },
                 "Random-Forest": {
                     "Prediction": -1
@@ -258,16 +258,16 @@
             },
             "1w": {
                 "XGBoost": {
-                    "Prediction": 0
+                    "Prediction": -1
                 },
                 "Bagging": {
                     "Prediction": -1
                 },
                 "Stacking": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1
+                    "Prediction": -1
                 },
                 "Random-Forest": {
                     "Prediction": -1
@@ -304,10 +304,10 @@
             },
             "1w": {
                 "XGBoost": {
-                    "Prediction": 0
+                    "Prediction": 1
                 },
                 "Bagging": {
-                    "Prediction": -1
+                    "Prediction": 1
                 },
                 "Stacking": {
                     "Prediction": 1
