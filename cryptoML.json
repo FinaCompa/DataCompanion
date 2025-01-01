@@ -10,36 +10,36 @@
         "source_code": "https://github.com/bitcoin/bitcoin",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": -1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 0
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 0
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 0
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             }
@@ -56,36 +56,36 @@
         "source_code": "https://github.com/ethereum/go-ethereum",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 0
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": -1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             }
@@ -102,36 +102,36 @@
         "source_code": "https://github.com/ripple/rippled",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": -1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": -1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": -1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": -1
                 }
             }
@@ -148,36 +148,36 @@
         "source_code": "https://github.com/binance-chain/",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": -1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": -1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 0
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": -1
                 }
             }
@@ -194,36 +194,36 @@
         "source_code": "https://github.com/solana-labs/",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 0
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": -1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": -1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             }
@@ -240,36 +240,36 @@
         "source_code": "https://github.com/input-output-hk/ouroboros-network",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 0
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": 1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": -1
                 }
             }
@@ -286,36 +286,36 @@
         "source_code": "https://github.com/tronprotocol/java-tron",
         "IA": {
             "1d": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": -1
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": 1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             },
             "1w": {
-                "XGB": {
+                "XGBoost": {
                     "Prediction": 0
                 },
-                "BGG": {
+                "Bagging": {
                     "Prediction": -1
                 },
-                "STK": {
+                "Stacking": {
                     "Prediction": 1
                 },
-                "KNN": {
+                "K-Nearest-Neighbors": {
                     "Prediction": -1
                 },
-                "RF": {
+                "Random-Forest": {
                     "Prediction": 1
                 }
             }
