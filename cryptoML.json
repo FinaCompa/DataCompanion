@@ -11,15 +11,15 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 44
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 96
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 40
                 },
                 "Stacking": {
@@ -27,11 +27,11 @@
                     "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 40
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 40
                 }
             },
@@ -75,16 +75,16 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 50
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 92
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 42
+                    "Accuracy": 44
                 },
                 "Stacking": {
                     "Prediction": 1,
@@ -92,11 +92,11 @@
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 42
+                    "Accuracy": 44
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 44
                 }
             },
             "1w": {
@@ -139,27 +139,27 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 44
                 },
                 "XGBoost": {
-                    "Prediction": -1,
-                    "Accuracy": 96
+                    "Prediction": 0,
+                    "Accuracy": 94
                 },
                 "Bagging": {
                     "Prediction": -1,
                     "Accuracy": 52
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 52
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 }
             },
@@ -203,28 +203,28 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 42
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 96
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 40
+                    "Prediction": -1,
+                    "Accuracy": 36
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 40
+                    "Prediction": -1,
+                    "Accuracy": 36
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 40
+                    "Prediction": -1,
+                    "Accuracy": 36
                 }
             },
             "1w": {
@@ -271,11 +271,11 @@
                     "Accuracy": 52
                 },
                 "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 98
+                    "Prediction": -1,
+                    "Accuracy": 96
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 34
                 },
                 "Stacking": {
@@ -283,8 +283,8 @@
                     "Accuracy": 34
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": -1,
+                    "Accuracy": 34
                 },
                 "Random-Forest": {
                     "Prediction": -1,
@@ -332,10 +332,10 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 68
+                    "Accuracy": 66
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 94
                 },
                 "Bagging": {
@@ -347,7 +347,7 @@
                     "Accuracy": 46
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 46
                 },
                 "Random-Forest": {
@@ -399,19 +399,19 @@
                     "Accuracy": 50
                 },
                 "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 92
+                    "Prediction": 1,
+                    "Accuracy": 90
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 46
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 46
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 46
                 },
                 "Random-Forest": {
