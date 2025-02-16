@@ -1,17 +1,37 @@
 ##### Dependencies
 # Import the required libraries
-import os
-import ccxt
-import pandas as pd
-import json
-import time
-import datetime
-import threading
-from prophet import Prophet
-from github import Github
-import gymnasium as gym
-import trading_init
-from stable_baselines3 import PPO
+import subprocess
+import sys
+
+def import_with_auto_install(module_name):
+    try:
+        __import__(module_name)
+        print(f"{module_name} is already installed.")
+    except ImportError:
+        print(f"{module_name} is not installed. Installing now...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", module_name])
+        __import__(module_name)
+        print(f"{module_name} has been installed successfully.")
+
+# Liste des modules à importer
+modules = [
+    "os",
+    "ccxt",
+    "pandas",
+    "json",
+    "time",
+    "datetime",
+    "threading",
+    "prophet",
+    "github",
+    "gymnasium",
+    "trading_init",
+    "stable_baselines3"
+]
+
+# Importer chaque module avec installation automatique si nécessaire
+for module in modules:
+    import_with_auto_install(module)
 
 
 ######################### Function #########################
