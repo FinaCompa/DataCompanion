@@ -16,19 +16,19 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 57
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 38
                 },
                 "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 38
+                    "Prediction": 1,
+                    "Accuracy": 36
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 38
+                    "Accuracy": 26
                 },
                 "Random-Forest": {
                     "Prediction": 1,
@@ -75,27 +75,27 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
-                    "Accuracy": 50
+                    "Prediction": 0,
+                    "Accuracy": 52
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 40
+                    "Prediction": 1,
+                    "Accuracy": 46
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
                     "Accuracy": 40
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 40
                 }
             },
@@ -143,24 +143,24 @@
                     "Accuracy": 48
                 },
                 "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 56
+                    "Prediction": -1,
+                    "Accuracy": 54
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 }
             },
             "1w": {
@@ -186,70 +186,6 @@
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 50
-                }
-            }
-        }
-    },
-    "SOL": {
-        "name": "Solana",
-        "symbol": "SOL",
-        "paire": "SOL/USDT",
-        "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Solana is a public blockchain. It is open-source and decentralised, and achieves consensus using a proof-of-stake algorithm together with a novel algorithm called proof-of-history. Its internal cryptocurrency has the symbol SOL. Bloomberg considers the platform \"a potential long-term rival to Ethereum.\" Like Ethereum, Solana can interact with smart contracts.On 14 September 2021, Solana's blockchain went offline after a wave of transactions caused discord between network participants and a subsequent split into multiple blocks. The network was successfully restored early on 15 September. Solana can likely handle 50,000 transactions per second, making it faster than Ethereum, but still lower than the 400,000 transactions seen during the peak.",
-        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/10608577.pdf",
-        "source_code": "https://github.com/solana-labs/",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 1,
-                    "Accuracy": 52
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 44
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 48
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 42
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 48
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 66
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 98
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 50
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 44
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 44
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
                     "Accuracy": 50
                 }
             }
@@ -275,20 +211,20 @@
                     "Accuracy": 64
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 40
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 40
+                    "Accuracy": 36
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 24
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -319,6 +255,70 @@
             }
         }
     },
+    "SOL": {
+        "name": "Solana",
+        "symbol": "SOL",
+        "paire": "SOL/USDT",
+        "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "Solana is a public blockchain. It is open-source and decentralised, and achieves consensus using a proof-of-stake algorithm together with a novel algorithm called proof-of-history. Its internal cryptocurrency has the symbol SOL. Bloomberg considers the platform \"a potential long-term rival to Ethereum.\" Like Ethereum, Solana can interact with smart contracts.On 14 September 2021, Solana's blockchain went offline after a wave of transactions caused discord between network participants and a subsequent split into multiple blocks. The network was successfully restored early on 15 September. Solana can likely handle 50,000 transactions per second, making it faster than Ethereum, but still lower than the 400,000 transactions seen during the peak.",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/10608577.pdf",
+        "source_code": "https://github.com/solana-labs/",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 50
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 44
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 48
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 66
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 98
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 50
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 44
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": -1,
+                    "Accuracy": 44
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 50
+                }
+            }
+        }
+    },
     "ADA": {
         "name": "Cardano",
         "symbol": "ADA",
@@ -331,7 +331,7 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 44
                 },
                 "XGBoost": {
@@ -340,19 +340,19 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 42
+                    "Accuracy": 40
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 48
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 48
+                    "Accuracy": 50
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -400,19 +400,19 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 54
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 38
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 38
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 38
+                    "Accuracy": 20
                 },
                 "Random-Forest": {
                     "Prediction": 1,
