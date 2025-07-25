@@ -16,7 +16,7 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 48
+                    "Accuracy": 50
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -24,15 +24,15 @@
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 38
+                    "Accuracy": 30
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 32
+                    "Prediction": -1,
+                    "Accuracy": 30
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 32
+                    "Prediction": 0,
+                    "Accuracy": 30
                 }
             },
             "1w": {
@@ -70,7 +70,7 @@
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
         "description": "Ethereum is a decentralized platform for applications. Applications build on it can use smart contracts - computer algorithms which execute themselves when data is supplied to the platform. There is no need for any human operators.",
-        "whitepaper": null,
+        "whitepaper": "https://ethereum.org/en/whitepaper/",
         "source_code": "https://github.com/ethereum/go-ethereum",
         "IA": {
             "1d": {
@@ -80,23 +80,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 50
+                    "Accuracy": 34
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 50
+                    "Prediction": -1,
+                    "Accuracy": 34
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 34
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 50
+                    "Accuracy": 34
                 }
             },
             "1w": {
@@ -140,7 +140,7 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 40
+                    "Accuracy": 38
                 },
                 "XGBoost": {
                     "Prediction": 1,
@@ -148,7 +148,7 @@
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 32
+                    "Accuracy": 52
                 },
                 "Stacking": {
                     "Prediction": 1,
@@ -156,7 +156,7 @@
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 32
+                    "Accuracy": 52
                 },
                 "Random-Forest": {
                     "Prediction": 1,
@@ -207,24 +207,24 @@
                     "Accuracy": 30
                 },
                 "XGBoost": {
-                    "Prediction": -1,
+                    "Prediction": 0,
                     "Accuracy": 74
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 36
+                    "Accuracy": 26
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 26
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 26
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 36
+                    "Accuracy": 26
                 }
             },
             "1w": {
@@ -271,8 +271,8 @@
                     "Accuracy": 42
                 },
                 "XGBoost": {
-                    "Prediction": 1,
-                    "Accuracy": 54
+                    "Prediction": 0,
+                    "Accuracy": 52
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -332,18 +332,18 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 50
+                    "Accuracy": 48
                 },
                 "XGBoost": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": 0,
+                    "Accuracy": 40
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 38
                 },
                 "Stacking": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 38
                 },
                 "K-Nearest-Neighbors": {
@@ -351,7 +351,7 @@
                     "Accuracy": 38
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 38
                 }
             },
@@ -400,7 +400,7 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -411,7 +411,7 @@
                     "Accuracy": 46
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 46
                 },
                 "Random-Forest": {
