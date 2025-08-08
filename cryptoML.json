@@ -12,27 +12,27 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 62
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 32
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 38
+                    "Prediction": -1,
+                    "Accuracy": 32
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 0,
-                    "Accuracy": 38
+                    "Prediction": -1,
+                    "Accuracy": 28
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 32
+                    "Prediction": -1,
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -76,10 +76,10 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 54
+                    "Accuracy": 52
                 },
                 "XGBoost": {
-                    "Prediction": 0,
+                    "Prediction": -1,
                     "Accuracy": 74
                 },
                 "Bagging": {
@@ -88,15 +88,15 @@
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 30
+                    "Accuracy": 48
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 48
+                    "Prediction": -1,
+                    "Accuracy": 30
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 48
+                    "Accuracy": 30
                 }
             },
             "1w": {
@@ -139,7 +139,7 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 56
                 },
                 "XGBoost": {
@@ -148,19 +148,19 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 32
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 50
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 0,
-                    "Accuracy": 50
+                    "Prediction": -1,
+                    "Accuracy": 32
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 32
                 }
             },
             "1w": {
@@ -211,20 +211,20 @@
                     "Accuracy": 84
                 },
                 "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 32
+                    "Prediction": -1,
+                    "Accuracy": 24
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 44
+                    "Accuracy": 30
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 44
+                    "Accuracy": 46
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 32
+                    "Accuracy": 24
                 }
             },
             "1w": {
@@ -272,23 +272,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 10
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 0,
-                    "Accuracy": 48
+                    "Prediction": -1,
+                    "Accuracy": 50
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -315,70 +315,6 @@
                 "Random-Forest": {
                     "Prediction": 1,
                     "Accuracy": 50
-                }
-            }
-        }
-    },
-    "TRX": {
-        "name": "TRON",
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "TRON: Decentralize the WebTRON is dedicated to building the infrastructure for a truly decentralized Internet. The TRON Protocol, one of the largest blockchain-based operating systems in the world which offers scalability, high-availability, and high-throughput computing (HTC) support that serves as the foundation for all decentralized applications in the TRON ecosystem. It also provides better compatibility for Ethereum smart contracts through an innovative, pluggable smart contract platform.Since July 24th, 2018, TRON acquired BitTorrent Inc. which is an Internet technology company based in San Francisco. It designs distributed technologies that scale efficiently, keep intelligence at the edge, and keep creators and consumers in control of their content and data. Every month more than 170 million people use BitTorrent Inc. developed products. Its protocols move as much as 40% of the world's Internet traffic on a daily basis.",
-        "whitepaper": "https://tron.network/resources?lng=en&name=1",
-        "source_code": "https://github.com/tronprotocol/java-tron",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 56
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 64
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 32
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 70
-                },
-                "XGBoost": {
-                    "Prediction": 1,
-                    "Accuracy": 100
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 60
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 60
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 60
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 60
                 }
             }
         }
@@ -400,23 +336,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 62
+                    "Accuracy": 60
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 38
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 40
+                    "Prediction": -1,
+                    "Accuracy": 54
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": -1,
+                    "Accuracy": 54
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 38
                 }
             },
             "1w": {
@@ -443,6 +379,70 @@
                 "Random-Forest": {
                     "Prediction": -1,
                     "Accuracy": 44
+                }
+            }
+        }
+    },
+    "TRX": {
+        "name": "TRON",
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "TRON: Decentralize the WebTRON is dedicated to building the infrastructure for a truly decentralized Internet. The TRON Protocol, one of the largest blockchain-based operating systems in the world which offers scalability, high-availability, and high-throughput computing (HTC) support that serves as the foundation for all decentralized applications in the TRON ecosystem. It also provides better compatibility for Ethereum smart contracts through an innovative, pluggable smart contract platform.Since July 24th, 2018, TRON acquired BitTorrent Inc. which is an Internet technology company based in San Francisco. It designs distributed technologies that scale efficiently, keep intelligence at the edge, and keep creators and consumers in control of their content and data. Every month more than 170 million people use BitTorrent Inc. developed products. Its protocols move as much as 40% of the world's Internet traffic on a daily basis.",
+        "whitepaper": "https://tron.network/resources?lng=en&name=1",
+        "source_code": "https://github.com/tronprotocol/java-tron",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 54
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 64
+                },
+                "Bagging": {
+                    "Prediction": 0,
+                    "Accuracy": 46
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 0,
+                    "Accuracy": 46
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 70
+                },
+                "XGBoost": {
+                    "Prediction": 1,
+                    "Accuracy": 100
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 60
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 60
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": -1,
+                    "Accuracy": 60
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 60
                 }
             }
         }
