@@ -5,33 +5,33 @@
         "paire": "BTC/USDT",
         "logo": "https://static.coinpaprika.com/coin/btc-bitcoin/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Bitcoin is a cryptocurrency and worldwide payment system. It is the first decentralized digital currency, as the system works without a central bank or single administrator.",
+        "description": "<h3>What is Bitcoin?</h3><p>Bitcoin (BTC) is a decentralized cryptocurrency and the first blockchain-based asset, created in 2009 by an anonymous entity known as Satoshi Nakamoto. It operates on its own blockchain, the Bitcoin blockchain, which enables secure peer-to-peer transactions without the need for intermediaries. The core purpose of Bitcoin is to serve as a digital currency for payments, allowing users to send and receive value globally with low transaction fees. As a pioneering blockchain project, Bitcoin has paved the way for the development of thousands of other cryptocurrencies and remains a key player in the digital asset ecosystem.</p><h3>When and how did Bitcoin start?</h3><p>Bitcoin (BTC) was launched in 2009, created by an anonymous person or group known as Satoshi Nakamoto. The cryptocurrency was developed as a decentralized digital currency, aiming to enable peer-to-peer transactions without the need for intermediaries. In its early development, Bitcoin gained traction through its initial listing on various exchanges and the first recorded transaction in 2010, where 10,000 BTC were used to purchase two pizzas. Major events like the Mt. Gox exchange hack in 2014 and subsequent forks, such as Bitcoin Cash in 2017, significantly shaped its evolution and market presence.</p><h3>What’s coming up for Bitcoin?</h3><p>Bitcoin (BTC) continues to evolve with exciting future plans and community-driven goals. The upcoming Taproot upgrade, aimed at enhancing privacy and smart contract functionality, is set to further solidify Bitcoin's position as a versatile digital asset. Additionally, ongoing discussions within the community focus on scaling solutions and layer-2 technologies, such as the Lightning Network, to improve transaction speed and reduce fees. As Bitcoin expands its use cases, including potential integration into decentralized finance (DeFi) and non-fungible tokens (NFTs), its roadmap reflects a commitment to innovation and adaptability in the ever-changing crypto landscape.</p><h3>What makes Bitcoin stand out?</h3><p>Bitcoin (BTC) is unique compared to other cryptocurrencies due to its pioneering use of the Proof of Work consensus mechanism, which ensures network security and decentralization. Its capped supply of 21 million coins introduces a deflationary tokenomics model, setting it apart in the crypto landscape. Additionally, Bitcoin's primary real-world use case as a digital store of value and \"digital gold\" highlights its standout technology and enduring appeal in the financial ecosystem.</p><h3>What can you do with Bitcoin?</h3><p>Bitcoin (BTC) is primarily used for payments, allowing users to transact directly without intermediaries, making it a popular choice for online purchases and remittances. Additionally, it serves as a utility token in various DeFi apps, where it can be leveraged for staking and earning rewards. While Bitcoin is not directly associated with NFTs or governance, it plays a crucial role in the broader cryptocurrency ecosystem, influencing these sectors.</p><h3>Is Bitcoin still active or relevant?</h3><p>Bitcoin (BTC) remains currently active with robust trading activity across numerous exchanges, solidifying its position as the leading cryptocurrency. Development is ongoing, with continuous updates and improvements from a dedicated community of developers. The active presence of its community ensures that Bitcoin is far from being an inactive project or abandoned.</p><h3>Who is Bitcoin designed for?</h3><p>Bitcoin (BTC) is primarily built for investors and individuals seeking a decentralized alternative to traditional currencies. Its target audience includes both retail and institutional investors looking for a store of value, as well as businesses aiming to integrate cryptocurrency into their payment systems. Additionally, Bitcoin has fostered a community of developers focused on enhancing its protocol and expanding its use cases within the broader financial ecosystem.</p><h3>How is Bitcoin secured?</h3><p>Bitcoin (BTC) secures its network through a consensus method known as Proof of Work (PoW), where miners act as validators by solving complex mathematical problems to validate transactions and add them to the blockchain. This decentralized approach enhances network security, as it requires significant computational power, making it costly and difficult for any single entity to manipulate the blockchain. The robust design of Bitcoin's PoW mechanism provides strong protection against attacks and ensures the integrity of the entire network.</p><h3>Has Bitcoin faced any controversy or risks?</h3><p>Bitcoin (BTC) has faced significant controversies and risks, including extreme volatility that can lead to substantial financial losses for investors. The cryptocurrency has also been involved in security incidents, such as hacks targeting exchanges, which have resulted in millions of dollars in stolen funds. Additionally, legal issues surrounding regulatory scrutiny and the potential for government crackdowns pose ongoing challenges for Bitcoin's adoption and stability.</p>",
         "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/215.pdf",
         "source_code": "https://github.com/bitcoin/bitcoin",
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": 0,
+                    "Accuracy": 54
                 },
                 "XGBoost": {
                     "Prediction": 0,
                     "Accuracy": 57
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 42
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 42
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 42
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 42
                 }
             },
@@ -69,7 +69,7 @@
         "paire": "ETH/USDT",
         "logo": "https://static.coinpaprika.com/coin/eth-ethereum/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Ethereum is a decentralized platform for applications. Applications build on it can use smart contracts - computer algorithms which execute themselves when data is supplied to the platform. There is no need for any human operators.",
+        "description": "<h3>What is Ethereum?</h3><p>Ethereum (ETH) is a leading cryptocurrency and blockchain project that enables the creation and execution of smart contracts and decentralized applications (dApps). As a versatile platform, it runs on its own blockchain, allowing developers to build and deploy innovative solutions across various industries. The Ethereum token, known as Ether (ETH), is primarily used for transactions, paying for computational services, and incentivizing network participants. With its robust ecosystem, Ethereum plays a pivotal role in the evolution of decentralized finance (DeFi) and non-fungible tokens (NFTs).</p><h3>When and how did Ethereum start?</h3><p>Ethereum (ETH) was launched in 2015, created by a team led by Vitalik Buterin, along with co-founders Gavin Wood, Joseph Lubin, and Anthony Di Iorio. The platform introduced the concept of smart contracts, enabling decentralized applications (dApps) on its blockchain. In its early development, Ethereum successfully raised over $18 million in a crowdsale, which was one of the largest at the time. The network faced significant challenges, including the infamous DAO hack in 2016, which led to a hard fork and the creation of Ethereum Classic. Initially listed on major exchanges shortly after its launch, Ethereum quickly gained traction and became a cornerstone of the cryptocurrency ecosystem.</p><h3>What’s coming up for Ethereum?</h3><p>Ethereum (ETH) is poised for significant advancements as it continues to evolve beyond its current capabilities. The upcoming \"Shanghai\" upgrade is set to enhance the network's scalability and efficiency, enabling faster transactions and lower fees. Additionally, Ethereum's community is actively working on improving its Layer 2 solutions, which aim to increase throughput and reduce congestion on the main chain. Future plans also include the integration of zero-knowledge proofs, enhancing privacy and security for users. As Ethereum expands its ecosystem, it remains focused on becoming the leading platform for decentralized applications (dApps) and smart contracts, driving innovation across various industries.</p><h3>What makes Ethereum stand out?</h3><p>Ethereum (ETH) stands out from other cryptocurrencies due to its unique smart contract functionality, enabling developers to create decentralized applications (dApps) on its blockchain. Unlike many cryptocurrencies that primarily serve as a medium of exchange, Ethereum's robust ecosystem supports a wide range of real-world use cases, from decentralized finance (DeFi) to non-fungible tokens (NFTs). Additionally, Ethereum's transition to a proof-of-stake consensus mechanism with Ethereum 2.0 enhances its scalability and energy efficiency, setting it apart in the crypto landscape.</p><h3>What can you do with Ethereum?</h3><p>Ethereum (ETH) is primarily used for payments and transactions within decentralized applications (dApps) and DeFi apps, enabling users to exchange value seamlessly. It also serves as a utility token for staking, allowing holders to participate in the network's security and governance. Additionally, Ethereum is a popular platform for creating and trading NFTs, further expanding its use cases in the digital economy.</p><h3>Is Ethereum still active or relevant?</h3><p>Ethereum (ETH) is currently active and continues to be one of the most traded cryptocurrencies in the market. Development is ongoing, with regular updates and improvements being implemented to enhance its functionality and scalability. The vibrant community presence further solidifies Ethereum's status as a leading platform, making it far from an inactive or abandoned project.</p><h3>Who is Ethereum designed for?</h3><p>Ethereum (ETH) is primarily built for developers and businesses seeking to create decentralized applications (dApps) and smart contracts. Its robust ecosystem is adopted by a diverse community, including DeFi users and investors looking to leverage blockchain technology for innovative solutions. Ideal for those in the crypto space, Ethereum fosters collaboration and creativity among its users.</p><h3>How is Ethereum secured?</h3><p>Ethereum (ETH) secures its network through a Proof of Stake (PoS) consensus mechanism, where validators are responsible for confirming transactions and adding new blocks to the blockchain. This model enhances network security by requiring validators to stake their ETH, thus incentivizing honest participation and protecting against malicious attacks. With a decentralized network of validators, Ethereum ensures robust blockchain protection and resilience against threats.</p><h3>Has Ethereum faced any controversy or risks?</h3><p>Ethereum (ETH) has faced several challenges, including notable security incidents such as the DAO hack in 2016, which led to a controversial hard fork and raised questions about governance. Additionally, the network experiences extreme volatility, making it a risky investment for many. Legal issues surrounding regulatory scrutiny and potential lawsuits further complicate its landscape, highlighting the need for caution among investors.</p>",
         "whitepaper": "https://ethereum.org/en/whitepaper/",
         "source_code": "https://github.com/ethereum/go-ethereum",
         "IA": {
@@ -80,14 +80,14 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 70
+                    "Accuracy": 68
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 52
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
@@ -133,7 +133,7 @@
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Ripple (XRP) is one of the fastest and most scalable digital asset, enabling real-time global payments anywhere in the world.",
+        "description": "<h3>What is XRP?</h3><p>XRP (XRP) is a cryptocurrency that operates on the XRP Ledger, a decentralized blockchain designed for fast and cost-effective cross-border payments. The primary purpose of the XRP token is to facilitate transactions between financial institutions, enabling quicker and more efficient transfers of value compared to traditional banking systems. As part of the Ripple blockchain project, XRP aims to enhance liquidity and streamline the payment process, making it a crucial asset for international remittances and financial services.</p><h3>When and how did XRP start?</h3><p>XRP was launched in 2012 by Ripple Labs, a technology company co-founded by Chris Larsen and Jed McCaleb. Designed as a digital payment protocol, XRP aimed to facilitate fast and cost-effective cross-border transactions. In its early development, XRP gained traction through strategic partnerships with financial institutions and was initially listed on several cryptocurrency exchanges, enhancing its liquidity and adoption. Major milestones included securing funding rounds to support its growth and the introduction of the RippleNet network, which further integrated XRP into global payment systems.</p><h3>What’s coming up for XRP?</h3><p>XRP is poised for significant advancements as it continues to focus on expanding its utility and adoption within the financial sector. The upcoming roadmap highlights the integration of smart contract capabilities through the XLS-20 upgrade, which aims to enhance the functionality of the XRP Ledger. Additionally, the community is actively working on initiatives to foster partnerships with financial institutions, further solidifying XRP's role in cross-border payments. As these developments unfold, XRP is expected to evolve into a more versatile platform, positioning itself as a key player in the future of digital finance.</p><h3>What makes XRP stand out?</h3><p>XRP (xrp-xrp) is unique compared to other cryptocurrencies due to its standout technology that enables near-instant cross-border transactions with low fees, making it a practical solution for financial institutions. Its consensus mechanism, the XRP Ledger, does not rely on traditional mining, which enhances scalability and energy efficiency. Additionally, XRP's real-world use case focuses on facilitating remittances and liquidity for banks, distinguishing it in the crowded crypto landscape.</p><h3>What can you do with XRP?</h3><p>XRP (xrp-xrp) is primarily used for fast and cost-effective payments, facilitating cross-border transactions with minimal fees. Additionally, it serves as a utility token in various DeFi apps and can be utilized for staking within certain platforms. While not commonly associated with NFTs or governance, XRP's versatility makes it a valuable asset in the evolving crypto landscape.</p><h3>Is XRP still active or relevant?</h3><p>XRP (xrp-xrp) is currently active, with ongoing development and a robust community presence. It remains a popular asset, still traded on various exchanges despite regulatory challenges. The project's commitment to enhancing its technology and use cases indicates that it is not an inactive or abandoned project.</p><h3>Who is XRP designed for?</h3><p>XRP (xrp-xrp) is primarily built for businesses and financial institutions seeking to enhance cross-border payment solutions. Its target audience includes developers looking to integrate fast and cost-effective transaction capabilities into their applications, as well as investors interested in the potential of blockchain technology in the financial sector. This digital asset is ideally positioned to facilitate seamless and scalable payment processing in a rapidly evolving digital economy.</p><h3>How is XRP secured?</h3><p>XRP (xrp-xrp) secures its network through a unique consensus mechanism known as the Ripple Protocol Consensus Algorithm (RPCA), which relies on a network of trusted validators rather than traditional Proof of Work or Proof of Stake methods. This decentralized validator setup enhances network security by allowing participants to reach consensus on transaction validity, ensuring robust blockchain protection against fraudulent activities while maintaining high transaction speeds and efficiency.</p><h3>Has XRP faced any controversy or risks?</h3><p>XRP (xrp-xrp) has faced significant legal issues, particularly a high-profile lawsuit from the SEC alleging that it is an unregistered security, which has led to ongoing controversy and uncertainty in its regulatory status. Additionally, the cryptocurrency market is known for its volatility, posing risks for investors, while there have been concerns about security incidents and hacks affecting exchanges that list XRP. These factors contribute to the overall challenges and risks associated with investing in XRP.</p>",
         "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/27.pdf",
         "source_code": "https://github.com/ripple/rippled",
         "IA": {
@@ -144,14 +144,14 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 50
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 50
                 },
                 "K-Nearest-Neighbors": {
@@ -197,7 +197,7 @@
         "paire": "BNB/USDT",
         "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Binance Coin is the digital token of the Binance exchange. It is an exchanging token only for cryptographic forms of money. The name \"Binance\" is a blend of binary and finance.",
+        "description": "<h3>What is BNB?</h3><p>BNB (Binance Coin) is a cryptocurrency that serves as the native token of the Binance exchange, one of the largest cryptocurrency trading platforms in the world. Initially launched as an ERC-20 token on the Ethereum blockchain, BNB has since transitioned to the Binance Smart Chain, a blockchain project developed by Binance. The BNB token is primarily used for transaction fee discounts on the Binance platform, participating in token sales on Binance Launchpad, and powering decentralized applications (dApps) within the Binance ecosystem. Its versatility extends to governance, allowing holders to vote on key decisions affecting the Binance Smart Chain. Overall, BNB plays a crucial role in enhancing user experience and engagement within the Binance ecosystem.</p><h3>When and how did BNB start?</h3><p>BNB (Binance Coin) was launched in 2017 by the Binance exchange, founded by Changpeng Zhao and Yi He. Initially created as a utility token to pay for trading fees on the Binance platform, BNB was developed to enhance user experience and incentivize trading. It was first listed on the Binance exchange during its ICO, which raised approximately $15 million in just 18 minutes. Over the years, BNB has evolved beyond its initial purpose, expanding its use cases across various applications in the Binance ecosystem and beyond. Major events in its early development include the quarterly token burns aimed at reducing supply and increasing value.</p><h3>What’s coming up for BNB?</h3><p>BNB (Binance Coin) is set to undergo significant changes as part of its evolving roadmap, with notable updates expected in the upcoming months. The next upgrade aims to enhance the Binance Smart Chain, focusing on scalability and transaction efficiency, which will bolster its use cases in DeFi and NFT markets. Additionally, the Binance community is actively engaged in discussions to expand BNB's utility across various platforms, including potential integration with new payment solutions and decentralized applications. As BNB continues to evolve, its role in supporting the Binance ecosystem and its broader adoption in the crypto space is anticipated to grow. Keep an eye on these developments as they could shape the future of BNB significantly.</p><h3>What makes BNB stand out?</h3><p>BNB (Binance Coin) is unique compared to other cryptocurrencies due to its special feature of being deeply integrated within the Binance ecosystem, offering real-world use cases such as reduced trading fees, participation in token sales on Binance Launchpad, and payment for transaction fees on Binance Smart Chain. Its standout technology includes a robust tokenomics model that involves quarterly coin burns, effectively reducing supply and potentially increasing value over time. Additionally, BNB operates on a delegated proof-of-stake consensus mechanism, enhancing transaction speed and scalability within its ecosystem.</p><h3>What can you do with BNB?</h3><p>BNB (Binance Coin) is primarily used for payments on the Binance exchange, allowing users to pay trading fees at a discounted rate. Additionally, it serves as a utility token in various DeFi apps and can be staked for rewards, while also facilitating transactions in the NFT marketplace. Furthermore, BNB holders can participate in governance decisions, influencing the development of the Binance ecosystem.</p><h3>Is BNB still active or relevant?</h3><p>BNB (Binance Coin) is currently active and still traded on numerous exchanges, reflecting robust trading activity. Development is ongoing as the Binance team consistently updates the ecosystem with new features and improvements. The active community presence further supports its status as a vital player in the crypto space, far from being considered an inactive project or abandoned.</p><h3>Who is BNB designed for?</h3><p>BNB (Binance Coin) is primarily built for cryptocurrency traders and investors, serving as the native utility token of the Binance exchange. It is widely adopted by businesses and developers within the Binance ecosystem for transaction fee discounts, token sales, and various DeFi applications. Additionally, BNB appeals to a growing community of users seeking to leverage its utility across multiple blockchain platforms.</p><h3>How is BNB secured?</h3><p>BNB (Binance Coin) secures its network through a unique consensus mechanism known as Proof of Staked Authority (PoSA), which combines aspects of Proof of Stake and delegated authority. In this model, validators are selected based on their stake and reputation, ensuring efficient transaction processing and robust blockchain protection. This setup enhances network security by incentivizing validators to act honestly, as they risk losing their staked assets for malicious behavior.</p><h3>Has BNB faced any controversy or risks?</h3><p>BNB (Binance Coin) has faced several controversies, including legal issues surrounding Binance, its parent exchange, which has been scrutinized by regulators in multiple countries. Additionally, the coin has experienced extreme volatility, raising concerns about the risks associated with investing in it. Furthermore, security incidents, such as hacks on the Binance platform, have also contributed to the ongoing debate about BNB's reliability and safety.</p>",
         "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
         "source_code": "https://github.com/binance-chain/",
         "IA": {
@@ -211,20 +211,20 @@
                     "Accuracy": 80
                 },
                 "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 28
+                    "Prediction": -1,
+                    "Accuracy": 52
                 },
                 "Stacking": {
                     "Prediction": 1,
                     "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 28
+                    "Prediction": 1,
+                    "Accuracy": 26
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 28
+                    "Accuracy": 52
                 }
             },
             "1w": {
@@ -261,22 +261,22 @@
         "paire": "SOL/USDT",
         "logo": "https://static.coinpaprika.com/coin/sol-solana/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "Solana is a public blockchain. It is open-source and decentralised, and achieves consensus using a proof-of-stake algorithm together with a novel algorithm called proof-of-history. Its internal cryptocurrency has the symbol SOL. Bloomberg considers the platform \"a potential long-term rival to Ethereum.\" Like Ethereum, Solana can interact with smart contracts.On 14 September 2021, Solana's blockchain went offline after a wave of transactions caused discord between network participants and a subsequent split into multiple blocks. The network was successfully restored early on 15 September. Solana can likely handle 50,000 transactions per second, making it faster than Ethereum, but still lower than the 400,000 transactions seen during the peak.",
+        "description": "<h3>What is Solana?</h3><p>Solana (SOL) is a high-performance cryptocurrency that operates on the Solana blockchain, designed to facilitate fast and low-cost transactions. As a blockchain project, it supports smart contracts and decentralized applications (dApps), making it an ideal platform for developers looking to build scalable solutions. The Solana token (SOL) is used for transaction fees, staking, and participating in the governance of the network, enhancing its utility within the ecosystem. With its unique consensus mechanism, Solana aims to provide a robust infrastructure for decentralized finance (DeFi) and other innovative applications.</p><h3>When and how did Solana start?</h3><p>Solana (SOL) was launched in 2020 and created by Anatoly Yakovenko, along with a team of engineers from Qualcomm, Intel, and Dropbox. The project aimed to provide a high-performance blockchain solution capable of supporting decentralized applications and crypto projects with fast transaction speeds. In its early development, Solana gained significant attention after securing a $20 million funding round led by Multicoin Capital, which helped to accelerate its growth. The network's initial listing on major exchanges further solidified its position in the competitive blockchain landscape. Notably, Solana's unique Proof of History consensus mechanism distinguished it from other platforms, enhancing its scalability and efficiency.</p><h3>What’s coming up for Solana?</h3><p>Solana (SOL) is poised for significant advancements as it moves forward with its roadmap, focusing on scalability and interoperability. The upcoming upgrades aim to enhance transaction speeds and reduce fees, making the network even more attractive for developers and users alike. Community goals include expanding DeFi and NFT ecosystems, with plans for new tools and resources to support creators and innovators. As Solana continues to evolve, it is expected to solidify its position as a leading platform for decentralized applications, driving further adoption and use cases in various industries.</p><h3>What makes Solana stand out?</h3><p>Solana (SOL) is unique compared to other cryptocurrencies due to its standout technology, which leverages a high-performance consensus mechanism called Proof of History (PoH), enabling lightning-fast transaction speeds and lower costs. Its special feature of scalability allows the network to handle thousands of transactions per second, making it ideal for real-world use cases such as decentralized finance (DeFi), non-fungible tokens (NFTs), and Web3 applications. This combination of efficient tokenomics and a robust ecosystem sets Solana apart in the competitive crypto landscape.</p><h3>What can you do with Solana?</h3><p>Solana (SOL) is primarily used for payments and transaction fees within its fast and scalable blockchain ecosystem. Users can stake SOL to earn rewards, participate in governance, and engage with various DeFi apps and NFT platforms built on the network. As a utility token, SOL facilitates seamless interactions across these applications, enhancing the overall user experience.</p><h3>Is Solana still active or relevant?</h3><p>Solana (SOL) is currently active and still traded on various exchanges, maintaining a robust trading volume. Development is ongoing, with frequent updates and improvements from the team, supported by a vibrant community presence. The project is not considered inactive or abandoned, as it continues to innovate and expand its ecosystem.</p><h3>Who is Solana designed for?</h3><p>Solana (SOL) is built for developers and businesses seeking high-performance blockchain solutions. Its target audience includes DeFi users and gamers, who benefit from its fast transaction speeds and low fees. The platform fosters a vibrant community of innovators and entrepreneurs looking to create decentralized applications and scalable projects.</p><h3>How is Solana secured?</h3><p>Solana (SOL) secures its network through a unique consensus mechanism called Proof of History (PoH) combined with Proof of Stake (PoS), which enhances blockchain protection by enabling high throughput and low latency. Validators play a crucial role in maintaining network security by confirming transactions and producing new blocks, ensuring the integrity and efficiency of the Solana blockchain. This innovative approach allows Solana to achieve scalability while safeguarding its decentralized infrastructure.</p><h3>Has Solana faced any controversy or risks?</h3><p>Solana (SOL) has faced significant challenges, including a notable security incident in 2022 where a hack resulted in the loss of millions in user funds, raising concerns about its network security. Additionally, the platform has experienced extreme volatility, which poses risks for investors and traders alike. Legal issues have also emerged, contributing to ongoing controversies surrounding its regulatory compliance and operational practices.</p>",
         "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/10608577.pdf",
         "source_code": "https://github.com/solana-labs/",
         "IA": {
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 44
+                    "Accuracy": 42
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 54
                 },
                 "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 36
+                    "Prediction": 1,
+                    "Accuracy": 56
                 },
                 "Stacking": {
                     "Prediction": -1,
@@ -287,8 +287,8 @@
                     "Accuracy": 36
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 36
+                    "Prediction": 1,
+                    "Accuracy": 56
                 }
             },
             "1w": {
@@ -319,13 +319,77 @@
             }
         }
     },
+    "TRX": {
+        "name": "TRON",
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "<h3>What is TRON?</h3><p>TRON (TRX) is a cryptocurrency and blockchain project designed to facilitate the creation and sharing of digital content. It runs on its own blockchain, enabling developers to build decentralized applications (dApps) and execute smart contracts. The TRON token serves as the primary medium of exchange within the TRON ecosystem, allowing users to participate in content sharing, governance, and various decentralized services. With a focus on scalability and high throughput, TRON aims to empower creators and enhance the global digital economy.</p><h3>When and how did TRON start?</h3><p>TRON (TRX) was launched in 2017, created by Justin Sun, an entrepreneur known for his work in the blockchain space. The project aimed to decentralize the internet by enabling content creators to publish and monetize their work directly on the blockchain. In its early development, TRON raised $70 million in an Initial Coin Offering (ICO) and was initially listed on major exchanges like Binance and Huobi. A significant milestone occurred in June 2018 when TRON completed its mainnet launch, transitioning from the Ethereum blockchain to its own independent network. This move marked a pivotal moment in its growth, allowing for enhanced scalability and functionality.</p><h3>What’s coming up for TRON?</h3><p>TRON (TRX) is poised for significant advancements as it continues to enhance its ecosystem, with a focus on expanding its decentralized applications (dApps) and improving scalability. The upcoming roadmap includes the launch of the TRON Virtual Machine 2.0, which aims to optimize smart contract execution and enhance developer experience. Additionally, the TRON community is actively working on initiatives to increase user engagement and adoption, such as partnerships with gaming platforms and NFT marketplaces. As TRON evolves, it aims to solidify its position as a leading blockchain for entertainment and content sharing, driving further innovation and use cases in the decentralized space.</p><h3>What makes TRON stand out?</h3><p>TRON (TRX) stands out from other cryptocurrencies due to its unique delegated proof-of-stake (DPoS) consensus mechanism, which enhances transaction speed and scalability. Unlike many blockchain platforms, TRON focuses on enabling decentralized applications (dApps) and content sharing, making it a strong contender in the entertainment and gaming sectors. Its special feature of allowing users to publish, store, and own data on a decentralized network sets it apart compared to traditional blockchain solutions.</p><h3>What can you do with TRON?</h3><p>TRON (TRX) is primarily used for payments within its ecosystem, enabling fast and low-cost transactions. Users can stake TRX to earn rewards and participate in governance decisions, influencing the network's future. Additionally, TRON supports DeFi apps and NFTs, serving as a utility token for various decentralized applications and services.</p><h3>Is TRON still active or relevant?</h3><p>TRON (TRX) is currently active and still traded on various exchanges, demonstrating a robust trading activity. Development is ongoing, with regular updates from the team, and the community remains engaged, contributing to the project's growth. Overall, TRON is not considered an inactive project or abandoned, as it continues to evolve and expand its ecosystem.</p><h3>Who is TRON designed for?</h3><p>TRON (TRX) is primarily built for developers and content creators seeking to build decentralized applications (dApps) and deliver digital content without intermediaries. Its target audience includes gamers and businesses looking to leverage blockchain technology for innovative solutions and monetization strategies. Additionally, TRON appeals to DeFi users aiming to engage in decentralized finance activities within its ecosystem.</p><h3>How is TRON secured?</h3><p>TRON (TRX) secures its network through a Delegated Proof of Stake (DPoS) consensus mechanism, where a limited number of validators are elected by TRX holders to produce blocks and validate transactions. This model enhances network security by ensuring that only trusted nodes participate in the consensus process, while also enabling efficient blockchain protection and scalability.</p><h3>Has TRON faced any controversy or risks?</h3><p>TRON (TRX) has faced several controversies, including allegations of plagiarism in its whitepaper and legal issues surrounding its founder, Justin Sun, who has been scrutinized for regulatory compliance. The platform has also experienced extreme volatility, posing significant risks for investors, and has been associated with security incidents that raise concerns about the safety of user funds. Additionally, there have been reports of rug pulls within projects built on the TRON network, further highlighting the challenges and risks associated with this cryptocurrency.</p>",
+        "whitepaper": "https://tron.network/resources?lng=en&name=1",
+        "source_code": "https://github.com/tronprotocol/java-tron",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 56
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 62
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 48
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 18
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 48
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 48
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 68
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 100
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 60
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                }
+            }
+        }
+    },
     "ADA": {
         "name": "Cardano",
         "symbol": "ADA",
         "paire": "ADA/USDT",
         "logo": "https://static.coinpaprika.com/coin/ada-cardano/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "ADA is a token on a distributed computing platform that runs smart contracts, decentralized applications, side chains, multi-party computation, and metadata.",
+        "description": "<h3>What is Cardano?</h3><p>Cardano (ADA) is a cryptocurrency that operates on the Cardano blockchain, a decentralized platform designed for the development of smart contracts and decentralized applications (dApps). As a blockchain project, Cardano aims to provide a more secure and scalable infrastructure for digital transactions and governance. The Cardano token (ADA) is used for various purposes, including payments, staking, and participating in the network's governance, allowing holders to influence the platform's future development. With its unique proof-of-stake consensus mechanism, Cardano focuses on sustainability and energy efficiency in the blockchain space.</p><h3>When and how did Cardano start?</h3><p>Cardano (ADA) was launched in 2017 and developed by IOHK, a blockchain research and development company co-founded by Charles Hoskinson, one of the co-founders of Ethereum. The project aimed to create a more secure and scalable blockchain platform through a research-driven approach. In its early development, Cardano gained significant attention with its initial coin offering (ICO) and was initially listed on major exchanges like Bittrex and Binance, which helped to establish its presence in the cryptocurrency market. The platform's unique proof-of-stake consensus mechanism, called Ouroboros, was also a key milestone in its development, emphasizing sustainability and energy efficiency.</p><h3>What’s coming up for Cardano?</h3><p>Cardano (ADA) is poised for significant advancements as it continues to implement its roadmap focused on scalability and interoperability. The upcoming Vasil upgrade aims to enhance smart contract functionality and improve transaction throughput, which is expected to attract more developers and projects to the ecosystem. Additionally, Cardano's community is actively working on initiatives to foster decentralized finance (DeFi) applications and NFT marketplaces, further expanding its use cases. With these developments, Cardano is set to solidify its position as a leading blockchain platform in the evolving crypto landscape.</p><h3>What makes Cardano stand out?</h3><p>Cardano (ADA) stands out from other cryptocurrencies due to its unique proof-of-stake consensus mechanism, Ouroboros, which enhances energy efficiency and security compared to traditional proof-of-work systems. Its layered architecture separates the settlement layer from the computation layer, allowing for greater flexibility and scalability. Additionally, Cardano's focus on academic research and peer-reviewed development ensures robust real-world use cases, particularly in identity verification and supply chain management.</p><h3>What can you do with Cardano?</h3><p>Cardano (ADA) is primarily used for staking, allowing users to earn rewards while contributing to the network's security. It serves as a utility token for payments, enabling transactions within various DeFi apps and facilitating the creation and exchange of NFTs. Additionally, Cardano empowers users with governance features, allowing them to participate in decision-making processes regarding the platform's future developments.</p><h3>Is Cardano still active or relevant?</h3><p>Cardano (ADA) is currently active, with ongoing development and regular updates from its team. It is still traded on various exchanges, reflecting a healthy trading activity and a strong community presence. The project is not considered inactive or abandoned, as it continues to evolve with new features and enhancements.</p><h3>Who is Cardano designed for?</h3><p>Cardano (ADA) is primarily built for developers and businesses looking to create decentralized applications and smart contracts on a scalable blockchain platform. Its target audience also includes investors and DeFi users seeking a secure and sustainable ecosystem for financial transactions and innovations. With a strong community of researchers and enthusiasts, Cardano aims to foster a collaborative environment for technological advancement and adoption.</p><h3>How is Cardano secured?</h3><p>Cardano (ADA) secures its network through a unique Proof of Stake (PoS) consensus mechanism called Ouroboros, which enhances blockchain protection by allowing validators, known as stake pool operators, to create new blocks based on the amount of ADA they hold and are willing to \"stake.\" This method not only improves energy efficiency compared to traditional Proof of Work systems but also strengthens network security by incentivizing honest participation and decentralization among validators.</p><h3>Has Cardano faced any controversy or risks?</h3><p>Cardano (ADA) has faced scrutiny due to its slow development pace and the challenges of delivering on its ambitious roadmap, leading to concerns about its long-term viability. Additionally, like many cryptocurrencies, it is subject to extreme volatility, posing risks for investors. While there haven't been significant hacks or rug pulls directly associated with Cardano, the broader market's security incidents and legal issues can impact its ecosystem.</p>",
         "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/10561233.pdf",
         "source_code": "https://github.com/input-output-hk/ouroboros-network",
         "IA": {
@@ -344,7 +408,7 @@
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 34
+                    "Accuracy": 56
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
@@ -379,70 +443,6 @@
                 "Random-Forest": {
                     "Prediction": -1,
                     "Accuracy": 50
-                }
-            }
-        }
-    },
-    "TRX": {
-        "name": "TRON",
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "TRON: Decentralize the WebTRON is dedicated to building the infrastructure for a truly decentralized Internet. The TRON Protocol, one of the largest blockchain-based operating systems in the world which offers scalability, high-availability, and high-throughput computing (HTC) support that serves as the foundation for all decentralized applications in the TRON ecosystem. It also provides better compatibility for Ethereum smart contracts through an innovative, pluggable smart contract platform.Since July 24th, 2018, TRON acquired BitTorrent Inc. which is an Internet technology company based in San Francisco. It designs distributed technologies that scale efficiently, keep intelligence at the edge, and keep creators and consumers in control of their content and data. Every month more than 170 million people use BitTorrent Inc. developed products. Its protocols move as much as 40% of the world's Internet traffic on a daily basis.",
-        "whitepaper": "https://tron.network/resources?lng=en&name=1",
-        "source_code": "https://github.com/tronprotocol/java-tron",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 54
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 62
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 20
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 46
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 46
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 20
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 68
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 100
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 40
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 60
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 40
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 40
                 }
             }
         }
