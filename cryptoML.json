@@ -11,15 +11,15 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 54
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 42
                 },
                 "Stacking": {
@@ -28,10 +28,10 @@
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 42
+                    "Accuracy": 30
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 42
                 }
             },
@@ -75,27 +75,27 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 52
                 },
                 "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 68
+                    "Prediction": 1,
+                    "Accuracy": 66
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 },
                 "Stacking": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": -1,
+                    "Accuracy": 26
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 }
             },
@@ -139,28 +139,28 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 60
                 },
                 "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 56
+                    "Prediction": -1,
+                    "Accuracy": 54
                 },
                 "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 50
+                    "Prediction": -1,
+                    "Accuracy": 34
                 },
                 "Stacking": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 50
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 50
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 50
+                    "Prediction": -1,
+                    "Accuracy": 34
                 }
             },
             "1w": {
@@ -212,19 +212,19 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 52
+                    "Accuracy": 22
                 },
                 "Stacking": {
                     "Prediction": 1,
                     "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 26
+                    "Prediction": -1,
+                    "Accuracy": 52
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 52
+                    "Accuracy": 22
                 }
             },
             "1w": {
@@ -267,12 +267,12 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 42
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 54
+                    "Accuracy": 52
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -283,7 +283,7 @@
                     "Accuracy": 56
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 36
                 },
                 "Random-Forest": {
@@ -319,70 +319,6 @@
             }
         }
     },
-    "TRX": {
-        "name": "TRON",
-        "symbol": "TRX",
-        "paire": "TRX/USDT",
-        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "<h3>What is TRON?</h3><p>TRON (TRX) is a cryptocurrency and blockchain project designed to facilitate the creation and sharing of digital content. It runs on its own blockchain, enabling developers to build decentralized applications (dApps) and execute smart contracts. The TRON token serves as the primary medium of exchange within the TRON ecosystem, allowing users to participate in content sharing, governance, and various decentralized services. With a focus on scalability and high throughput, TRON aims to empower creators and enhance the global digital economy.</p><h3>When and how did TRON start?</h3><p>TRON (TRX) was launched in 2017, created by Justin Sun, an entrepreneur known for his work in the blockchain space. The project aimed to decentralize the internet by enabling content creators to publish and monetize their work directly on the blockchain. In its early development, TRON raised $70 million in an Initial Coin Offering (ICO) and was initially listed on major exchanges like Binance and Huobi. A significant milestone occurred in June 2018 when TRON completed its mainnet launch, transitioning from the Ethereum blockchain to its own independent network. This move marked a pivotal moment in its growth, allowing for enhanced scalability and functionality.</p><h3>What’s coming up for TRON?</h3><p>TRON (TRX) is poised for significant advancements as it continues to enhance its ecosystem, with a focus on expanding its decentralized applications (dApps) and improving scalability. The upcoming roadmap includes the launch of the TRON Virtual Machine 2.0, which aims to optimize smart contract execution and enhance developer experience. Additionally, the TRON community is actively working on initiatives to increase user engagement and adoption, such as partnerships with gaming platforms and NFT marketplaces. As TRON evolves, it aims to solidify its position as a leading blockchain for entertainment and content sharing, driving further innovation and use cases in the decentralized space.</p><h3>What makes TRON stand out?</h3><p>TRON (TRX) stands out from other cryptocurrencies due to its unique delegated proof-of-stake (DPoS) consensus mechanism, which enhances transaction speed and scalability. Unlike many blockchain platforms, TRON focuses on enabling decentralized applications (dApps) and content sharing, making it a strong contender in the entertainment and gaming sectors. Its special feature of allowing users to publish, store, and own data on a decentralized network sets it apart compared to traditional blockchain solutions.</p><h3>What can you do with TRON?</h3><p>TRON (TRX) is primarily used for payments within its ecosystem, enabling fast and low-cost transactions. Users can stake TRX to earn rewards and participate in governance decisions, influencing the network's future. Additionally, TRON supports DeFi apps and NFTs, serving as a utility token for various decentralized applications and services.</p><h3>Is TRON still active or relevant?</h3><p>TRON (TRX) is currently active and still traded on various exchanges, demonstrating a robust trading activity. Development is ongoing, with regular updates from the team, and the community remains engaged, contributing to the project's growth. Overall, TRON is not considered an inactive project or abandoned, as it continues to evolve and expand its ecosystem.</p><h3>Who is TRON designed for?</h3><p>TRON (TRX) is primarily built for developers and content creators seeking to build decentralized applications (dApps) and deliver digital content without intermediaries. Its target audience includes gamers and businesses looking to leverage blockchain technology for innovative solutions and monetization strategies. Additionally, TRON appeals to DeFi users aiming to engage in decentralized finance activities within its ecosystem.</p><h3>How is TRON secured?</h3><p>TRON (TRX) secures its network through a Delegated Proof of Stake (DPoS) consensus mechanism, where a limited number of validators are elected by TRX holders to produce blocks and validate transactions. This model enhances network security by ensuring that only trusted nodes participate in the consensus process, while also enabling efficient blockchain protection and scalability.</p><h3>Has TRON faced any controversy or risks?</h3><p>TRON (TRX) has faced several controversies, including allegations of plagiarism in its whitepaper and legal issues surrounding its founder, Justin Sun, who has been scrutinized for regulatory compliance. The platform has also experienced extreme volatility, posing significant risks for investors, and has been associated with security incidents that raise concerns about the safety of user funds. Additionally, there have been reports of rug pulls within projects built on the TRON network, further highlighting the challenges and risks associated with this cryptocurrency.</p>",
-        "whitepaper": "https://tron.network/resources?lng=en&name=1",
-        "source_code": "https://github.com/tronprotocol/java-tron",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 56
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 62
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 18
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 48
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 48
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 68
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 100
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 40
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 60
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 40
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 40
-                }
-            }
-        }
-    },
     "ADA": {
         "name": "Cardano",
         "symbol": "ADA",
@@ -396,18 +332,18 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "Bagging": {
                     "Prediction": -1,
                     "Accuracy": 56
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 56
                 },
                 "K-Nearest-Neighbors": {
@@ -443,6 +379,70 @@
                 "Random-Forest": {
                     "Prediction": -1,
                     "Accuracy": 50
+                }
+            }
+        }
+    },
+    "TRX": {
+        "name": "TRON",
+        "symbol": "TRX",
+        "paire": "TRX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/trx-tron/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "<h3>What is TRON?</h3><p>TRON (TRX) is a cryptocurrency and blockchain project designed to facilitate the creation and sharing of digital content. It runs on its own blockchain, enabling developers to build decentralized applications (dApps) and execute smart contracts. The TRON token serves as the primary medium of exchange within the TRON ecosystem, allowing users to participate in content sharing, governance, and various decentralized services. With a focus on scalability and high throughput, TRON aims to empower creators and enhance the global digital economy.</p><h3>When and how did TRON start?</h3><p>TRON (TRX) was launched in 2017, created by Justin Sun, an entrepreneur known for his work in the blockchain space. The project aimed to decentralize the internet by enabling content creators to publish and monetize their work directly on the blockchain. In its early development, TRON raised $70 million in an Initial Coin Offering (ICO) and was initially listed on major exchanges like Binance and Huobi. A significant milestone occurred in June 2018 when TRON completed its mainnet launch, transitioning from the Ethereum blockchain to its own independent network. This move marked a pivotal moment in its growth, allowing for enhanced scalability and functionality.</p><h3>What’s coming up for TRON?</h3><p>TRON (TRX) is poised for significant advancements as it continues to enhance its ecosystem, with a focus on expanding its decentralized applications (dApps) and improving scalability. The upcoming roadmap includes the launch of the TRON Virtual Machine 2.0, which aims to optimize smart contract execution and enhance developer experience. Additionally, the TRON community is actively working on initiatives to increase user engagement and adoption, such as partnerships with gaming platforms and NFT marketplaces. As TRON evolves, it aims to solidify its position as a leading blockchain for entertainment and content sharing, driving further innovation and use cases in the decentralized space.</p><h3>What makes TRON stand out?</h3><p>TRON (TRX) stands out from other cryptocurrencies due to its unique delegated proof-of-stake (DPoS) consensus mechanism, which enhances transaction speed and scalability. Unlike many blockchain platforms, TRON focuses on enabling decentralized applications (dApps) and content sharing, making it a strong contender in the entertainment and gaming sectors. Its special feature of allowing users to publish, store, and own data on a decentralized network sets it apart compared to traditional blockchain solutions.</p><h3>What can you do with TRON?</h3><p>TRON (TRX) is primarily used for payments within its ecosystem, enabling fast and low-cost transactions. Users can stake TRX to earn rewards and participate in governance decisions, influencing the network's future. Additionally, TRON supports DeFi apps and NFTs, serving as a utility token for various decentralized applications and services.</p><h3>Is TRON still active or relevant?</h3><p>TRON (TRX) is currently active and still traded on various exchanges, demonstrating a robust trading activity. Development is ongoing, with regular updates from the team, and the community remains engaged, contributing to the project's growth. Overall, TRON is not considered an inactive project or abandoned, as it continues to evolve and expand its ecosystem.</p><h3>Who is TRON designed for?</h3><p>TRON (TRX) is primarily built for developers and content creators seeking to build decentralized applications (dApps) and deliver digital content without intermediaries. Its target audience includes gamers and businesses looking to leverage blockchain technology for innovative solutions and monetization strategies. Additionally, TRON appeals to DeFi users aiming to engage in decentralized finance activities within its ecosystem.</p><h3>How is TRON secured?</h3><p>TRON (TRX) secures its network through a Delegated Proof of Stake (DPoS) consensus mechanism, where a limited number of validators are elected by TRX holders to produce blocks and validate transactions. This model enhances network security by ensuring that only trusted nodes participate in the consensus process, while also enabling efficient blockchain protection and scalability.</p><h3>Has TRON faced any controversy or risks?</h3><p>TRON (TRX) has faced several controversies, including allegations of plagiarism in its whitepaper and legal issues surrounding its founder, Justin Sun, who has been scrutinized for regulatory compliance. The platform has also experienced extreme volatility, posing significant risks for investors, and has been associated with security incidents that raise concerns about the safety of user funds. Additionally, there have been reports of rug pulls within projects built on the TRON network, further highlighting the challenges and risks associated with this cryptocurrency.</p>",
+        "whitepaper": "https://tron.network/resources?lng=en&name=1",
+        "source_code": "https://github.com/tronprotocol/java-tron",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 54
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 62
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 34
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 48
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 48
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 34
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 68
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 100
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 60
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 40
                 }
             }
         }
