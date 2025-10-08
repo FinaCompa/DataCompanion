@@ -15,11 +15,11 @@
                     "Accuracy": 78
                 },
                 "XGBoost": {
-                    "Prediction": -1,
+                    "Prediction": 0,
                     "Accuracy": 66
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 28
                 },
                 "Stacking": {
@@ -27,11 +27,11 @@
                     "Accuracy": 42
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 28
+                    "Prediction": 1,
+                    "Accuracy": 42
                 },
                 "Random-Forest": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 28
                 }
             },
@@ -75,28 +75,28 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 48
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 70
+                    "Accuracy": 68
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 40
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 34
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 34
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 40
+                    "Accuracy": 34
                 }
             },
             "1w": {
@@ -127,27 +127,91 @@
             }
         }
     },
+    "BNB": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "paire": "BNB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "What is BNB? BNB (Binance Coin) is a cryptocurrency and the native token of the Binance ecosystem, initially launched on the Ethereum blockchain before migrating to its own blockchain, Binance Smart Chain (BSC). The BNB token is primarily used for trading fee discounts on the Binance exchange, participating in token sales on Binance Launchpad, and making payments within the Binance ecosystem. Additionally, it supports various decentralized applications (dApps) on BSC, enabling users to engage in smart contracts and decentralized finance (DeFi) projects. Overall, BNB plays a crucial role in enhancing user experience and utility within the Binance blockchain project. When and how did BNB start? BNB (Binance Coin) was launched in 2017 by the Binance exchange, founded by Changpeng Zhao and Yi He. Initially created as a utility token to pay for trading fees on the Binance platform, BNB was developed to enhance user experience and incentivize trading. The coin was first listed on the Binance exchange in July 2017 and quickly gained popularity, leading to significant price appreciation and increased adoption. In its early development, BNB underwent several major events, including quarterly token burns to reduce supply and enhance value, which have shaped its trajectory in the cryptocurrency market. What’s coming up for BNB? BNB (Binance Coin) is set for an exciting future as it continues to evolve within the Binance ecosystem. The upcoming roadmap includes the expansion of BNB Chain's capabilities, with a focus on enhancing scalability and interoperability, which will support a wider range of decentralized applications. Additionally, the community is actively engaged in discussions about integrating more use cases for BNB, such as payment solutions and DeFi projects. With these developments, BNB aims to solidify its position as a leading utility token while fostering innovation and growth within its community. Stay tuned for more updates as Binance rolls out these promising features! What makes BNB stand out? BNB (Binance Coin) stands out from other cryptocurrencies due to its unique utility within the Binance ecosystem, where it is used to pay for trading fees, participate in token sales on Binance Launchpad, and access various financial services. Unlike many cryptocurrencies that rely solely on traditional proof-of-work or proof-of-stake consensus mechanisms, BNB operates on the Binance Smart Chain, which features a delegated proof-of-stake model that enhances transaction speed and efficiency. Its tokenomics also include a regular token burn mechanism, reducing supply over time and potentially increasing value, making it a unique asset in the crypto space. What can you do with BNB? BNB (Binance Coin) is primarily used for payments on the Binance exchange, allowing users to pay trading fees at a discounted rate. It also serves as a utility token within various DeFi apps and NFT platforms, enabling transactions and access to exclusive features. Additionally, BNB can be utilized for staking and governance, giving holders a say in the development of the Binance ecosystem. Is BNB still active or relevant? BNB (Binance Coin) is currently active and still traded on numerous exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates and enhancements from the Binance team, and the community remains engaged through various initiatives and discussions. Overall, BNB is not considered an inactive project or abandoned, maintaining its relevance in the cryptocurrency market. Who is BNB designed for? BNB (Binance Coin) is primarily built for cryptocurrency investors and traders, serving as the native utility token of the Binance exchange. It is adopted by businesses for transaction fee discounts and used by developers within the Binance Smart Chain ecosystem for decentralized applications (dApps) and DeFi projects. The coin's versatility makes it ideal for a wide range of users, including those in the DeFi space and the broader crypto community. How is BNB secured? BNB (Binance Coin) secures its network through a consensus mechanism known as Proof of Staked Authority (PoSA), which combines elements of both Proof of Stake and delegated consensus. In this model, selected validators are responsible for validating transactions and maintaining blockchain protection, enhancing network security while allowing for efficient block production. This unique setup ensures robust consensus and reliability within the Binance Smart Chain ecosystem. Has BNB faced any controversy or risks? BNB (Binance Coin) has faced scrutiny due to various controversies, including legal issues surrounding Binance, its parent company, which has been investigated by regulators in multiple countries. Additionally, the coin has experienced significant volatility, raising concerns about market manipulation and investor risk. Security incidents, such as hacks on the Binance exchange, have also impacted user confidence and highlighted the risks associated with holding BNB.",
+        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
+        "source_code": "https://github.com/binance-chain/",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 50
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 82
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 32
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": -1,
+                    "Accuracy": 32
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 32
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 74
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 100
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 50
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                }
+            }
+        }
+    },
     "XRP": {
         "name": "XRP",
         "symbol": "XRP",
         "paire": "XRP/USDT",
         "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
         "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "What is XRP? XRP (XRP token) is a cryptocurrency designed primarily for facilitating fast and low-cost international payments. It operates on the XRP Ledger, a decentralized blockchain that enables secure and efficient transactions. The core purpose of XRP is to serve as a bridge currency in cross-border transfers, allowing financial institutions to settle transactions quickly without the need for pre-funding accounts in different currencies. As a blockchain project, XRP aims to enhance liquidity and streamline payment processes for banks and payment providers globally. When and how did XRP start? XRP was launched in 2012, created by Ripple Labs, which was co-founded by Chris Larsen and Jed McCaleb. Initially designed to facilitate fast and low-cost international money transfers, XRP aimed to improve the efficiency of cross-border transactions. In its early development, XRP was notably listed on major exchanges, enhancing its accessibility and adoption within the crypto community. The network's consensus algorithm, which differs from traditional mining, was also a significant innovation that shaped its growth. Over the years, XRP has faced regulatory scrutiny, influencing its market dynamics and development trajectory. What’s coming up for XRP? XRP is poised for significant developments as it continues to advance its roadmap following the recent legal clarity surrounding its status as a digital asset. The upcoming launch of the XLS-20 protocol is expected to enhance NFT capabilities on the XRP Ledger, expanding its use cases and attracting more developers to the ecosystem. Additionally, the community is focused on increasing partnerships with financial institutions to facilitate cross-border payments, further solidifying XRP's role in the evolving digital finance landscape. These initiatives reflect XRP's commitment to innovation and its goal of becoming a leading solution for real-time, low-cost transactions. What makes XRP stand out? XRP (XRP) is unique compared to other cryptocurrencies due to its standout technology that facilitates rapid cross-border payments through the XRP Ledger, enabling transactions in seconds with minimal fees. Its consensus mechanism, known as the Ripple Protocol Consensus Algorithm, differs from traditional proof-of-work or proof-of-stake systems, allowing for higher scalability and energy efficiency. Additionally, XRP's real-world use case primarily focuses on serving financial institutions and payment providers, making it a distinctive player in the cryptocurrency landscape. What can you do with XRP? XRP (xrp-xrp) is primarily used for fast and low-cost payments, facilitating cross-border transactions with minimal fees. It also serves as a utility token within various DeFi apps and platforms, enabling users to participate in staking and governance activities. Additionally, XRP is increasingly being utilized in the NFT space, allowing for the creation and trading of digital assets. Is XRP still active or relevant? XRP (xrp-xrp) is currently active and still traded on various exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates from the team, and the community remains engaged in discussions and initiatives. Contrary to being considered an inactive project or abandoned, XRP continues to play a significant role in the crypto market. Who is XRP designed for? XRP (xrp-xrp) is built for financial institutions and payment service providers, aiming to facilitate fast and cost-effective cross-border transactions. Its target audience includes businesses seeking to enhance liquidity and streamline payment processes, as well as developers looking to integrate blockchain technology into their financial solutions. The XRP community is focused on promoting the adoption of digital assets in the global financial ecosystem. How is XRP secured? XRP secures its network through a unique consensus mechanism known as the Ripple Protocol Consensus Algorithm (RPCA), which does not rely on traditional Proof of Work or Proof of Stake models. Instead, it utilizes a network of trusted validators to confirm transactions, ensuring efficient and secure consensus while maintaining blockchain protection against double-spending and fraud. This validator setup enhances network security by requiring a supermajority agreement among trusted nodes, promoting both reliability and speed. Has XRP faced any controversy or risks? XRP has faced significant legal issues, particularly a lawsuit from the U.S. Securities and Exchange Commission (SEC) alleging that it is an unregistered security, which has led to increased volatility and uncertainty in its market value. Additionally, the cryptocurrency ecosystem is not immune to risks such as hacks and security incidents, raising concerns about the safety of XRP holdings. These factors contribute to ongoing controversies surrounding XRP's regulatory status and overall market stability.",
+        "description": "What is XRP? XRP (XRP token) is a cryptocurrency designed primarily for facilitating fast and low-cost international payments. It operates on the XRP Ledger, a decentralized blockchain that enables secure and efficient transactions. The core purpose of XRP is to serve as a bridge currency in cross-border transfers, allowing financial institutions to settle transactions quickly without the need for pre-funding accounts in different currencies. As a blockchain project, XRP aims to enhance liquidity and streamline payment processes for banks and payment providers globally. When and how did XRP start? XRP was launched in 2012, created by Ripple Labs, which was co-founded by Chris Larsen and Jed McCaleb. Initially designed to facilitate fast and low-cost international money transfers, XRP aimed to improve the efficiency of cross-border transactions. In its early development, XRP was notably listed on major exchanges, enhancing its accessibility and adoption within the crypto community. The network's consensus algorithm, which differs from traditional mining, was also a significant innovation that shaped its growth. Over the years, XRP has faced regulatory scrutiny, influencing its market dynamics and development trajectory. What’s coming up for XRP? XRP is poised for significant developments as it continues to advance its roadmap following the recent legal clarity surrounding its status as a digital asset. The upcoming launch of the XLS-20 protocol is expected to enhance NFT capabilities on the XRP Ledger, expanding its use cases and attracting more developers to the ecosystem. Additionally, the community is focused on increasing partnerships with financial institutions to facilitate cross-border payments, further solidifying XRP's role in the evolving digital finance landscape. These initiatives reflect XRP's commitment to innovation and its goal of becoming a leading solution for real-time, low-cost transactions. What makes XRP stand out? XRP is unique compared to other cryptocurrencies due to its standout technology that facilitates rapid cross-border payments through the XRP Ledger, enabling transactions in seconds with minimal fees. Its consensus mechanism, known as the Ripple Protocol Consensus Algorithm, differs from traditional proof-of-work or proof-of-stake systems, allowing for higher scalability and energy efficiency. Additionally, XRP's real-world use case primarily focuses on serving financial institutions and payment providers, making it a distinctive player in the cryptocurrency landscape. What can you do with XRP? XRP is primarily used for fast and low-cost payments, facilitating cross-border transactions with minimal fees. It also serves as a utility token within various DeFi apps and platforms, enabling users to participate in staking and governance activities. Additionally, XRP is increasingly being utilized in the NFT space, allowing for the creation and trading of digital assets. Is XRP still active or relevant? XRP is currently active and still traded on various exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates from the team, and the community remains engaged in discussions and initiatives. Contrary to being considered an inactive project or abandoned, XRP continues to play a significant role in the crypto market. Who is XRP designed for? XRP is built for financial institutions and payment service providers, aiming to facilitate fast and cost-effective cross-border transactions. Its target audience includes businesses seeking to enhance liquidity and streamline payment processes, as well as developers looking to integrate blockchain technology into their financial solutions. The XRP community is focused on promoting the adoption of digital assets in the global financial ecosystem. How is XRP secured? XRP secures its network through a unique consensus mechanism known as the Ripple Protocol Consensus Algorithm (RPCA), which does not rely on traditional Proof of Work or Proof of Stake models. Instead, it utilizes a network of trusted validators to confirm transactions, ensuring efficient and secure consensus while maintaining blockchain protection against double-spending and fraud. This validator setup enhances network security by requiring a supermajority agreement among trusted nodes, promoting both reliability and speed. Has XRP faced any controversy or risks? XRP has faced significant legal issues, particularly a lawsuit from the U.S. Securities and Exchange Commission (SEC) alleging that it is an unregistered security, which has led to increased volatility and uncertainty in its market value. Additionally, the cryptocurrency ecosystem is not immune to risks such as hacks and security incidents, raising concerns about the safety of XRP holdings. These factors contribute to ongoing controversies surrounding XRP's regulatory status and overall market stability.",
         "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/27.pdf",
         "source_code": "https://github.com/ripple/rippled",
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 50
                 },
                 "XGBoost": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 72
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 44
                 },
                 "Stacking": {
@@ -191,70 +255,6 @@
             }
         }
     },
-    "BNB": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "paire": "BNB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "What is BNB? BNB (Binance Coin) is a cryptocurrency and the native token of the Binance ecosystem, initially launched on the Ethereum blockchain before migrating to its own blockchain, Binance Smart Chain (BSC). The BNB token is primarily used for trading fee discounts on the Binance exchange, participating in token sales on Binance Launchpad, and making payments within the Binance ecosystem. Additionally, it supports various decentralized applications (dApps) on BSC, enabling users to engage in smart contracts and decentralized finance (DeFi) projects. Overall, BNB plays a crucial role in enhancing user experience and utility within the Binance blockchain project. When and how did BNB start? BNB (Binance Coin) was launched in 2017 by the Binance exchange, founded by Changpeng Zhao and Yi He. Initially created as a utility token to pay for trading fees on the Binance platform, BNB was developed to enhance user experience and incentivize trading. The coin was first listed on the Binance exchange in July 2017 and quickly gained popularity, leading to significant price appreciation and increased adoption. In its early development, BNB underwent several major events, including quarterly token burns to reduce supply and enhance value, which have shaped its trajectory in the cryptocurrency market. What’s coming up for BNB? BNB (Binance Coin) is set for an exciting future as it continues to evolve within the Binance ecosystem. The upcoming roadmap includes the expansion of BNB Chain's capabilities, with a focus on enhancing scalability and interoperability, which will support a wider range of decentralized applications. Additionally, the community is actively engaged in discussions about integrating more use cases for BNB, such as payment solutions and DeFi projects. With these developments, BNB aims to solidify its position as a leading utility token while fostering innovation and growth within its community. Stay tuned for more updates as Binance rolls out these promising features! What makes BNB stand out? BNB (Binance Coin) stands out from other cryptocurrencies due to its unique utility within the Binance ecosystem, where it is used to pay for trading fees, participate in token sales on Binance Launchpad, and access various financial services. Unlike many cryptocurrencies that rely solely on traditional proof-of-work or proof-of-stake consensus mechanisms, BNB operates on the Binance Smart Chain, which features a delegated proof-of-stake model that enhances transaction speed and efficiency. Its tokenomics also include a regular token burn mechanism, reducing supply over time and potentially increasing value, making it a unique asset in the crypto space. What can you do with BNB? BNB (Binance Coin) is primarily used for payments on the Binance exchange, allowing users to pay trading fees at a discounted rate. It also serves as a utility token within various DeFi apps and NFT platforms, enabling transactions and access to exclusive features. Additionally, BNB can be utilized for staking and governance, giving holders a say in the development of the Binance ecosystem. Is BNB still active or relevant? BNB (Binance Coin) is currently active and still traded on numerous exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates and enhancements from the Binance team, and the community remains engaged through various initiatives and discussions. Overall, BNB is not considered an inactive project or abandoned, maintaining its relevance in the cryptocurrency market. Who is BNB designed for? BNB (Binance Coin) is primarily built for cryptocurrency investors and traders, serving as the native utility token of the Binance exchange. It is adopted by businesses for transaction fee discounts and used by developers within the Binance Smart Chain ecosystem for decentralized applications (dApps) and DeFi projects. The coin's versatility makes it ideal for a wide range of users, including those in the DeFi space and the broader crypto community. How is BNB secured? BNB (Binance Coin) secures its network through a consensus mechanism known as Proof of Staked Authority (PoSA), which combines elements of both Proof of Stake and delegated consensus. In this model, selected validators are responsible for validating transactions and maintaining blockchain protection, enhancing network security while allowing for efficient block production. This unique setup ensures robust consensus and reliability within the Binance Smart Chain ecosystem. Has BNB faced any controversy or risks? BNB (Binance Coin) has faced scrutiny due to various controversies, including legal issues surrounding Binance, its parent company, which has been investigated by regulators in multiple countries. Additionally, the coin has experienced significant volatility, raising concerns about market manipulation and investor risk. Security incidents, such as hacks on the Binance exchange, have also impacted user confidence and highlighted the risks associated with holding BNB.",
-        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
-        "source_code": "https://github.com/binance-chain/",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 48
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 84
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 34
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 50
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 34
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 34
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 74
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 100
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 46
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 50
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 46
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 46
-                }
-            }
-        }
-    },
     "SOL": {
         "name": "Solana",
         "symbol": "SOL",
@@ -268,11 +268,11 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 60
+                    "Accuracy": 62
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 62
+                    "Accuracy": 60
                 },
                 "Bagging": {
                     "Prediction": -1,
@@ -280,10 +280,10 @@
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 50
+                    "Accuracy": 44
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 44
                 },
                 "Random-Forest": {
@@ -331,7 +331,7 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 62
                 },
                 "XGBoost": {
@@ -343,15 +343,15 @@
                     "Accuracy": 42
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 46
+                    "Prediction": -1,
+                    "Accuracy": 42
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
                     "Accuracy": 46
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 46
                 }
             },
@@ -400,10 +400,10 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 74
+                    "Accuracy": 72
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 40
                 },
                 "Stacking": {
@@ -411,12 +411,12 @@
                     "Accuracy": 32
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 32
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 32
+                    "Accuracy": 40
                 }
             },
             "1w": {
