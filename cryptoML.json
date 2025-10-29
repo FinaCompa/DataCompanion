@@ -16,23 +16,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 30
+                    "Accuracy": 32
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 }
             },
             "1w": {
@@ -80,7 +80,7 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 40
+                    "Accuracy": 38
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -88,11 +88,11 @@
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 42
+                    "Accuracy": 44
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 40
+                    "Accuracy": 44
                 },
                 "Random-Forest": {
                     "Prediction": 1,
@@ -127,70 +127,6 @@
             }
         }
     },
-    "BNB": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "paire": "BNB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "What is BNB? BNB (Binance Coin) is a cryptocurrency and the native token of the Binance ecosystem, initially launched on the Ethereum blockchain before migrating to its own blockchain, Binance Smart Chain (BSC). The BNB token is primarily used for trading fee discounts on the Binance exchange, participating in token sales on Binance Launchpad, and making payments within the Binance ecosystem. Additionally, it supports various decentralized applications (dApps) on BSC, enabling users to engage in smart contracts and decentralized finance (DeFi) projects. Overall, BNB plays a crucial role in enhancing user experience and utility within the Binance blockchain project. When and how did BNB start? BNB (Binance Coin) was launched in 2017 by the Binance exchange, founded by Changpeng Zhao and Yi He. Initially created as a utility token to pay for trading fees on the Binance platform, BNB was developed to enhance user experience and incentivize trading. The coin was first listed on the Binance exchange in July 2017 and quickly gained popularity, leading to significant price appreciation and increased adoption. In its early development, BNB underwent several major events, including quarterly token burns to reduce supply and enhance value, which have shaped its trajectory in the cryptocurrency market. What’s coming up for BNB? BNB (Binance Coin) is set for an exciting future as it continues to evolve within the Binance ecosystem. The upcoming roadmap includes the expansion of BNB Chain's capabilities, with a focus on enhancing scalability and interoperability, which will support a wider range of decentralized applications. Additionally, the community is actively engaged in discussions about integrating more use cases for BNB, such as payment solutions and DeFi projects. With these developments, BNB aims to solidify its position as a leading utility token while fostering innovation and growth within its community. Stay tuned for more updates as Binance rolls out these promising features! What makes BNB stand out? BNB (Binance Coin) stands out from other cryptocurrencies due to its unique utility within the Binance ecosystem, where it is used to pay for trading fees, participate in token sales on Binance Launchpad, and access various financial services. Unlike many cryptocurrencies that rely solely on traditional proof-of-work or proof-of-stake consensus mechanisms, BNB operates on the Binance Smart Chain, which features a delegated proof-of-stake model that enhances transaction speed and efficiency. Its tokenomics also include a regular token burn mechanism, reducing supply over time and potentially increasing value, making it a unique asset in the crypto space. What can you do with BNB? BNB (Binance Coin) is primarily used for payments on the Binance exchange, allowing users to pay trading fees at a discounted rate. It also serves as a utility token within various DeFi apps and NFT platforms, enabling transactions and access to exclusive features. Additionally, BNB can be utilized for staking and governance, giving holders a say in the development of the Binance ecosystem. Is BNB still active or relevant? BNB (Binance Coin) is currently active and still traded on numerous exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates and enhancements from the Binance team, and the community remains engaged through various initiatives and discussions. Overall, BNB is not considered an inactive project or abandoned, maintaining its relevance in the cryptocurrency market. Who is BNB designed for? BNB (Binance Coin) is primarily built for cryptocurrency investors and traders, serving as the native utility token of the Binance exchange. It is adopted by businesses for transaction fee discounts and used by developers within the Binance Smart Chain ecosystem for decentralized applications (dApps) and DeFi projects. The coin's versatility makes it ideal for a wide range of users, including those in the DeFi space and the broader crypto community. How is BNB secured? BNB (Binance Coin) secures its network through a consensus mechanism known as Proof of Staked Authority (PoSA), which combines elements of both Proof of Stake and delegated consensus. In this model, selected validators are responsible for validating transactions and maintaining blockchain protection, enhancing network security while allowing for efficient block production. This unique setup ensures robust consensus and reliability within the Binance Smart Chain ecosystem. Has BNB faced any controversy or risks? BNB (Binance Coin) has faced scrutiny due to various controversies, including legal issues surrounding Binance, its parent company, which has been investigated by regulators in multiple countries. Additionally, the coin has experienced significant volatility, raising concerns about market manipulation and investor risk. Security incidents, such as hacks on the Binance exchange, have also impacted user confidence and highlighted the risks associated with holding BNB.",
-        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
-        "source_code": "https://github.com/binance-chain/",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 48
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 64
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 34
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 34
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 14
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 14
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 74
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 96
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 44
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 52
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 44
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 44
-                }
-            }
-        }
-    },
     "XRP": {
         "name": "XRP",
         "symbol": "XRP",
@@ -211,20 +147,20 @@
                     "Accuracy": 48
                 },
                 "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 46
+                    "Prediction": 1,
+                    "Accuracy": 40
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 46
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 38
+                    "Accuracy": 44
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 38
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -255,6 +191,70 @@
             }
         }
     },
+    "BNB": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "paire": "BNB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "What is BNB? BNB (Binance Coin) is a cryptocurrency and the native token of the Binance ecosystem, initially launched on the Ethereum blockchain before migrating to its own blockchain, Binance Smart Chain (BSC). The BNB token is primarily used for trading fee discounts on the Binance exchange, participating in token sales on Binance Launchpad, and making payments within the Binance ecosystem. Additionally, it supports various decentralized applications (dApps) on BSC, enabling users to engage in smart contracts and decentralized finance (DeFi) projects. Overall, BNB plays a crucial role in enhancing user experience and utility within the Binance blockchain project. When and how did BNB start? BNB (Binance Coin) was launched in 2017 by the Binance exchange, founded by Changpeng Zhao and Yi He. Initially created as a utility token to pay for trading fees on the Binance platform, BNB was developed to enhance user experience and incentivize trading. The coin was first listed on the Binance exchange in July 2017 and quickly gained popularity, leading to significant price appreciation and increased adoption. In its early development, BNB underwent several major events, including quarterly token burns to reduce supply and enhance value, which have shaped its trajectory in the cryptocurrency market. What’s coming up for BNB? BNB (Binance Coin) is set for an exciting future as it continues to evolve within the Binance ecosystem. The upcoming roadmap includes the expansion of BNB Chain's capabilities, with a focus on enhancing scalability and interoperability, which will support a wider range of decentralized applications. Additionally, the community is actively engaged in discussions about integrating more use cases for BNB, such as payment solutions and DeFi projects. With these developments, BNB aims to solidify its position as a leading utility token while fostering innovation and growth within its community. Stay tuned for more updates as Binance rolls out these promising features! What makes BNB stand out? BNB (Binance Coin) stands out from other cryptocurrencies due to its unique utility within the Binance ecosystem, where it is used to pay for trading fees, participate in token sales on Binance Launchpad, and access various financial services. Unlike many cryptocurrencies that rely solely on traditional proof-of-work or proof-of-stake consensus mechanisms, BNB operates on the Binance Smart Chain, which features a delegated proof-of-stake model that enhances transaction speed and efficiency. Its tokenomics also include a regular token burn mechanism, reducing supply over time and potentially increasing value, making it a unique asset in the crypto space. What can you do with BNB? BNB (Binance Coin) is primarily used for payments on the Binance exchange, allowing users to pay trading fees at a discounted rate. It also serves as a utility token within various DeFi apps and NFT platforms, enabling transactions and access to exclusive features. Additionally, BNB can be utilized for staking and governance, giving holders a say in the development of the Binance ecosystem. Is BNB still active or relevant? BNB (Binance Coin) is currently active and still traded on numerous exchanges, demonstrating robust trading activity. Development is ongoing, with regular updates and enhancements from the Binance team, and the community remains engaged through various initiatives and discussions. Overall, BNB is not considered an inactive project or abandoned, maintaining its relevance in the cryptocurrency market. Who is BNB designed for? BNB (Binance Coin) is primarily built for cryptocurrency investors and traders, serving as the native utility token of the Binance exchange. It is adopted by businesses for transaction fee discounts and used by developers within the Binance Smart Chain ecosystem for decentralized applications (dApps) and DeFi projects. The coin's versatility makes it ideal for a wide range of users, including those in the DeFi space and the broader crypto community. How is BNB secured? BNB (Binance Coin) secures its network through a consensus mechanism known as Proof of Staked Authority (PoSA), which combines elements of both Proof of Stake and delegated consensus. In this model, selected validators are responsible for validating transactions and maintaining blockchain protection, enhancing network security while allowing for efficient block production. This unique setup ensures robust consensus and reliability within the Binance Smart Chain ecosystem. Has BNB faced any controversy or risks? BNB (Binance Coin) has faced scrutiny due to various controversies, including legal issues surrounding Binance, its parent company, which has been investigated by regulators in multiple countries. Additionally, the coin has experienced significant volatility, raising concerns about market manipulation and investor risk. Security incidents, such as hacks on the Binance exchange, have also impacted user confidence and highlighted the risks associated with holding BNB.",
+        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
+        "source_code": "https://github.com/binance-chain/",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 48
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 62
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 12
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 12
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 74
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 96
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 44
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 44
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 44
+                }
+            }
+        }
+    },
     "SOL": {
         "name": "Solana",
         "symbol": "SOL",
@@ -268,27 +268,27 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 60
+                    "Accuracy": 57
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 44
+                    "Accuracy": 42
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 44
+                    "Accuracy": 42
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 48
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 46
+                    "Prediction": 1,
+                    "Accuracy": 42
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 44
+                    "Accuracy": 42
                 }
             },
             "1w": {
@@ -336,11 +336,11 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 52
+                    "Accuracy": 50
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 24
+                    "Accuracy": 34
                 },
                 "Stacking": {
                     "Prediction": 1,
@@ -348,11 +348,11 @@
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 42
+                    "Accuracy": 34
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 24
+                    "Accuracy": 34
                 }
             },
             "1w": {
@@ -399,24 +399,24 @@
                     "Accuracy": 52
                 },
                 "XGBoost": {
-                    "Prediction": 0,
+                    "Prediction": -1,
                     "Accuracy": 38
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 42
+                    "Accuracy": 44
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 12
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 44
                 }
             },
             "1w": {
