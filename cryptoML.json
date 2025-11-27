@@ -12,27 +12,27 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 36
+                    "Accuracy": 38
                 },
                 "XGBoost": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 38
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 54
+                    "Accuracy": 38
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 54
+                    "Accuracy": 38
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 54
+                    "Accuracy": 38
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 54
+                    "Accuracy": 38
                 }
             },
             "1w": {
@@ -84,19 +84,19 @@
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 52
+                    "Accuracy": 38
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 38
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": -1,
+                    "Accuracy": 50
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 52
+                    "Prediction": -1,
+                    "Accuracy": 38
                 }
             },
             "1w": {
@@ -140,27 +140,27 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 50
+                    "Accuracy": 48
                 },
                 "XGBoost": {
                     "Prediction": 0,
                     "Accuracy": 42
                 },
                 "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 50
+                    "Prediction": 1,
+                    "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 38
+                    "Prediction": -1,
+                    "Accuracy": 48
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 50
+                    "Prediction": 1,
+                    "Accuracy": 40
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 50
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -208,23 +208,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 54
+                    "Accuracy": 52
                 },
                 "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 36
+                    "Prediction": 1,
+                    "Accuracy": 50
                 },
                 "Stacking": {
                     "Prediction": 1,
                     "Accuracy": 36
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 36
+                    "Prediction": -1,
+                    "Accuracy": 14
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 36
+                    "Prediction": 0,
+                    "Accuracy": 50
                 }
             },
             "1w": {
@@ -271,24 +271,24 @@
                     "Accuracy": 48
                 },
                 "XGBoost": {
-                    "Prediction": -1,
-                    "Accuracy": 44
+                    "Prediction": 0,
+                    "Accuracy": 42
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 54
+                    "Accuracy": 36
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 34
+                    "Accuracy": 36
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 54
+                    "Accuracy": 36
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 54
+                    "Prediction": 1,
+                    "Accuracy": 36
                 }
             },
             "1w": {
@@ -332,27 +332,27 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 26
+                    "Accuracy": 28
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 54
                 },
                 "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 46
+                    "Prediction": 0,
+                    "Accuracy": 28
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 26
+                    "Accuracy": 28
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 46
+                    "Prediction": 1,
+                    "Accuracy": 28
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 46
+                    "Prediction": 1,
+                    "Accuracy": 28
                 }
             },
             "1w": {
@@ -396,7 +396,7 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 1,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "XGBoost": {
                     "Prediction": 1,
@@ -404,19 +404,19 @@
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 57
+                    "Accuracy": 40
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 38
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 57
+                    "Accuracy": 40
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 57
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -443,6 +443,134 @@
                 "Random-Forest": {
                     "Prediction": -1,
                     "Accuracy": 57
+                }
+            }
+        }
+    },
+    "LINK": {
+        "name": "Chainlink",
+        "symbol": "LINK",
+        "paire": "LINK/USDT",
+        "logo": "https://static.coinpaprika.com/coin/link-chainlink/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "What is Chainlink?  Chainlink is the industry-standard oracle platform bringing the capital markets onchain and powering the majority of decentralized finance (DeFi).",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/575.pdf",
+        "source_code": "https://github.com/smartcontractkit/chainlink",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 54
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 64
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 46
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 46
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 46
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 56
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 38
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 38
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 60
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": -1,
+                    "Accuracy": 38
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 38
+                }
+            }
+        }
+    },
+    "AVAX": {
+        "name": "Avalanche",
+        "symbol": "AVAX",
+        "paire": "AVAX/USDT",
+        "logo": "https://static.coinpaprika.com/coin/avax-avalanche/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "What is Avalanche?  Avalanche (AVAX) is a cryptocurrency that operates on the Avalanche blockchain, a highly scalable and efficient platform designed for decentralized applications and custom blockchain networks.",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/10616029.pdf",
+        "source_code": "https://github.com/ava-labs",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 44
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 50
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 50
+                },
+                "XGBoost": {
+                    "Prediction": -1,
+                    "Accuracy": 38
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 50
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 38
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": -1,
+                    "Accuracy": 50
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 50
                 }
             }
         }
