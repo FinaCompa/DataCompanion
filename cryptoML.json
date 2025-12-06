@@ -12,10 +12,10 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": -1,
-                    "Accuracy": 64
+                    "Accuracy": 62
                 },
                 "XGBoost": {
-                    "Prediction": 0,
+                    "Prediction": 1,
                     "Accuracy": 68
                 },
                 "Bagging": {
@@ -32,7 +32,7 @@
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 40
+                    "Accuracy": 46
                 }
             },
             "1w": {
@@ -75,8 +75,8 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 44
                 },
                 "XGBoost": {
                     "Prediction": 0,
@@ -84,11 +84,11 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 38
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 46
+                    "Accuracy": 38
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
@@ -96,7 +96,7 @@
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 46
+                    "Accuracy": 38
                 }
             },
             "1w": {
@@ -127,70 +127,6 @@
             }
         }
     },
-    "XRP": {
-        "name": "XRP",
-        "symbol": "XRP",
-        "paire": "XRP/USDT",
-        "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "XRP is a digital currency designed for fast and low-cost international money transfers, primarily used by the Ripple payment network. It aims to facilitate secure cross-border transactions and improve the efficiency of global banking systems. Source: CoinPaprika.com",
-        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/27.pdf",
-        "source_code": "https://github.com/ripple/rippled",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 1,
-                    "Accuracy": 44
-                },
-                "XGBoost": {
-                    "Prediction": 1,
-                    "Accuracy": 72
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 50
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 50
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 50
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 50
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 1,
-                    "Accuracy": 64
-                },
-                "XGBoost": {
-                    "Prediction": -1,
-                    "Accuracy": 100
-                },
-                "Bagging": {
-                    "Prediction": -1,
-                    "Accuracy": 54
-                },
-                "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 54
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 54
-                },
-                "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 54
-                }
-            }
-        }
-    },
     "BNB": {
         "name": "BNB",
         "symbol": "BNB",
@@ -208,7 +144,7 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 72
+                    "Accuracy": 70
                 },
                 "Bagging": {
                     "Prediction": 1,
@@ -216,7 +152,7 @@
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 48
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 0,
@@ -255,6 +191,70 @@
             }
         }
     },
+    "XRP": {
+        "name": "XRP",
+        "symbol": "XRP",
+        "paire": "XRP/USDT",
+        "logo": "https://static.coinpaprika.com/coin/xrp-xrp/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "XRP is a digital currency designed for fast and low-cost international money transfers, primarily used by the Ripple payment network. It aims to facilitate secure cross-border transactions and improve the efficiency of global banking systems. Source: CoinPaprika.com",
+        "whitepaper": "https://static.coinpaprika.com/storage/cdn/whitepapers/27.pdf",
+        "source_code": "https://github.com/ripple/rippled",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 44
+                },
+                "XGBoost": {
+                    "Prediction": 0,
+                    "Accuracy": 70
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 40
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 50
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 50
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 1,
+                    "Accuracy": 64
+                },
+                "XGBoost": {
+                    "Prediction": -1,
+                    "Accuracy": 100
+                },
+                "Bagging": {
+                    "Prediction": -1,
+                    "Accuracy": 54
+                },
+                "Stacking": {
+                    "Prediction": -1,
+                    "Accuracy": 54
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 54
+                },
+                "Random-Forest": {
+                    "Prediction": -1,
+                    "Accuracy": 54
+                }
+            }
+        }
+    },
     "SOL": {
         "name": "Solana",
         "symbol": "SOL",
@@ -268,7 +268,7 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 22
+                    "Accuracy": 24
                 },
                 "XGBoost": {
                     "Prediction": 0,
@@ -280,10 +280,10 @@
                 },
                 "Stacking": {
                     "Prediction": -1,
-                    "Accuracy": 34
+                    "Accuracy": 54
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 54
                 },
                 "Random-Forest": {
@@ -340,15 +340,15 @@
                 },
                 "Bagging": {
                     "Prediction": 0,
-                    "Accuracy": 38
+                    "Accuracy": 36
                 },
                 "Stacking": {
                     "Prediction": 1,
                     "Accuracy": 28
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 0,
-                    "Accuracy": 38
+                    "Prediction": 1,
+                    "Accuracy": 36
                 },
                 "Random-Forest": {
                     "Prediction": 1,
@@ -400,10 +400,10 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 62
+                    "Accuracy": 60
                 },
                 "Bagging": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 56
                 },
                 "Stacking": {
@@ -459,15 +459,15 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 60
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 54
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 },
                 "Stacking": {
@@ -523,15 +523,15 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 64
+                    "Prediction": 1,
+                    "Accuracy": 62
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 84
+                    "Accuracy": 82
                 },
                 "Bagging": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 },
                 "Stacking": {
@@ -539,7 +539,7 @@
                     "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
+                    "Prediction": -1,
                     "Accuracy": 52
                 },
                 "Random-Forest": {
