@@ -12,7 +12,7 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 50
+                    "Accuracy": 52
                 },
                 "XGBoost": {
                     "Prediction": 0,
@@ -20,19 +20,19 @@
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 38
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 30
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": 1,
-                    "Accuracy": 32
+                    "Accuracy": 38
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 36
+                    "Accuracy": 38
                 }
             },
             "1w": {
@@ -75,28 +75,28 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 36
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 70
+                    "Accuracy": 68
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 26
+                    "Accuracy": 44
                 },
                 "Stacking": {
                     "Prediction": 1,
-                    "Accuracy": 42
+                    "Accuracy": 32
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 32
+                    "Accuracy": 44
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 32
+                    "Accuracy": 44
                 }
             },
             "1w": {
@@ -127,6 +127,70 @@
             }
         }
     },
+    "BNB": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "paire": "BNB/USDT",
+        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
+        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
+        "description": "BNB is the native cryptocurrency of the Binance exchange, used for trading fee discounts and various decentralized applications within the Binance ecosystem. Additionally, it plays a key role in the Binance Smart Chain, supporting smart contracts and decentralized finance (DeFi) applications. Source: CoinPaprika.com",
+        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
+        "source_code": "https://github.com/binance-chain/",
+        "IA": {
+            "1d": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 56
+                },
+                "XGBoost": {
+                    "Prediction": 1,
+                    "Accuracy": 72
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 0,
+                    "Accuracy": 40
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 40
+                }
+            },
+            "1w": {
+                "Neural-Network": {
+                    "Prediction": 0,
+                    "Accuracy": 76
+                },
+                "XGBoost": {
+                    "Prediction": 1,
+                    "Accuracy": 98
+                },
+                "Bagging": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                },
+                "Stacking": {
+                    "Prediction": 1,
+                    "Accuracy": 52
+                },
+                "K-Nearest-Neighbors": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                },
+                "Random-Forest": {
+                    "Prediction": 1,
+                    "Accuracy": 42
+                }
+            }
+        }
+    },
     "XRP": {
         "name": "XRP",
         "symbol": "XRP",
@@ -139,24 +203,24 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 1,
+                    "Prediction": 0,
                     "Accuracy": 42
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 56
+                    "Accuracy": 54
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 52
+                    "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 40
+                    "Prediction": -1,
+                    "Accuracy": 52
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 52
+                    "Accuracy": 40
                 },
                 "Random-Forest": {
                     "Prediction": -1,
@@ -191,70 +255,6 @@
             }
         }
     },
-    "BNB": {
-        "name": "BNB",
-        "symbol": "BNB",
-        "paire": "BNB/USDT",
-        "logo": "https://static.coinpaprika.com/coin/bnb-bnb/logo.png",
-        "logo_oppo": "https://static.coinpaprika.com/coin/usdt-tether/logo.png",
-        "description": "BNB is the native cryptocurrency of the Binance exchange, used for trading fee discounts and various decentralized applications within the Binance ecosystem. Additionally, it plays a key role in the Binance Smart Chain, supporting smart contracts and decentralized finance (DeFi) applications. Source: CoinPaprika.com",
-        "whitepaper": "https://github.com/bnb-chain/whitepaper/blob/master/WHITEPAPER.md",
-        "source_code": "https://github.com/binance-chain/",
-        "IA": {
-            "1d": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 56
-                },
-                "XGBoost": {
-                    "Prediction": 0,
-                    "Accuracy": 74
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 32
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 30
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 32
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 32
-                }
-            },
-            "1w": {
-                "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 76
-                },
-                "XGBoost": {
-                    "Prediction": 1,
-                    "Accuracy": 98
-                },
-                "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 42
-                },
-                "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 52
-                },
-                "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 42
-                },
-                "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 42
-                }
-            }
-        }
-    },
     "SOL": {
         "name": "Solana",
         "symbol": "SOL",
@@ -272,23 +272,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 80
+                    "Accuracy": 78
                 },
                 "Bagging": {
                     "Prediction": 1,
                     "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": -1,
+                    "Prediction": 1,
                     "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 20
+                    "Accuracy": 42
                 },
                 "Random-Forest": {
                     "Prediction": 1,
-                    "Accuracy": 40
+                    "Accuracy": 42
                 }
             },
             "1w": {
@@ -331,28 +331,28 @@
         "IA": {
             "1d": {
                 "Neural-Network": {
-                    "Prediction": 0,
-                    "Accuracy": 50
+                    "Prediction": 1,
+                    "Accuracy": 52
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 70
+                    "Accuracy": 68
                 },
                 "Bagging": {
                     "Prediction": 1,
-                    "Accuracy": 26
+                    "Accuracy": 36
                 },
                 "Stacking": {
                     "Prediction": 1,
                     "Accuracy": 36
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 26
+                    "Prediction": -1,
+                    "Accuracy": 36
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 26
+                    "Prediction": 1,
+                    "Accuracy": 36
                 }
             },
             "1w": {
@@ -404,19 +404,19 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 57
+                    "Accuracy": 32
                 },
                 "Stacking": {
-                    "Prediction": 1,
-                    "Accuracy": 32
+                    "Prediction": -1,
+                    "Accuracy": 57
                 },
                 "K-Nearest-Neighbors": {
                     "Prediction": -1,
-                    "Accuracy": 57
+                    "Accuracy": 32
                 },
                 "Random-Forest": {
                     "Prediction": -1,
-                    "Accuracy": 57
+                    "Accuracy": 32
                 }
             },
             "1w": {
@@ -460,7 +460,7 @@
             "1d": {
                 "Neural-Network": {
                     "Prediction": 0,
-                    "Accuracy": 57
+                    "Accuracy": 56
                 },
                 "XGBoost": {
                     "Prediction": 0,
@@ -468,19 +468,19 @@
                 },
                 "Bagging": {
                     "Prediction": -1,
-                    "Accuracy": 42
+                    "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 40
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 40
                 },
                 "Random-Forest": {
-                    "Prediction": -1,
-                    "Accuracy": 42
+                    "Prediction": 1,
+                    "Accuracy": 40
                 }
             },
             "1w": {
@@ -528,23 +528,23 @@
                 },
                 "XGBoost": {
                     "Prediction": 0,
-                    "Accuracy": 72
+                    "Accuracy": 70
                 },
                 "Bagging": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 40
                 },
                 "Stacking": {
-                    "Prediction": -1,
-                    "Accuracy": 44
+                    "Prediction": 1,
+                    "Accuracy": 46
                 },
                 "K-Nearest-Neighbors": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 40
                 },
                 "Random-Forest": {
-                    "Prediction": 1,
-                    "Accuracy": 42
+                    "Prediction": -1,
+                    "Accuracy": 40
                 }
             },
             "1w": {
